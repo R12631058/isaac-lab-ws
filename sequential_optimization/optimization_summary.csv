@@ -1,0 +1,6 @@
+candidate_id,base_x,base_y,success_rate,avg_manip,hit_rate,is_optimal,angle_0_pass,angle_5_pass,angle_10_pass,angle_15_pass,angle_20_pass,angle_25_pass,angle_30_pass,angle_35_pass,angle_40_pass,angle_45_pass
+0,0.3,0.0,0.84,0.016381608912154497,5,False,0,0,0,0,0,1,1,1,1,1
+1,0.4,0.0,0.8057,0.008914747041084966,8,True,0,0,1,1,1,1,1,1,1,1
+2,0.6,0.0,0.6571,0.009448307966527843,6,False,1,1,1,1,1,1,0,0,0,0
+3,0.5,0.0,0.6314,0.005150405146056213,7,False,0,0,1,1,1,1,1,1,1,0
+4,0.2,0.0,0.5514,0.022256010219142745,3,False,0,0,0,0,0,0,0,1,1,1

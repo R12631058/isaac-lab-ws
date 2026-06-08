@@ -1,0 +1,45 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage{amsmath, amssymb}
+\usepackage[margin=2cm]{geometry} % Set margin to fit on one page
+
+\title{\textbf{Mathematical Formulation of NDI and Robot Pose Optimization}}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty} % Remove page numbers
+
+\section*{1. Problem Definition}
+Given the known target lesion position and puncture path, this system aims to find the optimal NDI tracker pose and robot base position to maximize marker visibility while satisfying spatial geometric constraints. This is a \textbf{Non-linear Constrained Optimization Problem}.
+
+\textbf{Known Input:} Pose of the target puncture trajectory point $T_{target} \in SE(3)$ \\
+\textbf{Variables to Solve:} 
+\begin{itemize}
+    \item NDI camera pose: $X_{ndi} \in SE(3)$
+    \item Robot base pose: $X_{robot} \in SE(3)$
+\end{itemize}
+
+\section*{2. Objective Function}
+Due to the inclusion of 3D mesh occlusion and Volume checks, this system cannot be expressed by a simple continuous analytical function $f(x)$. Instead, it minimizes a system cost function $J$ that includes an Occlusion Penalty and a Solid Angle:
+\begin{equation}
+    (X_{ndi}^*, X_{robot}^*) = \arg\min_{X_{ndi}, X_{robot}} J(X_{ndi}, X_{robot} \mid T_{target})
+\end{equation}
+
+\section*{3. Constraints}
+The above optimization must strictly satisfy the following geometric and kinematic conditions:
+\begin{align}
+    &\text{\textbf{Reachable:}} \quad IK(X_{robot}, T_{target}) \neq \emptyset, \quad q_{min} \le q_i \le q_{max} \\
+    &\text{\textbf{Collision-free:}} \quad \text{Collision}(X_{robot}, q) = \text{False} \\
+    &\text{\textbf{Visibility:}} \quad M_i(q) \in \text{Volume}(X_{ndi}), \quad \text{Raycast}(X_{ndi}, M_i(q)) = \text{Clear}
+\end{align}
+where $IK$ is the inverse kinematics solution, $q$ represents the joint angles for each dimension, and $M_i(q)$ represents the spatial coordinates of the NDI markers at that pose.
+
+\section*{4. Numerical Solution Method}
+Since the Volume and Raycast checks are discontinuous Boolean operations (non-differentiable), the method currently used by the program is \textbf{Grid Search / Sampling}:
+\begin{equation}
+    J_{min} \approx \min_{(X_{ndi}, \, X_{robot}) \in S} J(X_{ndi}, X_{robot})
+\end{equation}
+In this equation, $S$ represents the set of all possible installation space samples (i.e., \texttt{robot\_x\_list} and \texttt{ndi\_x\_positions} in the script). % chktex 18
+
+\end{document}

@@ -1,0 +1,327 @@
+\documentclass[a4paper,11pt]{article}
+
+% ── Packages ──
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{xcolor}
+\usepackage{listings}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue!70!black,
+    citecolor=green!50!black,
+    urlcolor=blue!60!black
+}
+
+\lstset{
+    language=Python,
+    basicstyle=\ttfamily\small,
+    keywordstyle=\color{blue!70!black}\bfseries,
+    commentstyle=\color{green!50!black},
+    stringstyle=\color{red!60!black},
+    frame=single,
+    breaklines=true
+}
+
+\title{%
+    \textbf{Algorithm Documentation: Parallel Base Optimizer} \\[6pt]
+    \large Average Manipulability Index and Grid Search Strategy \\
+    for TM5-700 Surgical Robot Base Optimization
+}
+\author{RMML Lab — Isaac Lab Reachability Map Project}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+% ============================================================
+\section{Overview}
+% ============================================================
+
+The \texttt{parallel\_base\_optimizer.py} script performs a \textbf{2D grid search} over candidate robot base positions using Isaac Lab's parallel environment framework. For each candidate position, it evaluates the robot's ability to reach a set of surgical waypoints and computes a kinematic quality metric — the \textbf{Average Manipulability Index (AMI)} — to determine the optimal base placement for a TM5-700 robotic arm in a surgical scenario.
+
+% ============================================================
+\section{Coordinate System and Base Positioning}
+% ============================================================
+
+\subsection{USD Hierarchy}
+
+The robot exists within a nested USD (Universal Scene Description) hierarchy:
+
+\begin{verbatim}
+/Root
+  |-- Zero                        (global origin reference)
+  +-- robotarm_base               (grid search target)
+       +-- robotarm_base          (second-level Xform)
+            +-- tm5_700           (articulation root)
+\end{verbatim}
+
+Isaac Lab controls the \textbf{articulation root} (\texttt{tm5\_700}) via physics APIs, while the user specifies the desired position of \texttt{robotarm\_base} (first level). A fixed offset $\mathbf{T}$ relates the two:
+
+\begin{equation}
+    \mathbf{p}_{\text{tm5}} = \mathbf{p}_{\text{base}} + \mathbf{T}
+    \label{eq:offset}
+\end{equation}
+
+where $\mathbf{T} \in \mathbb{R}^3$ is computed at runtime:
+
+\begin{equation}
+    \mathbf{T} = \mathbf{p}_{\text{tm5}}^{\text{default}} - \mathbf{p}_{\text{base}}^{\text{default}}
+\end{equation}
+
+For the current USD scene, $\mathbf{p}_{\text{base}}^{\text{default}} = (0.2, 0, 0)^T$ m.
+
+\subsection{Grid Search Definition}
+
+The search space is defined as a 2D Cartesian grid:
+
+\begin{equation}
+    \mathcal{G} = \{(x_i, y_j) \mid x_i \in \mathtt{linspace}(x_{\min}, x_{\max}, N_x),\ y_j \in \mathtt{linspace}(y_{\min}, y_{\max}, N_y)\}
+\end{equation}
+
+Each grid point $(x_i, y_j)$ represents a candidate \texttt{robotarm\_base} position. The total number of parallel environments is $|\mathcal{G}| = N_x \times N_y$.
+
+% ============================================================
+\section{Jacobian Matrix and Manipulability Index}
+\label{sec:manipulability}
+% ============================================================
+
+\subsection{Jacobian Matrix}
+
+For a 6-DOF serial manipulator with joint configuration $\mathbf{q} \in \mathbb{R}^6$, the \textbf{geometric Jacobian} $\mathbf{J}(\mathbf{q}) \in \mathbb{R}^{6 \times 6}$ relates joint velocities to end-effector (needle tip) velocities:
+
+\begin{equation}
+    \dot{\mathbf{x}} = \mathbf{J}(\mathbf{q})\, \dot{\mathbf{q}}
+    \label{eq:jacobian}
+\end{equation}
+
+where $\dot{\mathbf{x}} = [\mathbf{v}^T, \boldsymbol{\omega}^T]^T$ contains the linear and angular velocities of the end-effector.
+
+In the script, the Jacobian is extracted directly from the PhysX simulation:
+
+\begin{lstlisting}
+J = robot.root_physx_view.get_jacobians()
+    [:, ee_jacobi_idx, :, joint_col_ids]
+\end{lstlisting}
+
+This retrieves the $6 \times 6$ sub-matrix corresponding to the needle tip body and the 6 active joints (\texttt{joint\_1} through \texttt{joint\_6}).
+
+\subsection{Yoshikawa Manipulability Index}
+
+The \textbf{Manipulability Index} $w$, introduced by Yoshikawa~(1985)\cite{yoshikawa1985}, is defined as:
+
+\begin{equation}
+    \boxed{w(\mathbf{q}) = \left| \det\bigl(\mathbf{J}(\mathbf{q})\bigr) \right|}
+    \label{eq:manip}
+\end{equation}
+
+\subsubsection{Geometric Interpretation}
+
+The value $w(\mathbf{q})$ represents the \textbf{volume of the velocity ellipsoid} — the set of all achievable end-effector velocities for unit joint velocities:
+
+\begin{equation}
+    \mathcal{E}(\mathbf{q}) = \left\{ \dot{\mathbf{x}} \in \mathbb{R}^6 \;\middle|\; \|\dot{\mathbf{q}}\| \leq 1,\; \dot{\mathbf{x}} = \mathbf{J}(\mathbf{q})\dot{\mathbf{q}} \right\}
+\end{equation}
+
+\begin{itemize}
+    \item $w \to 0$: The ellipsoid collapses along one or more axes $\Rightarrow$ the robot is near a \textbf{kinematic singularity}, losing the ability to move in certain Cartesian directions.
+    \item $w$ large: The ellipsoid is ``full'' $\Rightarrow$ the robot can move and rotate the end-effector effectively in all directions — high \textbf{dexterity}.
+\end{itemize}
+
+\subsubsection{Relation to Singular Values}
+
+The manipulability index can also be expressed in terms of the singular values $\sigma_i$ of $\mathbf{J}$:
+
+\begin{equation}
+    w = \prod_{i=1}^{6} \sigma_i
+\end{equation}
+
+If any $\sigma_i = 0$, the robot is at a singularity and $w = 0$.
+
+% ============================================================
+\section{Average Manipulability Index (AMI)}
+\label{sec:ami}
+% ============================================================
+
+For a given base position $\mathbf{p}_k = (x_k, y_k)$ and a set of $M$ task waypoints $\{\mathbf{w}_1, \ldots, \mathbf{w}_M\}$, define:
+
+\begin{itemize}
+    \item $\mathcal{S}_k \subseteq \{1, \ldots, M\}$: the set of waypoints \textbf{successfully reached} (positioning error $< \epsilon$, where $\epsilon = 1.5$ mm by default).
+    \item $\mathbf{q}_k^{(j)}$: the joint configuration when waypoint $j \in \mathcal{S}_k$ is reached.
+\end{itemize}
+
+The \textbf{Average Manipulability Index} for base position $k$ is:
+
+\begin{equation}
+    \boxed{\text{AMI}_k = \frac{1}{|\mathcal{S}_k|} \sum_{j \in \mathcal{S}_k} w\!\left(\mathbf{q}_k^{(j)}\right) = \frac{1}{|\mathcal{S}_k|} \sum_{j \in \mathcal{S}_k} \left|\det\!\left(\mathbf{J}\!\left(\mathbf{q}_k^{(j)}\right)\right)\right|}
+    \label{eq:ami}
+\end{equation}
+
+The script also records the \textbf{minimum manipulability}:
+
+\begin{equation}
+    w_{\min,k} = \min_{j \in \mathcal{S}_k} w\!\left(\mathbf{q}_k^{(j)}\right)
+    \label{eq:wmin}
+\end{equation}
+
+This captures the worst-case dexterity across all reachable waypoints.
+
+\subsection{Interpretation for Base Selection}
+
+The optimal robot base position $\mathbf{p}^* \in \mathcal{G}$ is chosen to maximize a composite fitness score ($fg$), ensuring both strict reachability across all task waypoints and continuous high dexterity along the trajectory:
+
+\begin{equation}
+    \mathbf{p}^* = \arg\max_{\mathbf{p}_{i,j}} \left[ fg \right]
+\end{equation}
+
+Where the fitness score $fg$ for a given base position $\mathbf{p}_{i,j}$ is defined as:
+
+\begin{equation}
+    fg = S_r^{min} \cdot \left( \prod_{k=1}^{m} c(t, k) \right) \cdot cs
+\end{equation}
+
+\begin{itemize}
+    \item $S_r^{min} = \min_{k} (RI_k)$ : The minimum \textbf{Reachability Index (RI)} across all $m$ target waypoints for the base position. $RI_k = \frac{\text{\# successful orientations}}{\text{total orientations attempted}}$ for waypoint $k$. This acts as a strict penalty constraint; if any single waypoint is completely unreachable ($RI_k = 0$), the entire base position is deemed invalid ($fg = 0$), ensuring no dead-zones exist in the surgical task space.
+    
+    \item $c(t, k) = \text{AMI}_k$ : The dexterity cost function for the $k$-th waypoint ($1 \le k \le m$), defined as the \textbf{Average Manipulability Index (AMI)} across all \textbf{successful} local orientations:
+    \begin{equation}
+        \text{AMI}_k = \frac{1}{|\mathcal{S}_k|} \sum_{\text{successful orientations}} w(\mathbf{q})
+    \end{equation}
+    where $\mathcal{S}_k$ is the set of successful joint configurations (i.e., those reaching waypoint $k$ within error tolerance $\epsilon$). This represents the average dexterity only among reachable configurations; unreachable configurations contribute zero.
+    
+    \item $cs = \frac{\text{\# successful tasks}}{\text{total tasks}}$ : A scaling coefficient (success rate across all waypoints and orientations) to balance the overall fitness.
+\end{itemize}
+
+\subsubsection{Terminology Clarification: RI vs MI vs AMI}
+
+\begin{itemize}
+    \item \textbf{Manipulability Index (MI, $w$)}: Defined per joint configuration $\mathbf{q}$ as $w(\mathbf{q}) = |\det(\mathbf{J}(\mathbf{q}))|$. Scalar value $\ge 0$.
+    \item \textbf{Reachability Index (RI, $RI_k$)}: Defined per waypoint $k$ as the fraction of local orientations that successfully reach the waypoint. Range $[0, 1]$.
+    \item \textbf{Average Manipulability Index (AMI, $\text{AMI}_k$)}: Defined per waypoint $k$ as the average MI across only the successful joint configurations for that waypoint. Represents dexterity quality among reachable poses.
+\end{itemize}
+
+The product $\prod_{k=1}^{m} c(t, k) = \prod_{k=1}^{m} \text{AMI}_k$ aggregates dexterity across the entire trajectory, penalizing waypoints with low average manipulability even if they are technically reachable (high $RI_k$).
+
+In cases where multiple base positions yield identical $fg$ scores (e.g., highly symmetric configurations or capped metrics), the secondary tie-breaker objective is to maximize the Average Manipulability Index across the entire workspace ($Avg\_w$):
+
+\begin{equation}
+    \text{If } fg(\mathbf{p}_A) = fg(\mathbf{p}_B), \text{ select } \arg\max (Avg\_w)
+\end{equation}
+
+% ============================================================
+\section{Algorithm}
+% ============================================================
+
+\begin{algorithm}[H]
+\caption{Parallel Base Position Optimization}
+\label{alg:optimizer}
+\begin{algorithmic}[1]
+\Require Grid parameters $(x_{\min}, x_{\max}, N_x, y_{\min}, y_{\max}, N_y)$, waypoints $\{\mathbf{w}_j\}_{j=1}^M$, threshold $\epsilon$
+\Ensure $\text{AMI}_k$, $|\mathcal{S}_k|$ for each grid point $k$
+
+\State $\mathcal{G} \leftarrow \text{meshgrid}(x_{\min}:x_{\max}, y_{\min}:y_{\max})$
+\State Create $|\mathcal{G}|$ parallel environments in Isaac Lab
+\State $\mathbf{T} \leftarrow \mathbf{p}_{\text{tm5}}^{\text{default}} - \mathbf{p}_{\text{base}}^{\text{default}}$ \Comment{Fixed offset}
+
+\For{each env $k = 0, \ldots, |\mathcal{G}|-1$}
+    \State Set $\mathbf{p}_{\text{tm5}}^{(k)} \leftarrow \mathbf{p}_{\text{env\_origin}}^{(k)} + \mathbf{p}_k + \mathbf{T}$ \Comment{Eq.~\ref{eq:offset}}
+\EndFor
+
+\State \Call{write\_root\_pose\_to\_sim}{} \Comment{Single GPU-compatible call}
+\State Settle joints to initial configuration (50 steps)
+
+\For{each waypoint $j = 1, \ldots, M$}
+    \State Compute target $\mathbf{w}_j^{(k)}$ for each env (shifted by env origin)
+    \For{step $= 1, \ldots, \text{max\_steps}$}
+        \State $\mathbf{J}^{(k)} \leftarrow$ \Call{get\_jacobians}{} for all envs
+        \State $\Delta\mathbf{q}^{(k)} \leftarrow$ \Call{DifferentialIK}{$\mathbf{w}_j^{(k)}$, $\mathbf{J}^{(k)}$}
+        \State Apply joint position targets with clamping
+        \State \Call{sim.step}{}
+        \If{all envs converged ($\|\mathbf{e}\| < \epsilon$)}
+            \State \textbf{break}
+        \EndIf
+    \EndFor
+    \State $d^{(k)} \leftarrow \|\mathbf{p}_{\text{ee}}^{(k)} - \mathbf{w}_j^{(k)}\|$
+    \If{$d^{(k)} \leq \epsilon$}
+        \State $|\mathcal{S}_k| \mathrel{+}= 1$
+        \State $\text{manip\_sum}_k \mathrel{+}= |\det(\mathbf{J}^{(k)})|$
+    \EndIf
+\EndFor
+
+\State $\text{AMI}_k \leftarrow \text{manip\_sum}_k \;/\; |\mathcal{S}_k|$ \Comment{Eq.~\ref{eq:ami}}
+\State Export CSV and generate heatmap
+\end{algorithmic}
+\end{algorithm}
+
+% ============================================================
+\section{Differential IK Controller}
+% ============================================================
+
+The script uses the \textbf{Damped Least Squares (DLS)} variant of differential inverse kinematics:
+
+\begin{equation}
+    \Delta\mathbf{q} = \mathbf{J}^T \left(\mathbf{J}\mathbf{J}^T + \lambda^2 \mathbf{I}\right)^{-1} \Delta\mathbf{x}
+    \label{eq:dls}
+\end{equation}
+
+where $\lambda = 0.01$ is the damping factor and $\Delta\mathbf{x} = \mathbf{x}_{\text{target}} - \mathbf{x}_{\text{current}}$ is the Cartesian error. This avoids numerical instability near singularities compared to the pseudo-inverse method.
+
+An integral correction term is added when the end-effector is close to the target ($\|\Delta\mathbf{x}\| < 30$ mm):
+
+\begin{equation}
+    \Delta\mathbf{x}_{\text{boosted}} = \Delta\mathbf{x} + \mathbf{I}_{\text{cart}}, \quad \mathbf{I}_{\text{cart}} = \text{clamp}\!\left(\sum_{t} 0.02 \cdot \Delta\mathbf{x}_t,\ -0.05,\ 0.05\right)
+\end{equation}
+
+This acts as a proportional-integral (PI) controller in Cartesian space, improving steady-state accuracy.
+
+% ============================================================
+\section{Joint Clamping}
+% ============================================================
+
+After computing $\Delta\mathbf{q}$, joint position targets are clamped to prevent unsafe configurations:
+
+\begin{equation}
+    q_i^{\text{target}} = \text{clamp}(q_i^{\text{target}},\ q_i^{\min},\ q_i^{\max})
+\end{equation}
+
+\begin{table}[h]
+\centering
+\caption{Joint limits applied in the optimizer}
+\begin{tabular}{ccc}
+\toprule
+\textbf{Joint} & $q_{\min}$ (rad) & $q_{\max}$ (rad) \\
+\midrule
+joint\_1 & $-3.14$ & $-0.1$ \\
+joint\_2 & $-0.3$  & $2.5$  \\
+joint\_3 & $-0.3$  & $2.5$  \\
+joint\_4 & $-0.5$  & $3.14$ \\
+joint\_5 & $-1.57$ & $1.57$ \\
+joint\_6 & $-3.14$ & $0.5$  \\
+\bottomrule
+\end{tabular}
+\label{tab:joints}
+\end{table}
+
+These limits are task-specific constraints (not hardware limits) designed to keep the arm in a feasible workspace for the surgical scenario.
+
+% ============================================================
+\begin{thebibliography}{9}
+
+\bibitem{yoshikawa1985}
+T.~Yoshikawa, ``Manipulability of robotic mechanisms,''
+\textit{The International Journal of Robotics Research}, vol.~4, no.~2, pp.~3--9, 1985.
+
+\bibitem{sundaram2022}
+C.~P.~Sundaram \textit{et al.}, ``Robot-Assisted Surgical System Configuration Mapping and Procedure Planning,''
+referenced in project plan for RASSCMAP cost function and reachability analysis, 2022.
+
+\end{thebibliography}
+
+\end{document}

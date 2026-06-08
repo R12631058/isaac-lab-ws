@@ -1,0 +1,723 @@
+{
+    "global_info": {
+        "target_pose_position_local": [
+            0.4,
+            -0.6,
+            0.5
+        ]
+    },
+    "num_envs": 9,
+    "target_frames": [
+        10,
+        30,
+        50,
+        70,
+        90
+    ],
+    "environments": {
+        "env_0": {
+            "robot_base_position": [
+                8.459613800048828,
+                -8.215280532836914,
+                0.9492935538291931
+            ],
+            "ndi_position": [
+                8.8,
+                -9.998,
+                2.027
+            ],
+            "ndi_orientation_quat_wxyz": [
+                0.6519540320866619,
+                0.31594643068789025,
+                0.3452627218842224,
+                -0.5965965520002809
+            ],
+            "ndi_relative_x": 0.6,
+            "robot_relative_x": -0.2
+        },
+        "env_1": {
+            "robot_base_position": [
+                8.459694862365723,
+                -0.21599218249320984,
+                0.9504386186599731
+            ],
+            "ndi_position": [
+                8.6,
+                -1.998,
+                2.027
+            ],
+            "ndi_orientation_quat_wxyz": [
+                0.6681704123492952,
+                0.30661895333555783,
+                0.3546125393520814,
+                -0.5777396164801653
+            ],
+            "ndi_relative_x": 0.6,
+            "robot_relative_x": 0.0
+        },
+        "env_2": {
+            "robot_base_position": [
+                8.459695816040039,
+                7.784002304077148,
+                0.9504371285438538
+            ],
+            "ndi_position": [
+                8.4,
+                6.002,
+                2.027
+            ],
+            "ndi_orientation_quat_wxyz": [
+                0.680799680338538,
+                0.299300930935345,
+                0.3629339950889365,
+                -0.5614353597707968
+            ],
+            "ndi_relative_x": 0.6,
+            "robot_relative_x": 0.2
+        },
+        "env_3": {
+            "robot_base_position": [
+                0.45969313383102417,
+                -8.215991973876953,
+                0.9504385590553284
+            ],
+            "ndi_position": [
+                1.8999999999999997,
+                -9.998,
+                2.027
+            ],
+            "ndi_orientation_quat_wxyz": [
+                0.7824399726042138,
+                0.20326399519299942,
+                0.49184450281747566,
+                -0.3233580408425428
+            ],
+            "ndi_relative_x": 1.6999999999999997,
+            "robot_relative_x": -0.2
+        },
+        "env_4": {
+            "robot_base_position": [
+                0.45969319343566895,
+                -0.2159937620162964,
+                0.9504382014274597
+            ],
+            "ndi_position": [
+                1.6999999999999997,
+                -1.998,
+                2.027
+            ],
+            "ndi_orientation_quat_wxyz": [
+                0.7845237103329582,
+                0.1973896990858262,
+                0.49941014821911356,
+                -0.31007960022545605
+            ],
+            "ndi_relative_x": 1.6999999999999997,
+            "robot_relative_x": 0.0
+        },
+        "env_5": {
+            "robot_base_position": [
+                0.4596918523311615,
+                7.783995151519775,
+                0.9504330158233643
+            ],
+            "ndi_position": [
+                1.4999999999999998,
+                6.002,
+                2.027
+            ],
+            "ndi_orientation_quat_wxyz": [
+                0.7855696196801883,
+                0.19302617455397508,
+                0.5056651550691648,
+                -0.29987333913080716
+            ],
+            "ndi_relative_x": 1.6999999999999997,
+            "robot_relative_x": 0.2
+        },
+        "env_6": {
+            "robot_base_position": [
+                -7.540308952331543,
+                -8.215991973876953,
+                0.950438380241394
+            ],
+            "ndi_position": [
+                -5.0,
+                -9.998,
+                2.027
+            ],
+            "ndi_orientation_quat_wxyz": [
+                0.78318764342434,
+                0.14076756676263238,
+                0.5744266844667164,
+                -0.1919260052930088
+            ],
+            "ndi_relative_x": 2.8,
+            "robot_relative_x": -0.2
+        },
+        "env_7": {
+            "robot_base_position": [
+                -7.540309906005859,
+                -0.2160026729106903,
+                0.9504333138465881
+            ],
+            "ndi_position": [
+                -5.2,
+                -1.998,
+                2.027
+            ],
+            "ndi_orientation_quat_wxyz": [
+                0.7826697938633669,
+                0.1372755802280633,
+                0.5779481141579368,
+                -0.18590154971975856
+            ],
+            "ndi_relative_x": 2.8,
+            "robot_relative_x": 0.0
+        },
+        "env_8": {
+            "robot_base_position": [
+                -7.540308475494385,
+                7.7840070724487305,
+                0.9504383206367493
+            ],
+            "ndi_position": [
+                -5.4,
+                6.002,
+                2.027
+            ],
+            "ndi_orientation_quat_wxyz": [
+                0.781661002851794,
+                0.1346309037371176,
+                0.5814877798040589,
+                -0.18097667893461059
+            ],
+            "ndi_relative_x": 2.8,
+            "robot_relative_x": 0.2
+        }
+    },
+    "results": [
+        {
+            "frame": 10,
+            "envs": [
+                {
+                    "env_idx": 0,
+                    "total_cost": 200.0,
+                    "group_costs": {
+                        "BM": 50.0,
+                        "EM": 50.0,
+                        "FM": 50.0,
+                        "UM": 50.0
+                    }
+                },
+                {
+                    "env_idx": 1,
+                    "total_cost": 200.0,
+                    "group_costs": {
+                        "BM": 50.0,
+                        "EM": 50.0,
+                        "FM": 50.0,
+                        "UM": 50.0
+                    }
+                },
+                {
+                    "env_idx": 2,
+                    "total_cost": 200.0,
+                    "group_costs": {
+                        "BM": 50.0,
+                        "EM": 50.0,
+                        "FM": 50.0,
+                        "UM": 50.0
+                    }
+                },
+                {
+                    "env_idx": 3,
+                    "total_cost": 200.0,
+                    "group_costs": {
+                        "BM": 50.0,
+                        "EM": 50.0,
+                        "FM": 50.0,
+                        "UM": 50.0
+                    }
+                },
+                {
+                    "env_idx": 4,
+                    "total_cost": 200.0,
+                    "group_costs": {
+                        "BM": 50.0,
+                        "EM": 50.0,
+                        "FM": 50.0,
+                        "UM": 50.0
+                    }
+                },
+                {
+                    "env_idx": 5,
+                    "total_cost": 200.0,
+                    "group_costs": {
+                        "BM": 50.0,
+                        "EM": 50.0,
+                        "FM": 50.0,
+                        "UM": 50.0
+                    }
+                },
+                {
+                    "env_idx": 6,
+                    "total_cost": 200.0,
+                    "group_costs": {
+                        "BM": 50.0,
+                        "EM": 50.0,
+                        "FM": 50.0,
+                        "UM": 50.0
+                    }
+                },
+                {
+                    "env_idx": 7,
+                    "total_cost": 200.0,
+                    "group_costs": {
+                        "BM": 50.0,
+                        "EM": 50.0,
+                        "FM": 50.0,
+                        "UM": 50.0
+                    }
+                },
+                {
+                    "env_idx": 8,
+                    "total_cost": 200.0,
+                    "group_costs": {
+                        "BM": 50.0,
+                        "EM": 50.0,
+                        "FM": 50.0,
+                        "UM": 50.0
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 30,
+            "envs": [
+                {
+                    "env_idx": 0,
+                    "total_cost": 240.0,
+                    "group_costs": {
+                        "BM": 60.0,
+                        "EM": 60.0,
+                        "FM": 60.0,
+                        "UM": 60.0
+                    }
+                },
+                {
+                    "env_idx": 1,
+                    "total_cost": 240.0,
+                    "group_costs": {
+                        "BM": 60.0,
+                        "EM": 60.0,
+                        "FM": 60.0,
+                        "UM": 60.0
+                    }
+                },
+                {
+                    "env_idx": 2,
+                    "total_cost": 240.0,
+                    "group_costs": {
+                        "BM": 60.0,
+                        "EM": 60.0,
+                        "FM": 60.0,
+                        "UM": 60.0
+                    }
+                },
+                {
+                    "env_idx": 3,
+                    "total_cost": 240.0,
+                    "group_costs": {
+                        "BM": 60.0,
+                        "EM": 60.0,
+                        "FM": 60.0,
+                        "UM": 60.0
+                    }
+                },
+                {
+                    "env_idx": 4,
+                    "total_cost": 240.0,
+                    "group_costs": {
+                        "BM": 60.0,
+                        "EM": 60.0,
+                        "FM": 60.0,
+                        "UM": 60.0
+                    }
+                },
+                {
+                    "env_idx": 5,
+                    "total_cost": 240.0,
+                    "group_costs": {
+                        "BM": 60.0,
+                        "EM": 60.0,
+                        "FM": 60.0,
+                        "UM": 60.0
+                    }
+                },
+                {
+                    "env_idx": 6,
+                    "total_cost": 240.0,
+                    "group_costs": {
+                        "BM": 60.0,
+                        "EM": 60.0,
+                        "FM": 60.0,
+                        "UM": 60.0
+                    }
+                },
+                {
+                    "env_idx": 7,
+                    "total_cost": 240.0,
+                    "group_costs": {
+                        "BM": 60.0,
+                        "EM": 60.0,
+                        "FM": 60.0,
+                        "UM": 60.0
+                    }
+                },
+                {
+                    "env_idx": 8,
+                    "total_cost": 240.0,
+                    "group_costs": {
+                        "BM": 60.0,
+                        "EM": 60.0,
+                        "FM": 60.0,
+                        "UM": 60.0
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 50,
+            "envs": [
+                {
+                    "env_idx": 0,
+                    "total_cost": 280.0,
+                    "group_costs": {
+                        "BM": 70.0,
+                        "EM": 70.0,
+                        "FM": 70.0,
+                        "UM": 70.0
+                    }
+                },
+                {
+                    "env_idx": 1,
+                    "total_cost": 280.0,
+                    "group_costs": {
+                        "BM": 70.0,
+                        "EM": 70.0,
+                        "FM": 70.0,
+                        "UM": 70.0
+                    }
+                },
+                {
+                    "env_idx": 2,
+                    "total_cost": 280.0,
+                    "group_costs": {
+                        "BM": 70.0,
+                        "EM": 70.0,
+                        "FM": 70.0,
+                        "UM": 70.0
+                    }
+                },
+                {
+                    "env_idx": 3,
+                    "total_cost": 280.0,
+                    "group_costs": {
+                        "BM": 70.0,
+                        "EM": 70.0,
+                        "FM": 70.0,
+                        "UM": 70.0
+                    }
+                },
+                {
+                    "env_idx": 4,
+                    "total_cost": 280.0,
+                    "group_costs": {
+                        "BM": 70.0,
+                        "EM": 70.0,
+                        "FM": 70.0,
+                        "UM": 70.0
+                    }
+                },
+                {
+                    "env_idx": 5,
+                    "total_cost": 280.0,
+                    "group_costs": {
+                        "BM": 70.0,
+                        "EM": 70.0,
+                        "FM": 70.0,
+                        "UM": 70.0
+                    }
+                },
+                {
+                    "env_idx": 6,
+                    "total_cost": 280.0,
+                    "group_costs": {
+                        "BM": 70.0,
+                        "EM": 70.0,
+                        "FM": 70.0,
+                        "UM": 70.0
+                    }
+                },
+                {
+                    "env_idx": 7,
+                    "total_cost": 280.0,
+                    "group_costs": {
+                        "BM": 70.0,
+                        "EM": 70.0,
+                        "FM": 70.0,
+                        "UM": 70.0
+                    }
+                },
+                {
+                    "env_idx": 8,
+                    "total_cost": 280.0,
+                    "group_costs": {
+                        "BM": 70.0,
+                        "EM": 70.0,
+                        "FM": 70.0,
+                        "UM": 70.0
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 70,
+            "envs": [
+                {
+                    "env_idx": 0,
+                    "total_cost": 320.0,
+                    "group_costs": {
+                        "BM": 80.0,
+                        "EM": 80.0,
+                        "FM": 80.0,
+                        "UM": 80.0
+                    }
+                },
+                {
+                    "env_idx": 1,
+                    "total_cost": 320.0,
+                    "group_costs": {
+                        "BM": 80.0,
+                        "EM": 80.0,
+                        "FM": 80.0,
+                        "UM": 80.0
+                    }
+                },
+                {
+                    "env_idx": 2,
+                    "total_cost": 320.0,
+                    "group_costs": {
+                        "BM": 80.0,
+                        "EM": 80.0,
+                        "FM": 80.0,
+                        "UM": 80.0
+                    }
+                },
+                {
+                    "env_idx": 3,
+                    "total_cost": 320.0,
+                    "group_costs": {
+                        "BM": 80.0,
+                        "EM": 80.0,
+                        "FM": 80.0,
+                        "UM": 80.0
+                    }
+                },
+                {
+                    "env_idx": 4,
+                    "total_cost": 320.0,
+                    "group_costs": {
+                        "BM": 80.0,
+                        "EM": 80.0,
+                        "FM": 80.0,
+                        "UM": 80.0
+                    }
+                },
+                {
+                    "env_idx": 5,
+                    "total_cost": 320.0,
+                    "group_costs": {
+                        "BM": 80.0,
+                        "EM": 80.0,
+                        "FM": 80.0,
+                        "UM": 80.0
+                    }
+                },
+                {
+                    "env_idx": 6,
+                    "total_cost": 320.0,
+                    "group_costs": {
+                        "BM": 80.0,
+                        "EM": 80.0,
+                        "FM": 80.0,
+                        "UM": 80.0
+                    }
+                },
+                {
+                    "env_idx": 7,
+                    "total_cost": 320.0,
+                    "group_costs": {
+                        "BM": 80.0,
+                        "EM": 80.0,
+                        "FM": 80.0,
+                        "UM": 80.0
+                    }
+                },
+                {
+                    "env_idx": 8,
+                    "total_cost": 320.0,
+                    "group_costs": {
+                        "BM": 80.0,
+                        "EM": 80.0,
+                        "FM": 80.0,
+                        "UM": 80.0
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 90,
+            "envs": [
+                {
+                    "env_idx": 0,
+                    "total_cost": 360.0,
+                    "group_costs": {
+                        "BM": 90.0,
+                        "EM": 90.0,
+                        "FM": 90.0,
+                        "UM": 90.0
+                    }
+                },
+                {
+                    "env_idx": 1,
+                    "total_cost": 360.0,
+                    "group_costs": {
+                        "BM": 90.0,
+                        "EM": 90.0,
+                        "FM": 90.0,
+                        "UM": 90.0
+                    }
+                },
+                {
+                    "env_idx": 2,
+                    "total_cost": 360.0,
+                    "group_costs": {
+                        "BM": 90.0,
+                        "EM": 90.0,
+                        "FM": 90.0,
+                        "UM": 90.0
+                    }
+                },
+                {
+                    "env_idx": 3,
+                    "total_cost": 360.0,
+                    "group_costs": {
+                        "BM": 90.0,
+                        "EM": 90.0,
+                        "FM": 90.0,
+                        "UM": 90.0
+                    }
+                },
+                {
+                    "env_idx": 4,
+                    "total_cost": 360.0,
+                    "group_costs": {
+                        "BM": 90.0,
+                        "EM": 90.0,
+                        "FM": 90.0,
+                        "UM": 90.0
+                    }
+                },
+                {
+                    "env_idx": 5,
+                    "total_cost": 360.0,
+                    "group_costs": {
+                        "BM": 90.0,
+                        "EM": 90.0,
+                        "FM": 90.0,
+                        "UM": 90.0
+                    }
+                },
+                {
+                    "env_idx": 6,
+                    "total_cost": 360.0,
+                    "group_costs": {
+                        "BM": 90.0,
+                        "EM": 90.0,
+                        "FM": 90.0,
+                        "UM": 90.0
+                    }
+                },
+                {
+                    "env_idx": 7,
+                    "total_cost": 360.0,
+                    "group_costs": {
+                        "BM": 90.0,
+                        "EM": 90.0,
+                        "FM": 90.0,
+                        "UM": 90.0
+                    }
+                },
+                {
+                    "env_idx": 8,
+                    "total_cost": 360.0,
+                    "group_costs": {
+                        "BM": 90.0,
+                        "EM": 90.0,
+                        "FM": 90.0,
+                        "UM": 90.0
+                    }
+                }
+            ]
+        }
+    ],
+    "matrix_summary": {
+        "env_0": {
+            "mean_cost": 280.0,
+            "ndi_x": 0.6,
+            "robot_x": -0.2
+        },
+        "env_1": {
+            "mean_cost": 280.0,
+            "ndi_x": 0.6,
+            "robot_x": 0.0
+        },
+        "env_2": {
+            "mean_cost": 280.0,
+            "ndi_x": 0.6,
+            "robot_x": 0.2
+        },
+        "env_3": {
+            "mean_cost": 280.0,
+            "ndi_x": 1.6999999999999997,
+            "robot_x": -0.2
+        },
+        "env_4": {
+            "mean_cost": 280.0,
+            "ndi_x": 1.6999999999999997,
+            "robot_x": 0.0
+        },
+        "env_5": {
+            "mean_cost": 280.0,
+            "ndi_x": 1.6999999999999997,
+            "robot_x": 0.2
+        },
+        "env_6": {
+            "mean_cost": 280.0,
+            "ndi_x": 2.8,
+            "robot_x": -0.2
+        },
+        "env_7": {
+            "mean_cost": 280.0,
+            "ndi_x": 2.8,
+            "robot_x": 0.0
+        },
+        "env_8": {
+            "mean_cost": 280.0,
+            "ndi_x": 2.8,
+            "robot_x": 0.2
+        }
+    }
+}

@@ -1,0 +1,406 @@
+{
+    "global_info": {
+        "target_pose_position_local": [
+            -0.32000017166137695,
+            -0.800000011920929,
+            1.0859999656677246
+        ],
+        "robot_base_x_local": 0.46,
+        "batch_mode": true,
+        "ndi_x_range": [
+            0.6,
+            1.0
+        ]
+    },
+    "num_envs": 3,
+    "x_positions": [
+        0.6,
+        0.8,
+        1.0
+    ],
+    "target_frames": [
+        10,
+        30,
+        50,
+        70,
+        90
+    ],
+    "environments": {
+        "env_0": {
+            "robot_base_position": [
+                8.45993709564209,
+                -0.1772889494895935,
+                0.9492930769920349
+            ],
+            "ndi_position": [
+                8.6,
+                -1.998,
+                2.027
+            ],
+            "ndi_orientation_quat_wxyz": [
+                0.745207824101066,
+                0.25011878504022333,
+                0.38613825415754294,
+                -0.48270398894635413
+            ]
+        },
+        "env_1": {
+            "robot_base_position": [
+                0.45996272563934326,
+                -0.17853829264640808,
+                0.9492928385734558
+            ],
+            "ndi_position": [
+                0.8,
+                -1.998,
+                2.027
+            ],
+            "ndi_orientation_quat_wxyz": [
+                0.7688358420309844,
+                0.23101105878504385,
+                0.41277939378324974,
+                -0.4302772487541643
+            ]
+        },
+        "env_2": {
+            "robot_base_position": [
+                -7.540036201477051,
+                -0.17853732407093048,
+                0.9492931962013245
+            ],
+            "ndi_position": [
+                -7.0,
+                -1.998,
+                2.027
+            ],
+            "ndi_orientation_quat_wxyz": [
+                0.7838215089426674,
+                0.21466068556701348,
+                0.438650844410308,
+                -0.3835753757592678
+            ]
+        }
+    },
+    "results": [
+        {
+            "frame": 10,
+            "envs": [
+                {
+                    "env_idx": 0,
+                    "total_cost": 200.0,
+                    "group_costs": {
+                        "BM": 50.0,
+                        "EM": 50.0,
+                        "FM": 50.0,
+                        "UM": 50.0
+                    }
+                },
+                {
+                    "env_idx": 1,
+                    "total_cost": 200.0,
+                    "group_costs": {
+                        "BM": 50.0,
+                        "EM": 50.0,
+                        "FM": 50.0,
+                        "UM": 50.0
+                    }
+                },
+                {
+                    "env_idx": 2,
+                    "total_cost": 200.0,
+                    "group_costs": {
+                        "BM": 50.0,
+                        "EM": 50.0,
+                        "FM": 50.0,
+                        "UM": 50.0
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 30,
+            "envs": [
+                {
+                    "env_idx": 0,
+                    "total_cost": 240.0,
+                    "group_costs": {
+                        "BM": 60.0,
+                        "EM": 60.0,
+                        "FM": 60.0,
+                        "UM": 60.0
+                    }
+                },
+                {
+                    "env_idx": 1,
+                    "total_cost": 240.0,
+                    "group_costs": {
+                        "BM": 60.0,
+                        "EM": 60.0,
+                        "FM": 60.0,
+                        "UM": 60.0
+                    }
+                },
+                {
+                    "env_idx": 2,
+                    "total_cost": 240.0,
+                    "group_costs": {
+                        "BM": 60.0,
+                        "EM": 60.0,
+                        "FM": 60.0,
+                        "UM": 60.0
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 50,
+            "envs": [
+                {
+                    "env_idx": 0,
+                    "total_cost": 280.0,
+                    "group_costs": {
+                        "BM": 70.0,
+                        "EM": 70.0,
+                        "FM": 70.0,
+                        "UM": 70.0
+                    }
+                },
+                {
+                    "env_idx": 1,
+                    "total_cost": 280.0,
+                    "group_costs": {
+                        "BM": 70.0,
+                        "EM": 70.0,
+                        "FM": 70.0,
+                        "UM": 70.0
+                    }
+                },
+                {
+                    "env_idx": 2,
+                    "total_cost": 280.0,
+                    "group_costs": {
+                        "BM": 70.0,
+                        "EM": 70.0,
+                        "FM": 70.0,
+                        "UM": 70.0
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 70,
+            "envs": [
+                {
+                    "env_idx": 0,
+                    "total_cost": 320.0,
+                    "group_costs": {
+                        "BM": 80.0,
+                        "EM": 80.0,
+                        "FM": 80.0,
+                        "UM": 80.0
+                    }
+                },
+                {
+                    "env_idx": 1,
+                    "total_cost": 320.0,
+                    "group_costs": {
+                        "BM": 80.0,
+                        "EM": 80.0,
+                        "FM": 80.0,
+                        "UM": 80.0
+                    }
+                },
+                {
+                    "env_idx": 2,
+                    "total_cost": 320.0,
+                    "group_costs": {
+                        "BM": 80.0,
+                        "EM": 80.0,
+                        "FM": 80.0,
+                        "UM": 80.0
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 90,
+            "envs": [
+                {
+                    "env_idx": 0,
+                    "total_cost": 360.0,
+                    "group_costs": {
+                        "BM": 90.0,
+                        "EM": 90.0,
+                        "FM": 90.0,
+                        "UM": 90.0
+                    }
+                },
+                {
+                    "env_idx": 1,
+                    "total_cost": 360.0,
+                    "group_costs": {
+                        "BM": 90.0,
+                        "EM": 90.0,
+                        "FM": 90.0,
+                        "UM": 90.0
+                    }
+                },
+                {
+                    "env_idx": 2,
+                    "total_cost": 360.0,
+                    "group_costs": {
+                        "BM": 90.0,
+                        "EM": 90.0,
+                        "FM": 90.0,
+                        "UM": 90.0
+                    }
+                }
+            ]
+        }
+    ],
+    "matrix_summary": {
+        "env_0": {
+            "mean_cost": 280.0,
+            "x_pos": 0.6
+        },
+        "env_1": {
+            "mean_cost": 280.0,
+            "x_pos": 0.8
+        },
+        "env_2": {
+            "mean_cost": 280.0,
+            "x_pos": 1.0
+        }
+    },
+    "placement_summary": {
+        "env_0": {
+            "rank": 1,
+            "mean_cost": 280.0,
+            "ndi_x_pos": 0.6,
+            "occlusion_per_group": {
+                "BM": "always_occluded",
+                "EM": "always_occluded",
+                "FM": "always_occluded",
+                "UM": "always_occluded"
+            },
+            "frame_visibility": {
+                "10": {
+                    "BM": false,
+                    "EM": false,
+                    "FM": false,
+                    "UM": false
+                },
+                "30": {
+                    "BM": false,
+                    "EM": false,
+                    "FM": false,
+                    "UM": false
+                },
+                "50": {
+                    "BM": false,
+                    "EM": false,
+                    "FM": false,
+                    "UM": false
+                },
+                "70": {
+                    "BM": false,
+                    "EM": false,
+                    "FM": false,
+                    "UM": false
+                },
+                "90": {
+                    "BM": false,
+                    "EM": false,
+                    "FM": false,
+                    "UM": false
+                }
+            }
+        },
+        "env_1": {
+            "rank": 2,
+            "mean_cost": 280.0,
+            "ndi_x_pos": 0.8,
+            "occlusion_per_group": {
+                "BM": "always_occluded",
+                "EM": "always_occluded",
+                "FM": "always_occluded",
+                "UM": "always_occluded"
+            },
+            "frame_visibility": {
+                "10": {
+                    "BM": false,
+                    "EM": false,
+                    "FM": false,
+                    "UM": false
+                },
+                "30": {
+                    "BM": false,
+                    "EM": false,
+                    "FM": false,
+                    "UM": false
+                },
+                "50": {
+                    "BM": false,
+                    "EM": false,
+                    "FM": false,
+                    "UM": false
+                },
+                "70": {
+                    "BM": false,
+                    "EM": false,
+                    "FM": false,
+                    "UM": false
+                },
+                "90": {
+                    "BM": false,
+                    "EM": false,
+                    "FM": false,
+                    "UM": false
+                }
+            }
+        },
+        "env_2": {
+            "rank": 3,
+            "mean_cost": 280.0,
+            "ndi_x_pos": 1.0,
+            "occlusion_per_group": {
+                "BM": "always_occluded",
+                "EM": "always_occluded",
+                "FM": "always_occluded",
+                "UM": "always_occluded"
+            },
+            "frame_visibility": {
+                "10": {
+                    "BM": false,
+                    "EM": false,
+                    "FM": false,
+                    "UM": false
+                },
+                "30": {
+                    "BM": false,
+                    "EM": false,
+                    "FM": false,
+                    "UM": false
+                },
+                "50": {
+                    "BM": false,
+                    "EM": false,
+                    "FM": false,
+                    "UM": false
+                },
+                "70": {
+                    "BM": false,
+                    "EM": false,
+                    "FM": false,
+                    "UM": false
+                },
+                "90": {
+                    "BM": false,
+                    "EM": false,
+                    "FM": false,
+                    "UM": false
+                }
+            }
+        }
+    }
+}

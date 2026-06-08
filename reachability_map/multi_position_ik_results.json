@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-01-22T17:01:04.432817",
+  "method": "DifferentialIK_DLS",
+  "num_envs": 4,
+  "target_pose": [
+    -0.3808000087738037,
+    -0.8009999990463257,
+    1.089900016784668
+  ],
+  "statistics": {
+    "mean_error": 0.37382590770721436,
+    "success_rate": 0.0
+  },
+  "per_position_results": [
+    {
+      "x": 0.30000001192092896,
+      "success": false,
+      "error": 0.11218871176242828
+    },
+    {
+      "x": 0.5333333611488342,
+      "success": false,
+      "error": 0.16299335658550262
+    },
+    {
+      "x": 0.7666666507720947,
+      "success": false,
+      "error": 0.23716625571250916
+    },
+    {
+      "x": 1.0,
+      "success": false,
+      "error": 0.9829553961753845
+    }
+  ]
+}

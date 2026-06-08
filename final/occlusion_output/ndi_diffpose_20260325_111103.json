@@ -1,0 +1,998 @@
+{
+  "config": {
+    "x_range": [
+      0.6,
+      2.2
+    ],
+    "y_fixed": -1.9981836889836426,
+    "z_fixed": 2.0277802554202555,
+    "lookat": "all_markers_centroid",
+    "num_envs": 9,
+    "episodes": 1
+  },
+  "env_setup": [
+    {
+      "env_idx": 0,
+      "ndi_local_x": 0.6,
+      "ndi_world_pos": [
+        5.6,
+        -6.998183688983643,
+        2.0277802554202555
+      ],
+      "ndi_quat_world_xyzw": [
+        0.4002643967187963,
+        -0.33374003601805646,
+        0.6555014162275961,
+        0.5465563963596257
+      ],
+      "ndi_quat_local_xyzw": [
+        0.4002643967187963,
+        -0.33374003601805646,
+        0.6555014162275961,
+        0.5465563963596257
+      ],
+      "ndi_world_actual": [
+        5.6,
+        -6.9982,
+        2.0278
+      ],
+      "ndi_quat_actual": [
+        0.4003,
+        -0.3337,
+        0.6555,
+        0.5466
+      ],
+      "robot_base_world": [
+        5.459785555945855,
+        -5.215550334497966,
+        0.9446891949412242
+      ],
+      "marker_centroid_world": [
+        5.379755120659819,
+        -5.793115302802914,
+        1.3986982463763942
+      ]
+    },
+    {
+      "env_idx": 1,
+      "ndi_local_x": 0.8,
+      "ndi_world_pos": [
+        5.8,
+        -1.9981836889836426,
+        2.0277802554202555
+      ],
+      "ndi_quat_world_xyzw": [
+        0.43057374023122064,
+        -0.3058500346567701,
+        0.6922771770406478,
+        0.4917461953817044
+      ],
+      "ndi_quat_local_xyzw": [
+        0.43057374023122064,
+        -0.3058500346567701,
+        0.6922771770406478,
+        0.4917461953817044
+      ],
+      "ndi_world_actual": [
+        5.8,
+        -1.9982,
+        2.0278
+      ],
+      "ndi_quat_actual": [
+        0.4306,
+        -0.3059,
+        0.6923,
+        0.4917
+      ],
+      "robot_base_world": [
+        5.459785555945855,
+        -0.21555033449796493,
+        0.9446891949412242
+      ],
+      "marker_centroid_world": [
+        5.379755120659819,
+        -0.7931153028029132,
+        1.3986982463763942
+      ]
+    },
+    {
+      "env_idx": 2,
+      "ndi_local_x": 1.0,
+      "ndi_world_pos": [
+        6.0,
+        3.0018163110163574,
+        2.0277802554202555
+      ],
+      "ndi_quat_world_xyzw": [
+        0.45933353749466416,
+        -0.2801873044447448,
+        0.7196049166026508,
+        0.43894935899476817
+      ],
+      "ndi_quat_local_xyzw": [
+        0.45933353749466416,
+        -0.2801873044447448,
+        0.7196049166026508,
+        0.43894935899476817
+      ],
+      "ndi_world_actual": [
+        6.0,
+        3.0018,
+        2.0278
+      ],
+      "ndi_quat_actual": [
+        0.4593,
+        -0.2802,
+        0.7196,
+        0.4389
+      ],
+      "robot_base_world": [
+        5.459785555945855,
+        4.784449665502034,
+        0.9446891949412242
+      ],
+      "marker_centroid_world": [
+        5.379755120659819,
+        4.206884697197087,
+        1.3986982463763942
+      ]
+    },
+    {
+      "env_idx": 3,
+      "ndi_local_x": 1.2000000000000002,
+      "ndi_world_pos": [
+        1.2000000000000002,
+        -6.998183688983643,
+        2.0277802554202555
+      ],
+      "ndi_quat_world_xyzw": [
+        0.4856715295616261,
+        -0.25692386428700276,
+        0.7385562958266202,
+        0.3907017932233819
+      ],
+      "ndi_quat_local_xyzw": [
+        0.4856715295616261,
+        -0.25692386428700276,
+        0.7385562958266202,
+        0.3907017932233819
+      ],
+      "ndi_world_actual": [
+        1.2,
+        -6.9982,
+        2.0278
+      ],
+      "ndi_quat_actual": [
+        0.4857,
+        -0.2569,
+        0.7386,
+        0.3907
+      ],
+      "robot_base_world": [
+        0.459785555945855,
+        -5.215550334497966,
+        0.9446891949412242
+      ],
+      "marker_centroid_world": [
+        0.3797551206598196,
+        -5.793115302802914,
+        1.3986982463763942
+      ]
+    },
+    {
+      "env_idx": 4,
+      "ndi_local_x": 1.4,
+      "ndi_world_pos": [
+        1.4,
+        -1.9981836889836426,
+        2.0277802554202555
+      ],
+      "ndi_quat_world_xyzw": [
+        0.5091350843054376,
+        -0.23605083495399484,
+        0.7509048292938632,
+        0.3481427962632161
+      ],
+      "ndi_quat_local_xyzw": [
+        0.5091350843054376,
+        -0.23605083495399484,
+        0.7509048292938632,
+        0.3481427962632161
+      ],
+      "ndi_world_actual": [
+        1.4,
+        -1.9982,
+        2.0278
+      ],
+      "ndi_quat_actual": [
+        0.5091,
+        -0.2361,
+        0.7509,
+        0.3481
+      ],
+      "robot_base_world": [
+        0.459785555945855,
+        -0.21555033449796493,
+        0.9446891949412242
+      ],
+      "marker_centroid_world": [
+        0.3797551206598196,
+        -0.7931153028029132,
+        1.3986982463763942
+      ]
+    },
+    {
+      "env_idx": 5,
+      "ndi_local_x": 1.6,
+      "ndi_world_pos": [
+        1.6,
+        3.0018163110163574,
+        2.0277802554202555
+      ],
+      "ndi_quat_world_xyzw": [
+        0.529648707282496,
+        -0.21744873905799753,
+        0.758439876718243,
+        0.31137958532903875
+      ],
+      "ndi_quat_local_xyzw": [
+        0.529648707282496,
+        -0.21744873905799753,
+        0.758439876718243,
+        0.31137958532903875
+      ],
+      "ndi_world_actual": [
+        1.6,
+        3.0018,
+        2.0278
+      ],
+      "ndi_quat_actual": [
+        0.5296,
+        -0.2174,
+        0.7584,
+        0.3114
+      ],
+      "robot_base_world": [
+        0.459785555945855,
+        4.784449665502034,
+        0.9446891949412242
+      ],
+      "marker_centroid_world": [
+        0.3797551206598196,
+        4.206884697197087,
+        1.3986982463763942
+      ]
+    },
+    {
+      "env_idx": 6,
+      "ndi_local_x": 1.8000000000000003,
+      "ndi_world_pos": [
+        -3.1999999999999997,
+        -6.998183688983643,
+        2.0277802554202555
+      ],
+      "ndi_quat_world_xyzw": [
+        0.5473867139309971,
+        -0.20093488839505347,
+        0.7626406410611433,
+        0.2799503681714683
+      ],
+      "ndi_quat_local_xyzw": [
+        0.5473867139309971,
+        -0.20093488839505347,
+        0.7626406410611433,
+        0.2799503681714683
+      ],
+      "ndi_world_actual": [
+        -3.2,
+        -6.9982,
+        2.0278
+      ],
+      "ndi_quat_actual": [
+        0.5474,
+        -0.2009,
+        0.7626,
+        0.28
+      ],
+      "robot_base_world": [
+        -4.540214444054145,
+        -5.215550334497966,
+        0.9446891949412242
+      ],
+      "marker_centroid_world": [
+        -4.620244879340181,
+        -5.793115302802914,
+        1.3986982463763942
+      ]
+    },
+    {
+      "env_idx": 7,
+      "ndi_local_x": 2.0,
+      "ndi_world_pos": [
+        -3.0,
+        -1.9981836889836426,
+        2.0277802554202555
+      ],
+      "ndi_quat_world_xyzw": [
+        0.5626477628430071,
+        -0.18629740312071422,
+        0.7646087509671325,
+        0.25316838369496075
+      ],
+      "ndi_quat_local_xyzw": [
+        0.5626477628430071,
+        -0.18629740312071422,
+        0.7646087509671325,
+        0.25316838369496075
+      ],
+      "ndi_world_actual": [
+        -3.0,
+        -1.9982,
+        2.0278
+      ],
+      "ndi_quat_actual": [
+        0.5626,
+        -0.1863,
+        0.7646,
+        0.2532
+      ],
+      "robot_base_world": [
+        -4.540214444054145,
+        -0.21555033449796493,
+        0.9446891949412242
+      ],
+      "marker_centroid_world": [
+        -4.620244879340181,
+        -0.7931153028029132,
+        1.3986982463763942
+      ]
+    },
+    {
+      "env_idx": 8,
+      "ndi_local_x": 2.2,
+      "ndi_world_pos": [
+        -2.8,
+        3.0018163110163574,
+        2.0277802554202555
+      ],
+      "ndi_quat_world_xyzw": [
+        0.5757672578735911,
+        -0.17331920713822407,
+        0.7651183095957812,
+        0.23031823531582857
+      ],
+      "ndi_quat_local_xyzw": [
+        0.5757672578735911,
+        -0.17331920713822407,
+        0.7651183095957812,
+        0.23031823531582857
+      ],
+      "ndi_world_actual": [
+        -2.8,
+        3.0018,
+        2.0278
+      ],
+      "ndi_quat_actual": [
+        0.5758,
+        -0.1733,
+        0.7651,
+        0.2303
+      ],
+      "robot_base_world": [
+        -4.540214444054145,
+        4.784449665502034,
+        0.9446891949412242
+      ],
+      "marker_centroid_world": [
+        -4.620244879340181,
+        4.206884697197087,
+        1.3986982463763942
+      ]
+    }
+  ],
+  "results": [
+    {
+      "episode": 0,
+      "env_idx": 0,
+      "ndi_local_x": 0.6,
+      "ndi_world_pos": [
+        5.6,
+        -6.9982,
+        2.0278
+      ],
+      "ndi_quat_xyzw": [
+        0.4003,
+        -0.3337,
+        0.6555,
+        0.5466
+      ],
+      "robot_base_world": [
+        5.45959997177124,
+        -5.2153000831604,
+        0.9492999911308289
+      ],
+      "markers_in_frustum": 1,
+      "markers_total": 4,
+      "group_breakdown": {
+        "FM": {
+          "in": 0,
+          "total": 1
+        },
+        "BM": {
+          "in": 0,
+          "total": 1
+        },
+        "EM": {
+          "in": 0,
+          "total": 1
+        },
+        "UM": {
+          "in": 1,
+          "total": 1
+        }
+      },
+      "markers": [
+        {
+          "marker": "FM",
+          "group": "FM",
+          "in_frustum": false,
+          "reason": "NOT_IN_VOLUME"
+        },
+        {
+          "marker": "BM",
+          "group": "BM",
+          "in_frustum": false,
+          "reason": "NOT_IN_VOLUME"
+        },
+        {
+          "marker": "EM",
+          "group": "EM",
+          "in_frustum": false,
+          "reason": "NOT_IN_VOLUME"
+        },
+        {
+          "marker": "UM",
+          "group": "UM",
+          "in_frustum": true,
+          "reason": "OK"
+        }
+      ]
+    },
+    {
+      "episode": 0,
+      "env_idx": 1,
+      "ndi_local_x": 0.8,
+      "ndi_world_pos": [
+        5.8,
+        -1.9982,
+        2.0278
+      ],
+      "ndi_quat_xyzw": [
+        0.4306,
+        -0.3059,
+        0.6923,
+        0.4917
+      ],
+      "robot_base_world": [
+        5.45959997177124,
+        -0.21529999375343323,
+        0.9492999911308289
+      ],
+      "markers_in_frustum": 1,
+      "markers_total": 4,
+      "group_breakdown": {
+        "FM": {
+          "in": 0,
+          "total": 1
+        },
+        "BM": {
+          "in": 0,
+          "total": 1
+        },
+        "EM": {
+          "in": 0,
+          "total": 1
+        },
+        "UM": {
+          "in": 1,
+          "total": 1
+        }
+      },
+      "markers": [
+        {
+          "marker": "FM",
+          "group": "FM",
+          "in_frustum": false,
+          "reason": "NOT_IN_VOLUME"
+        },
+        {
+          "marker": "BM",
+          "group": "BM",
+          "in_frustum": false,
+          "reason": "NOT_IN_VOLUME"
+        },
+        {
+          "marker": "EM",
+          "group": "EM",
+          "in_frustum": false,
+          "reason": "NOT_IN_VOLUME"
+        },
+        {
+          "marker": "UM",
+          "group": "UM",
+          "in_frustum": true,
+          "reason": "OK"
+        }
+      ]
+    },
+    {
+      "episode": 0,
+      "env_idx": 2,
+      "ndi_local_x": 1.0,
+      "ndi_world_pos": [
+        6.0,
+        3.0018,
+        2.0278
+      ],
+      "ndi_quat_xyzw": [
+        0.4593,
+        -0.2802,
+        0.7196,
+        0.4389
+      ],
+      "robot_base_world": [
+        5.45959997177124,
+        4.7846999168396,
+        0.9492999911308289
+      ],
+      "markers_in_frustum": 1,
+      "markers_total": 4,
+      "group_breakdown": {
+        "FM": {
+          "in": 0,
+          "total": 1
+        },
+        "BM": {
+          "in": 0,
+          "total": 1
+        },
+        "EM": {
+          "in": 0,
+          "total": 1
+        },
+        "UM": {
+          "in": 1,
+          "total": 1
+        }
+      },
+      "markers": [
+        {
+          "marker": "FM",
+          "group": "FM",
+          "in_frustum": false,
+          "reason": "NOT_IN_VOLUME"
+        },
+        {
+          "marker": "BM",
+          "group": "BM",
+          "in_frustum": false,
+          "reason": "NOT_IN_VOLUME"
+        },
+        {
+          "marker": "EM",
+          "group": "EM",
+          "in_frustum": false,
+          "reason": "NOT_IN_VOLUME"
+        },
+        {
+          "marker": "UM",
+          "group": "UM",
+          "in_frustum": true,
+          "reason": "OK"
+        }
+      ]
+    },
+    {
+      "episode": 0,
+      "env_idx": 3,
+      "ndi_local_x": 1.2000000000000002,
+      "ndi_world_pos": [
+        1.2,
+        -6.9982,
+        2.0278
+      ],
+      "ndi_quat_xyzw": [
+        0.4857,
+        -0.2569,
+        0.7386,
+        0.3907
+      ],
+      "robot_base_world": [
+        0.4596000015735626,
+        -5.2153000831604,
+        0.9492999911308289
+      ],
+      "markers_in_frustum": 2,
+      "markers_total": 4,
+      "group_breakdown": {
+        "FM": {
+          "in": 1,
+          "total": 1
+        },
+        "BM": {
+          "in": 0,
+          "total": 1
+        },
+        "EM": {
+          "in": 0,
+          "total": 1
+        },
+        "UM": {
+          "in": 1,
+          "total": 1
+        }
+      },
+      "markers": [
+        {
+          "marker": "FM",
+          "group": "FM",
+          "in_frustum": true,
+          "reason": "OK"
+        },
+        {
+          "marker": "BM",
+          "group": "BM",
+          "in_frustum": false,
+          "reason": "NOT_IN_VOLUME"
+        },
+        {
+          "marker": "EM",
+          "group": "EM",
+          "in_frustum": false,
+          "reason": "NOT_IN_VOLUME"
+        },
+        {
+          "marker": "UM",
+          "group": "UM",
+          "in_frustum": true,
+          "reason": "OK"
+        }
+      ]
+    },
+    {
+      "episode": 0,
+      "env_idx": 4,
+      "ndi_local_x": 1.4,
+      "ndi_world_pos": [
+        1.4,
+        -1.9982,
+        2.0278
+      ],
+      "ndi_quat_xyzw": [
+        0.5091,
+        -0.2361,
+        0.7509,
+        0.3481
+      ],
+      "robot_base_world": [
+        0.4596000015735626,
+        -0.21529999375343323,
+        0.9492999911308289
+      ],
+      "markers_in_frustum": 2,
+      "markers_total": 4,
+      "group_breakdown": {
+        "FM": {
+          "in": 1,
+          "total": 1
+        },
+        "BM": {
+          "in": 0,
+          "total": 1
+        },
+        "EM": {
+          "in": 0,
+          "total": 1
+        },
+        "UM": {
+          "in": 1,
+          "total": 1
+        }
+      },
+      "markers": [
+        {
+          "marker": "FM",
+          "group": "FM",
+          "in_frustum": true,
+          "reason": "OK"
+        },
+        {
+          "marker": "BM",
+          "group": "BM",
+          "in_frustum": false,
+          "reason": "NOT_IN_VOLUME"
+        },
+        {
+          "marker": "EM",
+          "group": "EM",
+          "in_frustum": false,
+          "reason": "NOT_IN_VOLUME"
+        },
+        {
+          "marker": "UM",
+          "group": "UM",
+          "in_frustum": true,
+          "reason": "OK"
+        }
+      ]
+    },
+    {
+      "episode": 0,
+      "env_idx": 5,
+      "ndi_local_x": 1.6,
+      "ndi_world_pos": [
+        1.6,
+        3.0018,
+        2.0278
+      ],
+      "ndi_quat_xyzw": [
+        0.5296,
+        -0.2174,
+        0.7584,
+        0.3114
+      ],
+      "robot_base_world": [
+        0.4596000015735626,
+        4.7846999168396,
+        0.9492999911308289
+      ],
+      "markers_in_frustum": 1,
+      "markers_total": 4,
+      "group_breakdown": {
+        "FM": {
+          "in": 0,
+          "total": 1
+        },
+        "BM": {
+          "in": 0,
+          "total": 1
+        },
+        "EM": {
+          "in": 0,
+          "total": 1
+        },
+        "UM": {
+          "in": 1,
+          "total": 1
+        }
+      },
+      "markers": [
+        {
+          "marker": "FM",
+          "group": "FM",
+          "in_frustum": false,
+          "reason": "NOT_IN_VOLUME"
+        },
+        {
+          "marker": "BM",
+          "group": "BM",
+          "in_frustum": false,
+          "reason": "NOT_IN_VOLUME"
+        },
+        {
+          "marker": "EM",
+          "group": "EM",
+          "in_frustum": false,
+          "reason": "NOT_IN_VOLUME"
+        },
+        {
+          "marker": "UM",
+          "group": "UM",
+          "in_frustum": true,
+          "reason": "OK"
+        }
+      ]
+    },
+    {
+      "episode": 0,
+      "env_idx": 6,
+      "ndi_local_x": 1.8000000000000003,
+      "ndi_world_pos": [
+        -3.2,
+        -6.9982,
+        2.0278
+      ],
+      "ndi_quat_xyzw": [
+        0.5474,
+        -0.2009,
+        0.7626,
+        0.28
+      ],
+      "robot_base_world": [
+        -4.54040002822876,
+        -5.2153000831604,
+        0.9492999911308289
+      ],
+      "markers_in_frustum": 1,
+      "markers_total": 4,
+      "group_breakdown": {
+        "FM": {
+          "in": 0,
+          "total": 1
+        },
+        "BM": {
+          "in": 0,
+          "total": 1
+        },
+        "EM": {
+          "in": 0,
+          "total": 1
+        },
+        "UM": {
+          "in": 1,
+          "total": 1
+        }
+      },
+      "markers": [
+        {
+          "marker": "FM",
+          "group": "FM",
+          "in_frustum": false,
+          "reason": "NOT_IN_VOLUME"
+        },
+        {
+          "marker": "BM",
+          "group": "BM",
+          "in_frustum": false,
+          "reason": "NOT_IN_VOLUME"
+        },
+        {
+          "marker": "EM",
+          "group": "EM",
+          "in_frustum": false,
+          "reason": "NOT_IN_VOLUME"
+        },
+        {
+          "marker": "UM",
+          "group": "UM",
+          "in_frustum": true,
+          "reason": "OK"
+        }
+      ]
+    },
+    {
+      "episode": 0,
+      "env_idx": 7,
+      "ndi_local_x": 2.0,
+      "ndi_world_pos": [
+        -3.0,
+        -1.9982,
+        2.0278
+      ],
+      "ndi_quat_xyzw": [
+        0.5626,
+        -0.1863,
+        0.7646,
+        0.2532
+      ],
+      "robot_base_world": [
+        -4.54040002822876,
+        -0.21529999375343323,
+        0.9492999911308289
+      ],
+      "markers_in_frustum": 1,
+      "markers_total": 4,
+      "group_breakdown": {
+        "FM": {
+          "in": 1,
+          "total": 1
+        },
+        "BM": {
+          "in": 0,
+          "total": 1
+        },
+        "EM": {
+          "in": 0,
+          "total": 1
+        },
+        "UM": {
+          "in": 0,
+          "total": 1
+        }
+      },
+      "markers": [
+        {
+          "marker": "FM",
+          "group": "FM",
+          "in_frustum": true,
+          "reason": "OK"
+        },
+        {
+          "marker": "BM",
+          "group": "BM",
+          "in_frustum": false,
+          "reason": "NOT_IN_VOLUME"
+        },
+        {
+          "marker": "EM",
+          "group": "EM",
+          "in_frustum": false,
+          "reason": "NOT_IN_VOLUME"
+        },
+        {
+          "marker": "UM",
+          "group": "UM",
+          "in_frustum": false,
+          "reason": "NOT_IN_VOLUME"
+        }
+      ]
+    },
+    {
+      "episode": 0,
+      "env_idx": 8,
+      "ndi_local_x": 2.2,
+      "ndi_world_pos": [
+        -2.8,
+        3.0018,
+        2.0278
+      ],
+      "ndi_quat_xyzw": [
+        0.5758,
+        -0.1733,
+        0.7651,
+        0.2303
+      ],
+      "robot_base_world": [
+        -4.54040002822876,
+        4.7846999168396,
+        0.9492999911308289
+      ],
+      "markers_in_frustum": 0,
+      "markers_total": 4,
+      "group_breakdown": {
+        "FM": {
+          "in": 0,
+          "total": 1
+        },
+        "BM": {
+          "in": 0,
+          "total": 1
+        },
+        "EM": {
+          "in": 0,
+          "total": 1
+        },
+        "UM": {
+          "in": 0,
+          "total": 1
+        }
+      },
+      "markers": [
+        {
+          "marker": "FM",
+          "group": "FM",
+          "in_frustum": false,
+          "reason": "NOT_IN_VOLUME"
+        },
+        {
+          "marker": "BM",
+          "group": "BM",
+          "in_frustum": false,
+          "reason": "NOT_IN_VOLUME"
+        },
+        {
+          "marker": "EM",
+          "group": "EM",
+          "in_frustum": false,
+          "reason": "NOT_IN_VOLUME"
+        },
+        {
+          "marker": "UM",
+          "group": "UM",
+          "in_frustum": false,
+          "reason": "NOT_IN_VOLUME"
+        }
+      ]
+    }
+  ]
+}

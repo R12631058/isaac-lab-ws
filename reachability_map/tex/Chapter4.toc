@@ -1,0 +1,53 @@
+\contentsline {section}{\numberline {1}引言與問題定義}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}硬體約束與設計假設}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}路徑點與姿態評估}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}四階段解決流程概述}{3}{subsection.1.3}%
+\contentsline {section}{\numberline {2}相關研究與方法遷移}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}RASSCMAP 方法論}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}關鍵指標定義}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}方法遷移與差異對照}{4}{subsection.2.3}%
+\contentsline {section}{\numberline {3}手術場景建置}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}USD 場景層級結構}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}座標系統定義}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}區塊系統設計}{6}{subsection.3.3}%
+\contentsline {section}{\numberline {4}系統架構與數據流}{6}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Phase 1：CMAP 建立與優化搜尋}{6}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Phase 2：資料庫彙整}{6}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Phase 3：查詢與啟動}{7}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Phase 4：3D 視覺化驗證}{7}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}平台邊界與設計理由}{7}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}檔案與執行指令對照表}{7}{subsection.4.6}%
+\contentsline {section}{\numberline {5}優化演算法}{8}{section.5}%
+\contentsline {subsection}{\numberline {5.1}並行環境建置}{8}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Jacobian 矩陣與操作度指標}{8}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}Yoshikawa 操作度指標}{8}{subsubsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.3}平均操作度指標（AMI）}{9}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}複合適應度函數（fg\_score）}{9}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}差分逆運動學控制器}{9}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}關節限制}{10}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.7}早期剪枝策略}{10}{subsection.5.7}%
+\contentsline {subsection}{\numberline {5.8}演算法偽代碼}{10}{subsection.5.8}%
+\contentsline {section}{\numberline {6}跨平台使用者介面與驗證}{12}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Tkinter 查詢介面}{12}{subsection.6.1}%
+\contentsline {subsubsection}{\numberline {6.1.1}區塊匹配演算法}{12}{subsubsection.6.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.2}Isaac Sim 啟動機制}{12}{subsubsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.2}Isaac Sim 3D 互動檢視器}{12}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}omni.ui 控制面板}{13}{subsubsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2}CMAP 球體覆蓋}{13}{subsubsection.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.3}平滑底座切換動畫}{13}{subsubsection.6.2.3}%
+\contentsline {subsection}{\numberline {6.3}Follow Target：Lula IK 追蹤管線}{13}{subsection.6.3}%
+\contentsline {subsubsection}{\numberline {6.3.1}Lula IK 初始化}{13}{subsubsection.6.3.1}%
+\contentsline {subsubsection}{\numberline {6.3.2}多種子負分支搜尋}{14}{subsubsection.6.3.2}%
+\contentsline {subsubsection}{\numberline {6.3.3}平滑手臂運動動畫}{14}{subsubsection.6.3.3}%
+\contentsline {subsection}{\numberline {6.4}Isaac Lab 至 Isaac Sim 遷移}{14}{subsection.6.4}%
+\contentsline {section}{\numberline {7}結果與討論}{15}{section.7}%
+\contentsline {subsection}{\numberline {7.1}最佳化搜尋結果}{15}{subsection.7.1}%
+\contentsline {subsubsection}{\numberline {7.1.1}關鍵觀察}{15}{subsubsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.2}針尖追蹤精度驗證}{15}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}開發過程中的關鍵問題與修復}{15}{subsection.7.3}%
+\contentsline {subsubsection}{\numberline {7.3.1}Bug 1：針尖追蹤偏差 17.1 cm}{16}{subsubsection.7.3.1}%
+\contentsline {subsubsection}{\numberline {7.3.2}Bug 2：底座切換後手臂劇烈抖動}{16}{subsubsection.7.3.2}%
+\contentsline {subsubsection}{\numberline {7.3.3}Bug 3：手臂運動的指數加速現象}{16}{subsubsection.7.3.3}%
+\contentsline {subsubsection}{\numberline {7.3.4}Bug 4：最佳底座排序邏輯缺陷}{16}{subsubsection.7.3.4}%
+\contentsline {subsubsection}{\numberline {7.3.5}Bug 5：Joint 1 正分支碰撞風險}{17}{subsubsection.7.3.5}%
+\contentsline {section}{\numberline {8}小結}{17}{section.8}%

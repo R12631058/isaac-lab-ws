@@ -1,0 +1,264 @@
+{
+  "blocks": {
+    "0": {
+      "block_center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "wp_bounds": {
+        "x_min": -0.4367604361042239,
+        "x_max": -0.2567604361042248,
+        "y_min": -0.8322438621242686,
+        "y_max": -0.6888739146935746,
+        "z_min": 1.0242258486310418,
+        "z_max": 1.0638120569246137
+      },
+      "optimal_base": {
+        "base_x": 0.2,
+        "base_y": 0.0,
+        "fg_score": 0.0,
+        "success_rate": 0.9314,
+        "sr_min": 0,
+        "avg_manip": 0.008964829467182717
+      },
+      "backup_csv": "scripts\\isaaclab_ws\\reachability_map\\heatmap\\blocks\\backup_live_block0_20260521_002642.csv",
+      "opt_csv": "scripts\\isaaclab_ws\\reachability_map\\heatmap\\blocks\\optimization_results_block0_20260521_002642.csv",
+      "timestamp": "20260521_002642"
+    },
+    "1": {
+      "block_center": [
+        0.1,
+        0.0,
+        0.0
+      ],
+      "wp_bounds": {
+        "x_min": -0.3367604361042239,
+        "x_max": -0.15676043610422477,
+        "y_min": -0.8322438621242686,
+        "y_max": -0.6888739146935746,
+        "z_min": 1.0242258486310418,
+        "z_max": 1.0638120569246137
+      },
+      "optimal_base": {
+        "base_x": 0.2,
+        "base_y": 0.0,
+        "fg_score": 4.889409114349732e-127,
+        "success_rate": 0.7971,
+        "sr_min": 1,
+        "avg_manip": 0.0162504075220571
+      },
+      "backup_csv": "scripts\\isaaclab_ws\\reachability_map\\heatmap\\blocks\\backup_live_block1_20260520_155904.csv",
+      "opt_csv": "scripts\\isaaclab_ws\\reachability_map\\heatmap\\blocks\\optimization_results_block1_20260520_155904.csv",
+      "timestamp": "20260520_155904"
+    },
+    "2": {
+      "block_center": [
+        0.2,
+        0.0,
+        0.0
+      ],
+      "wp_bounds": {
+        "x_min": -0.23676043610422387,
+        "x_max": -0.056760436104224765,
+        "y_min": -0.8322438621242686,
+        "y_max": -0.6888739146935746,
+        "z_min": 1.0242258486310418,
+        "z_max": 1.0638120569246137
+      },
+      "optimal_base": {
+        "base_x": 0.3,
+        "base_y": 0.0,
+        "fg_score": 1.1120319223660195e-126,
+        "success_rate": 0.84,
+        "sr_min": 1,
+        "avg_manip": 0.016381608912154497
+      },
+      "backup_csv": "scripts\\isaaclab_ws\\reachability_map\\heatmap\\blocks\\backup_live_block2_20260520_162604.csv",
+      "opt_csv": "scripts\\isaaclab_ws\\reachability_map\\heatmap\\blocks\\optimization_results_block2_20260520_162604.csv",
+      "timestamp": "20260520_162604"
+    },
+    "3": {
+      "block_center": [
+        0.3,
+        0.0,
+        0.0
+      ],
+      "wp_bounds": {
+        "x_min": -0.1367604361042239,
+        "x_max": 0.04323956389577521,
+        "y_min": -0.8322438621242686,
+        "y_max": -0.6888739146935746,
+        "z_min": 1.0242258486310418,
+        "z_max": 1.0638120569246137
+      },
+      "optimal_base": {
+        "base_x": 0.4,
+        "base_y": 0.0,
+        "fg_score": 1.1178952126032577e-126,
+        "success_rate": 0.8429,
+        "sr_min": 1,
+        "avg_manip": 0.016382908425228156
+      },
+      "backup_csv": "scripts\\isaaclab_ws\\reachability_map\\heatmap\\blocks\\backup_live_block3_20260521_011446.csv",
+      "opt_csv": "scripts\\isaaclab_ws\\reachability_map\\heatmap\\blocks\\optimization_results_block3_20260521_011446.csv",
+      "timestamp": "20260521_011446"
+    },
+    "4": {
+      "block_center": [
+        0.4,
+        0.0,
+        0.0
+      ],
+      "wp_bounds": {
+        "x_min": -0.03676043610422386,
+        "x_max": 0.14323956389577525,
+        "y_min": -0.8322438621242686,
+        "y_max": -0.6888739146935746,
+        "z_min": 1.0242258486310418,
+        "z_max": 1.0638120569246137
+      },
+      "optimal_base": {
+        "base_x": 0.5,
+        "base_y": 0.0,
+        "fg_score": 1.0874588779351225e-126,
+        "success_rate": 0.8229,
+        "sr_min": 1,
+        "avg_manip": 0.01626285447509041
+      },
+      "backup_csv": "scripts\\isaaclab_ws\\reachability_map\\heatmap\\blocks\\backup_live_block4_20260521_014719.csv",
+      "opt_csv": "scripts\\isaaclab_ws\\reachability_map\\heatmap\\blocks\\optimization_results_block4_20260521_014719.csv",
+      "timestamp": "20260521_014719"
+    },
+    "5": {
+      "block_center": [
+        0.5,
+        0.0,
+        0.0
+      ],
+      "wp_bounds": {
+        "x_min": 0.06323956389577612,
+        "x_max": 0.24323956389577522,
+        "y_min": -0.8322438621242686,
+        "y_max": -0.6888739146935746,
+        "z_min": 1.0242258486310418,
+        "z_max": 1.0638120569246137
+      },
+      "optimal_base": {
+        "base_x": 0.6,
+        "base_y": 0.0,
+        "fg_score": 1.1203270237113284e-126,
+        "success_rate": 0.8429,
+        "sr_min": 1,
+        "avg_manip": 0.016393515306872726
+      },
+      "backup_csv": "scripts\\isaaclab_ws\\reachability_map\\heatmap\\blocks\\backup_live_block5_20260521_021745.csv",
+      "opt_csv": "scripts\\isaaclab_ws\\reachability_map\\heatmap\\blocks\\optimization_results_block5_20260521_021745.csv",
+      "timestamp": "20260521_021745"
+    },
+    "6": {
+      "block_center": [
+        0.6,
+        0.0,
+        0.0
+      ],
+      "wp_bounds": {
+        "x_min": 0.1632395638957761,
+        "x_max": 0.3432395638957752,
+        "y_min": -0.8322438621242686,
+        "y_max": -0.6888739146935746,
+        "z_min": 1.0242258486310418,
+        "z_max": 1.0638120569246137
+      },
+      "optimal_base": {
+        "base_x": 0.7,
+        "base_y": 0.0,
+        "fg_score": 1.1498450369268096e-126,
+        "success_rate": 0.84,
+        "sr_min": 1,
+        "avg_manip": 0.01637466136667109
+      },
+      "backup_csv": "scripts\\isaaclab_ws\\reachability_map\\heatmap\\blocks\\backup_live_block6_20260521_025010.csv",
+      "opt_csv": "scripts\\isaaclab_ws\\reachability_map\\heatmap\\blocks\\optimization_results_block6_20260521_025010.csv",
+      "timestamp": "20260521_025010"
+    },
+    "7": {
+      "block_center": [
+        0.7,
+        0.0,
+        0.0
+      ],
+      "wp_bounds": {
+        "x_min": 0.2632395638957761,
+        "x_max": 0.4432395638957752,
+        "y_min": -0.8322438621242686,
+        "y_max": -0.6888739146935746,
+        "z_min": 1.0242258486310418,
+        "z_max": 1.0638120569246137
+      },
+      "optimal_base": {
+        "base_x": 0.8,
+        "base_y": 0.0,
+        "fg_score": 1.1532659128963036e-126,
+        "success_rate": 0.8743,
+        "sr_min": 1,
+        "avg_manip": 0.016442004826277227
+      },
+      "backup_csv": "scripts\\isaaclab_ws\\reachability_map\\heatmap\\blocks\\backup_live_block7_20260521_032119.csv",
+      "opt_csv": "scripts\\isaaclab_ws\\reachability_map\\heatmap\\blocks\\optimization_results_block7_20260521_032119.csv",
+      "timestamp": "20260521_032119"
+    },
+    "8": {
+      "block_center": [
+        0.8,
+        0.0,
+        0.0
+      ],
+      "wp_bounds": {
+        "x_min": 0.36323956389577616,
+        "x_max": 0.5432395638957752,
+        "y_min": -0.8322438621242686,
+        "y_max": -0.6888739146935746,
+        "z_min": 1.0242258486310418,
+        "z_max": 1.0638120569246137
+      },
+      "optimal_base": {
+        "base_x": 0.9,
+        "base_y": 0.0,
+        "fg_score": 1.1484030642824703e-126,
+        "success_rate": 0.8686,
+        "sr_min": 1,
+        "avg_manip": 0.0165143632056836
+      },
+      "backup_csv": "scripts\\isaaclab_ws\\reachability_map\\heatmap\\blocks\\backup_live_block8_20260521_035610.csv",
+      "opt_csv": "scripts\\isaaclab_ws\\reachability_map\\heatmap\\blocks\\optimization_results_block8_20260521_035610.csv",
+      "timestamp": "20260521_035610"
+    },
+    "9": {
+      "block_center": [
+        0.9,
+        0.0,
+        0.0
+      ],
+      "wp_bounds": {
+        "x_min": 0.46323956389577614,
+        "x_max": 0.6432395638957753,
+        "y_min": -0.8322438621242686,
+        "y_max": -0.6888739146935746,
+        "z_min": 1.0242258486310418,
+        "z_max": 1.0638120569246137
+      },
+      "optimal_base": {
+        "base_x": 1.0,
+        "base_y": 0.0,
+        "fg_score": 1.160736138851742e-126,
+        "success_rate": 0.8514,
+        "sr_min": 1,
+        "avg_manip": 0.01648831337250985
+      },
+      "backup_csv": "scripts\\isaaclab_ws\\reachability_map\\heatmap\\blocks\\backup_live_block9_20260521_043004.csv",
+      "opt_csv": "scripts\\isaaclab_ws\\reachability_map\\heatmap\\blocks\\optimization_results_block9_20260521_043004.csv",
+      "timestamp": "20260521_043004"
+    }
+  }
+}

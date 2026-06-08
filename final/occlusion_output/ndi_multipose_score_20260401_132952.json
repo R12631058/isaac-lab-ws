@@ -1,0 +1,1096 @@
+{
+    "global_info": {
+        "target_pose_position_local": [
+            -0.32000017166137695,
+            -0.8000001907348633,
+            1.0859999656677246
+        ]
+    },
+    "num_envs": 9,
+    "x_positions": [
+        0.6,
+        0.875,
+        1.15,
+        1.4249999999999998,
+        1.6999999999999997,
+        1.9749999999999996,
+        2.25,
+        2.525,
+        2.8
+    ],
+    "target_frames": [
+        10,
+        30,
+        50,
+        70,
+        90
+    ],
+    "environments": {
+        "env_0": {
+            "robot_base_position": [
+                8.459611892700195,
+                -8.215280532836914,
+                0.949293315410614
+            ],
+            "ndi_position": [
+                8.6,
+                -9.998,
+                2.027
+            ],
+            "ndi_orientation_quat_wxyz": [
+                0.7472534675287147,
+                0.24802452034300015,
+                0.3847022668568202,
+                -0.4817678470489296
+            ]
+        },
+        "env_1": {
+            "robot_base_position": [
+                8.459695816040039,
+                -0.21599340438842773,
+                0.9504381418228149
+            ],
+            "ndi_position": [
+                8.875,
+                -1.998,
+                2.027
+            ],
+            "ndi_orientation_quat_wxyz": [
+                0.7771548314492711,
+                0.22278059695773694,
+                0.4218157224308725,
+                -0.41045178752726924
+            ]
+        },
+        "env_2": {
+            "robot_base_position": [
+                8.459695816040039,
+                7.784005165100098,
+                0.9504380822181702
+            ],
+            "ndi_position": [
+                9.15,
+                6.002,
+                2.027
+            ],
+            "ndi_orientation_quat_wxyz": [
+                0.79293000569575,
+                0.2014371592191883,
+                0.4561502673714542,
+                -0.35015997848125385
+            ]
+        },
+        "env_3": {
+            "robot_base_position": [
+                0.45969346165657043,
+                -8.215991973876953,
+                0.9504384398460388
+            ],
+            "ndi_position": [
+                1.4249999999999998,
+                -9.998,
+                2.027
+            ],
+            "ndi_orientation_quat_wxyz": [
+                0.7995785624363279,
+                0.18328937693274083,
+                0.48591555854492874,
+                -0.30160437125451794
+            ]
+        },
+        "env_4": {
+            "robot_base_position": [
+                0.4596930146217346,
+                -0.2159910500049591,
+                0.9504388570785522
+            ],
+            "ndi_position": [
+                1.6999999999999997,
+                -1.998,
+                2.027
+            ],
+            "ndi_orientation_quat_wxyz": [
+                0.8011591110485735,
+                0.16710366794123063,
+                0.5116109809399126,
+                -0.2616766079078271
+            ]
+        },
+        "env_5": {
+            "robot_base_position": [
+                0.4596923887729645,
+                7.783997058868408,
+                0.9504337310791016
+            ],
+            "ndi_position": [
+                1.9749999999999996,
+                6.002,
+                2.027
+            ],
+            "ndi_orientation_quat_wxyz": [
+                0.7997485834060059,
+                0.15343575914180257,
+                0.5327311953107399,
+                -0.23034136558476836
+            ]
+        },
+        "env_6": {
+            "robot_base_position": [
+                -7.540311336517334,
+                -8.215991020202637,
+                0.9504388570785522
+            ],
+            "ndi_position": [
+                -5.75,
+                -9.998,
+                2.027
+            ],
+            "ndi_orientation_quat_wxyz": [
+                0.7968556528562287,
+                0.14122696108015065,
+                0.5507475349296654,
+                -0.20433591643183036
+            ]
+        },
+        "env_7": {
+            "robot_base_position": [
+                -7.540309906005859,
+                -0.21600240468978882,
+                0.9504337310791016
+            ],
+            "ndi_position": [
+                -5.475,
+                -1.998,
+                2.027
+            ],
+            "ndi_orientation_quat_wxyz": [
+                0.7934466946956487,
+                0.13062879906614572,
+                0.5654953153074338,
+                -0.18328531827844988
+            ]
+        },
+        "env_8": {
+            "robot_base_position": [
+                -7.540310382843018,
+                7.784005641937256,
+                0.9504380226135254
+            ],
+            "ndi_position": [
+                -5.2,
+                6.002,
+                2.027
+            ],
+            "ndi_orientation_quat_wxyz": [
+                0.7893251829940938,
+                0.12155874414152795,
+                0.578516762188478,
+                -0.16585410179140833
+            ]
+        }
+    },
+    "results": [
+        {
+            "frame": 10,
+            "envs": [
+                {
+                    "env_idx": 0,
+                    "total_cost": 31.655608499608665,
+                    "group_costs": {
+                        "BM": 8.517580840236318,
+                        "EM": 8.280969939529276,
+                        "FM": 7.582680021127622,
+                        "UM": 7.2743776987154485
+                    }
+                },
+                {
+                    "env_idx": 1,
+                    "total_cost": 32.36067858350741,
+                    "group_costs": {
+                        "BM": 8.740116267047592,
+                        "EM": 8.493006584867661,
+                        "FM": 7.801060067330159,
+                        "UM": 7.326495664261993
+                    }
+                },
+                {
+                    "env_idx": 2,
+                    "total_cost": 33.222971860999,
+                    "group_costs": {
+                        "BM": 8.98344260624064,
+                        "EM": 8.731360648982463,
+                        "FM": 8.07438174202691,
+                        "UM": 7.433786863748989
+                    }
+                },
+                {
+                    "env_idx": 3,
+                    "total_cost": 34.15125623207964,
+                    "group_costs": {
+                        "BM": 9.223757742414026,
+                        "EM": 8.970799133521183,
+                        "FM": 8.372967516447797,
+                        "UM": 7.58373183969663
+                    }
+                },
+                {
+                    "env_idx": 4,
+                    "total_cost": 75.66107013341744,
+                    "group_costs": {
+                        "BM": 50.0,
+                        "EM": 9.220684318290322,
+                        "FM": 8.676749599473844,
+                        "UM": 7.7636362156532694
+                    }
+                },
+                {
+                    "env_idx": 5,
+                    "total_cost": 117.50587540938609,
+                    "group_costs": {
+                        "BM": 50.0,
+                        "EM": 50.0,
+                        "FM": 8.974109501506302,
+                        "UM": 8.53176590787979
+                    }
+                },
+                {
+                    "env_idx": 6,
+                    "total_cost": 200.0,
+                    "group_costs": {
+                        "BM": 50.0,
+                        "EM": 50.0,
+                        "FM": 50.0,
+                        "UM": 50.0
+                    }
+                },
+                {
+                    "env_idx": 7,
+                    "total_cost": 200.0,
+                    "group_costs": {
+                        "BM": 50.0,
+                        "EM": 50.0,
+                        "FM": 50.0,
+                        "UM": 50.0
+                    }
+                },
+                {
+                    "env_idx": 8,
+                    "total_cost": 200.0,
+                    "group_costs": {
+                        "BM": 50.0,
+                        "EM": 50.0,
+                        "FM": 50.0,
+                        "UM": 50.0
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 30,
+            "envs": [
+                {
+                    "env_idx": 0,
+                    "total_cost": 31.62380919823787,
+                    "group_costs": {
+                        "BM": 8.50093028377614,
+                        "EM": 8.26582043510272,
+                        "FM": 7.582680021127622,
+                        "UM": 7.274378458231387
+                    }
+                },
+                {
+                    "env_idx": 1,
+                    "total_cost": 32.36027934990284,
+                    "group_costs": {
+                        "BM": 8.73995729346969,
+                        "EM": 8.492765383215758,
+                        "FM": 7.801060067330159,
+                        "UM": 7.326496605887234
+                    }
+                },
+                {
+                    "env_idx": 2,
+                    "total_cost": 33.22264068112098,
+                    "group_costs": {
+                        "BM": 8.983253739150607,
+                        "EM": 8.731217663649385,
+                        "FM": 8.07438174202691,
+                        "UM": 7.433787536294078
+                    }
+                },
+                {
+                    "env_idx": 3,
+                    "total_cost": 34.169316713876654,
+                    "group_costs": {
+                        "BM": 9.233454483300342,
+                        "EM": 8.979162300710346,
+                        "FM": 8.372967516447797,
+                        "UM": 7.583732413418169
+                    }
+                },
+                {
+                    "env_idx": 4,
+                    "total_cost": 85.65367029516895,
+                    "group_costs": {
+                        "BM": 60.0,
+                        "EM": 9.21328504264594,
+                        "FM": 8.676749599473844,
+                        "UM": 7.763635653049162
+                    }
+                },
+                {
+                    "env_idx": 5,
+                    "total_cost": 137.5058741956974,
+                    "group_costs": {
+                        "BM": 60.0,
+                        "EM": 60.0,
+                        "FM": 8.974109501506302,
+                        "UM": 8.531764694191098
+                    }
+                },
+                {
+                    "env_idx": 6,
+                    "total_cost": 240.0,
+                    "group_costs": {
+                        "BM": 60.0,
+                        "EM": 60.0,
+                        "FM": 60.0,
+                        "UM": 60.0
+                    }
+                },
+                {
+                    "env_idx": 7,
+                    "total_cost": 240.0,
+                    "group_costs": {
+                        "BM": 60.0,
+                        "EM": 60.0,
+                        "FM": 60.0,
+                        "UM": 60.0
+                    }
+                },
+                {
+                    "env_idx": 8,
+                    "total_cost": 240.0,
+                    "group_costs": {
+                        "BM": 60.0,
+                        "EM": 60.0,
+                        "FM": 60.0,
+                        "UM": 60.0
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 50,
+            "envs": [
+                {
+                    "env_idx": 0,
+                    "total_cost": 31.61586602674378,
+                    "group_costs": {
+                        "BM": 8.4964456054681,
+                        "EM": 8.262361732655076,
+                        "FM": 7.582680021127622,
+                        "UM": 7.274378667492981
+                    }
+                },
+                {
+                    "env_idx": 1,
+                    "total_cost": 32.330915531819635,
+                    "group_costs": {
+                        "BM": 8.724621225772177,
+                        "EM": 8.478739145529651,
+                        "FM": 7.801060067330159,
+                        "UM": 7.3264950931876465
+                    }
+                },
+                {
+                    "env_idx": 2,
+                    "total_cost": 33.221263266345034,
+                    "group_costs": {
+                        "BM": 8.982541627236253,
+                        "EM": 8.7305541645933,
+                        "FM": 8.07438174202691,
+                        "UM": 7.433785732488576
+                    }
+                },
+                {
+                    "env_idx": 3,
+                    "total_cost": 34.15463034226261,
+                    "group_costs": {
+                        "BM": 9.225655058258216,
+                        "EM": 8.972275642393516,
+                        "FM": 8.372967516447797,
+                        "UM": 7.583732125163081
+                    }
+                },
+                {
+                    "env_idx": 4,
+                    "total_cost": 95.66522675073405,
+                    "group_costs": {
+                        "BM": 70.0,
+                        "EM": 9.224841007792536,
+                        "FM": 8.676749599473844,
+                        "UM": 7.763636143467673
+                    }
+                },
+                {
+                    "env_idx": 5,
+                    "total_cost": 157.50587382662803,
+                    "group_costs": {
+                        "BM": 70.0,
+                        "EM": 70.0,
+                        "FM": 8.974109501506302,
+                        "UM": 8.531764325121744
+                    }
+                },
+                {
+                    "env_idx": 6,
+                    "total_cost": 280.0,
+                    "group_costs": {
+                        "BM": 70.0,
+                        "EM": 70.0,
+                        "FM": 70.0,
+                        "UM": 70.0
+                    }
+                },
+                {
+                    "env_idx": 7,
+                    "total_cost": 280.0,
+                    "group_costs": {
+                        "BM": 70.0,
+                        "EM": 70.0,
+                        "FM": 70.0,
+                        "UM": 70.0
+                    }
+                },
+                {
+                    "env_idx": 8,
+                    "total_cost": 280.0,
+                    "group_costs": {
+                        "BM": 70.0,
+                        "EM": 70.0,
+                        "FM": 70.0,
+                        "UM": 70.0
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 70,
+            "envs": [
+                {
+                    "env_idx": 0,
+                    "total_cost": 31.637656067355667,
+                    "group_costs": {
+                        "BM": 8.508311258190314,
+                        "EM": 8.272286061346056,
+                        "FM": 7.582680021127622,
+                        "UM": 7.274378726691675
+                    }
+                },
+                {
+                    "env_idx": 1,
+                    "total_cost": 32.32998611960467,
+                    "group_costs": {
+                        "BM": 8.723976643725782,
+                        "EM": 8.478453253996598,
+                        "FM": 7.801060067330159,
+                        "UM": 7.326496154552127
+                    }
+                },
+                {
+                    "env_idx": 2,
+                    "total_cost": 33.233690626008354,
+                    "group_costs": {
+                        "BM": 8.989143432917869,
+                        "EM": 8.736379048369725,
+                        "FM": 8.07438174202691,
+                        "UM": 7.433786402693849
+                    }
+                },
+                {
+                    "env_idx": 3,
+                    "total_cost": 34.1775221791885,
+                    "group_costs": {
+                        "BM": 9.237336861077502,
+                        "EM": 8.98348574655523,
+                        "FM": 8.372967516447797,
+                        "UM": 7.583732055107972
+                    }
+                },
+                {
+                    "env_idx": 4,
+                    "total_cost": 105.64544413482434,
+                    "group_costs": {
+                        "BM": 80.0,
+                        "EM": 9.205057737984646,
+                        "FM": 8.676749599473844,
+                        "UM": 7.763636797365845
+                    }
+                },
+                {
+                    "env_idx": 5,
+                    "total_cost": 177.50587411879584,
+                    "group_costs": {
+                        "BM": 80.0,
+                        "EM": 80.0,
+                        "FM": 8.974109501506302,
+                        "UM": 8.531764617289541
+                    }
+                },
+                {
+                    "env_idx": 6,
+                    "total_cost": 320.0,
+                    "group_costs": {
+                        "BM": 80.0,
+                        "EM": 80.0,
+                        "FM": 80.0,
+                        "UM": 80.0
+                    }
+                },
+                {
+                    "env_idx": 7,
+                    "total_cost": 320.0,
+                    "group_costs": {
+                        "BM": 80.0,
+                        "EM": 80.0,
+                        "FM": 80.0,
+                        "UM": 80.0
+                    }
+                },
+                {
+                    "env_idx": 8,
+                    "total_cost": 320.0,
+                    "group_costs": {
+                        "BM": 80.0,
+                        "EM": 80.0,
+                        "FM": 80.0,
+                        "UM": 80.0
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 90,
+            "envs": [
+                {
+                    "env_idx": 0,
+                    "total_cost": 31.642666338291196,
+                    "group_costs": {
+                        "BM": 8.510568447901138,
+                        "EM": 8.275039331144681,
+                        "FM": 7.582680021127622,
+                        "UM": 7.274378538117755
+                    }
+                },
+                {
+                    "env_idx": 1,
+                    "total_cost": 32.360696627442934,
+                    "group_costs": {
+                        "BM": 8.739858790652034,
+                        "EM": 8.493283051681704,
+                        "FM": 7.801060067330159,
+                        "UM": 7.326494717779036
+                    }
+                },
+                {
+                    "env_idx": 2,
+                    "total_cost": 33.2207175381111,
+                    "group_costs": {
+                        "BM": 8.982480625303221,
+                        "EM": 8.730069037386057,
+                        "FM": 8.07438174202691,
+                        "UM": 7.433786133394915
+                    }
+                },
+                {
+                    "env_idx": 3,
+                    "total_cost": 34.164282328366916,
+                    "group_costs": {
+                        "BM": 9.230765014330329,
+                        "EM": 8.97681696432355,
+                        "FM": 8.372967516447797,
+                        "UM": 7.583732833265241
+                    }
+                },
+                {
+                    "env_idx": 4,
+                    "total_cost": 115.65656434544027,
+                    "group_costs": {
+                        "BM": 90.0,
+                        "EM": 9.216178543992806,
+                        "FM": 8.676749599473844,
+                        "UM": 7.7636362019736165
+                    }
+                },
+                {
+                    "env_idx": 5,
+                    "total_cost": 197.50587545568092,
+                    "group_costs": {
+                        "BM": 90.0,
+                        "EM": 90.0,
+                        "FM": 8.974109501506302,
+                        "UM": 8.531765954174642
+                    }
+                },
+                {
+                    "env_idx": 6,
+                    "total_cost": 360.0,
+                    "group_costs": {
+                        "BM": 90.0,
+                        "EM": 90.0,
+                        "FM": 90.0,
+                        "UM": 90.0
+                    }
+                },
+                {
+                    "env_idx": 7,
+                    "total_cost": 360.0,
+                    "group_costs": {
+                        "BM": 90.0,
+                        "EM": 90.0,
+                        "FM": 90.0,
+                        "UM": 90.0
+                    }
+                },
+                {
+                    "env_idx": 8,
+                    "total_cost": 360.0,
+                    "group_costs": {
+                        "BM": 90.0,
+                        "EM": 90.0,
+                        "FM": 90.0,
+                        "UM": 90.0
+                    }
+                }
+            ]
+        }
+    ],
+    "matrix_summary": {
+        "env_0": {
+            "mean_cost": 31.63512122604744,
+            "x_pos": 0.6
+        },
+        "env_1": {
+            "mean_cost": 32.3485112424555,
+            "x_pos": 0.875
+        },
+        "env_2": {
+            "mean_cost": 33.2242567945169,
+            "x_pos": 1.15
+        },
+        "env_3": {
+            "mean_cost": 34.163401559154856,
+            "x_pos": 1.4249999999999998
+        },
+        "env_4": {
+            "mean_cost": 95.65639513191702,
+            "x_pos": 1.6999999999999997
+        },
+        "env_5": {
+            "mean_cost": 157.50587460123765,
+            "x_pos": 1.9749999999999996
+        },
+        "env_6": {
+            "mean_cost": 280.0,
+            "x_pos": 2.25
+        },
+        "env_7": {
+            "mean_cost": 280.0,
+            "x_pos": 2.525
+        },
+        "env_8": {
+            "mean_cost": 280.0,
+            "x_pos": 2.8
+        }
+    },
+    "placement_summary": {
+        "env_0": {
+            "rank": 1,
+            "mean_cost": 31.63512122604744,
+            "ndi_x_pos": 0.6,
+            "occlusion_per_group": {
+                "BM": "never_occluded",
+                "EM": "never_occluded",
+                "FM": "never_occluded",
+                "UM": "never_occluded"
+            },
+            "frame_visibility": {
+                "10": {
+                    "BM": true,
+                    "EM": true,
+                    "FM": true,
+                    "UM": true
+                },
+                "30": {
+                    "BM": true,
+                    "EM": true,
+                    "FM": true,
+                    "UM": true
+                },
+                "50": {
+                    "BM": true,
+                    "EM": true,
+                    "FM": true,
+                    "UM": true
+                },
+                "70": {
+                    "BM": true,
+                    "EM": true,
+                    "FM": true,
+                    "UM": true
+                },
+                "90": {
+                    "BM": true,
+                    "EM": true,
+                    "FM": true,
+                    "UM": true
+                }
+            }
+        },
+        "env_1": {
+            "rank": 2,
+            "mean_cost": 32.3485112424555,
+            "ndi_x_pos": 0.875,
+            "occlusion_per_group": {
+                "BM": "never_occluded",
+                "EM": "never_occluded",
+                "FM": "never_occluded",
+                "UM": "never_occluded"
+            },
+            "frame_visibility": {
+                "10": {
+                    "BM": true,
+                    "EM": true,
+                    "FM": true,
+                    "UM": true
+                },
+                "30": {
+                    "BM": true,
+                    "EM": true,
+                    "FM": true,
+                    "UM": true
+                },
+                "50": {
+                    "BM": true,
+                    "EM": true,
+                    "FM": true,
+                    "UM": true
+                },
+                "70": {
+                    "BM": true,
+                    "EM": true,
+                    "FM": true,
+                    "UM": true
+                },
+                "90": {
+                    "BM": true,
+                    "EM": true,
+                    "FM": true,
+                    "UM": true
+                }
+            }
+        },
+        "env_2": {
+            "rank": 3,
+            "mean_cost": 33.2242567945169,
+            "ndi_x_pos": 1.15,
+            "occlusion_per_group": {
+                "BM": "never_occluded",
+                "EM": "never_occluded",
+                "FM": "never_occluded",
+                "UM": "never_occluded"
+            },
+            "frame_visibility": {
+                "10": {
+                    "BM": true,
+                    "EM": true,
+                    "FM": true,
+                    "UM": true
+                },
+                "30": {
+                    "BM": true,
+                    "EM": true,
+                    "FM": true,
+                    "UM": true
+                },
+                "50": {
+                    "BM": true,
+                    "EM": true,
+                    "FM": true,
+                    "UM": true
+                },
+                "70": {
+                    "BM": true,
+                    "EM": true,
+                    "FM": true,
+                    "UM": true
+                },
+                "90": {
+                    "BM": true,
+                    "EM": true,
+                    "FM": true,
+                    "UM": true
+                }
+            }
+        },
+        "env_3": {
+            "rank": 4,
+            "mean_cost": 34.163401559154856,
+            "ndi_x_pos": 1.4249999999999998,
+            "occlusion_per_group": {
+                "BM": "never_occluded",
+                "EM": "never_occluded",
+                "FM": "never_occluded",
+                "UM": "never_occluded"
+            },
+            "frame_visibility": {
+                "10": {
+                    "BM": true,
+                    "EM": true,
+                    "FM": true,
+                    "UM": true
+                },
+                "30": {
+                    "BM": true,
+                    "EM": true,
+                    "FM": true,
+                    "UM": true
+                },
+                "50": {
+                    "BM": true,
+                    "EM": true,
+                    "FM": true,
+                    "UM": true
+                },
+                "70": {
+                    "BM": true,
+                    "EM": true,
+                    "FM": true,
+                    "UM": true
+                },
+                "90": {
+                    "BM": true,
+                    "EM": true,
+                    "FM": true,
+                    "UM": true
+                }
+            }
+        },
+        "env_4": {
+            "rank": 5,
+            "mean_cost": 95.65639513191702,
+            "ndi_x_pos": 1.6999999999999997,
+            "occlusion_per_group": {
+                "BM": "always_occluded",
+                "EM": "never_occluded",
+                "FM": "never_occluded",
+                "UM": "never_occluded"
+            },
+            "frame_visibility": {
+                "10": {
+                    "BM": false,
+                    "EM": true,
+                    "FM": true,
+                    "UM": true
+                },
+                "30": {
+                    "BM": false,
+                    "EM": true,
+                    "FM": true,
+                    "UM": true
+                },
+                "50": {
+                    "BM": false,
+                    "EM": true,
+                    "FM": true,
+                    "UM": true
+                },
+                "70": {
+                    "BM": false,
+                    "EM": true,
+                    "FM": true,
+                    "UM": true
+                },
+                "90": {
+                    "BM": false,
+                    "EM": true,
+                    "FM": true,
+                    "UM": true
+                }
+            }
+        },
+        "env_5": {
+            "rank": 6,
+            "mean_cost": 157.50587460123765,
+            "ndi_x_pos": 1.9749999999999996,
+            "occlusion_per_group": {
+                "BM": "always_occluded",
+                "EM": "always_occluded",
+                "FM": "never_occluded",
+                "UM": "never_occluded"
+            },
+            "frame_visibility": {
+                "10": {
+                    "BM": false,
+                    "EM": false,
+                    "FM": true,
+                    "UM": true
+                },
+                "30": {
+                    "BM": false,
+                    "EM": false,
+                    "FM": true,
+                    "UM": true
+                },
+                "50": {
+                    "BM": false,
+                    "EM": false,
+                    "FM": true,
+                    "UM": true
+                },
+                "70": {
+                    "BM": false,
+                    "EM": false,
+                    "FM": true,
+                    "UM": true
+                },
+                "90": {
+                    "BM": false,
+                    "EM": false,
+                    "FM": true,
+                    "UM": true
+                }
+            }
+        },
+        "env_6": {
+            "rank": 7,
+            "mean_cost": 280.0,
+            "ndi_x_pos": 2.25,
+            "occlusion_per_group": {
+                "BM": "always_occluded",
+                "EM": "always_occluded",
+                "FM": "always_occluded",
+                "UM": "always_occluded"
+            },
+            "frame_visibility": {
+                "10": {
+                    "BM": false,
+                    "EM": false,
+                    "FM": false,
+                    "UM": false
+                },
+                "30": {
+                    "BM": false,
+                    "EM": false,
+                    "FM": false,
+                    "UM": false
+                },
+                "50": {
+                    "BM": false,
+                    "EM": false,
+                    "FM": false,
+                    "UM": false
+                },
+                "70": {
+                    "BM": false,
+                    "EM": false,
+                    "FM": false,
+                    "UM": false
+                },
+                "90": {
+                    "BM": false,
+                    "EM": false,
+                    "FM": false,
+                    "UM": false
+                }
+            }
+        },
+        "env_7": {
+            "rank": 8,
+            "mean_cost": 280.0,
+            "ndi_x_pos": 2.525,
+            "occlusion_per_group": {
+                "BM": "always_occluded",
+                "EM": "always_occluded",
+                "FM": "always_occluded",
+                "UM": "always_occluded"
+            },
+            "frame_visibility": {
+                "10": {
+                    "BM": false,
+                    "EM": false,
+                    "FM": false,
+                    "UM": false
+                },
+                "30": {
+                    "BM": false,
+                    "EM": false,
+                    "FM": false,
+                    "UM": false
+                },
+                "50": {
+                    "BM": false,
+                    "EM": false,
+                    "FM": false,
+                    "UM": false
+                },
+                "70": {
+                    "BM": false,
+                    "EM": false,
+                    "FM": false,
+                    "UM": false
+                },
+                "90": {
+                    "BM": false,
+                    "EM": false,
+                    "FM": false,
+                    "UM": false
+                }
+            }
+        },
+        "env_8": {
+            "rank": 9,
+            "mean_cost": 280.0,
+            "ndi_x_pos": 2.8,
+            "occlusion_per_group": {
+                "BM": "always_occluded",
+                "EM": "always_occluded",
+                "FM": "always_occluded",
+                "UM": "always_occluded"
+            },
+            "frame_visibility": {
+                "10": {
+                    "BM": false,
+                    "EM": false,
+                    "FM": false,
+                    "UM": false
+                },
+                "30": {
+                    "BM": false,
+                    "EM": false,
+                    "FM": false,
+                    "UM": false
+                },
+                "50": {
+                    "BM": false,
+                    "EM": false,
+                    "FM": false,
+                    "UM": false
+                },
+                "70": {
+                    "BM": false,
+                    "EM": false,
+                    "FM": false,
+                    "UM": false
+                },
+                "90": {
+                    "BM": false,
+                    "EM": false,
+                    "FM": false,
+                    "UM": false
+                }
+            }
+        }
+    }
+}

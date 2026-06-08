@@ -1,0 +1,406 @@
+{
+    "global_info": {
+        "target_pose_position_local": [
+            -0.32000017166137695,
+            -0.800000011920929,
+            1.0859999656677246
+        ],
+        "robot_base_x_local": 0.46,
+        "batch_mode": true,
+        "ndi_x_range": [
+            0.6,
+            1.0
+        ]
+    },
+    "num_envs": 3,
+    "x_positions": [
+        0.6,
+        0.8,
+        1.0
+    ],
+    "target_frames": [
+        10,
+        30,
+        50,
+        70,
+        90
+    ],
+    "environments": {
+        "env_0": {
+            "robot_base_position": [
+                8.459935188293457,
+                -0.17728973925113678,
+                0.9492924809455872
+            ],
+            "ndi_position": [
+                8.6,
+                -1.998,
+                2.027
+            ],
+            "ndi_orientation_quat_wxyz": [
+                0.7455800544583573,
+                0.2497233697472445,
+                0.3857999796167975,
+                -0.4826043894574858
+            ]
+        },
+        "env_1": {
+            "robot_base_position": [
+                0.45996367931365967,
+                -0.17853900790214539,
+                0.9492925405502319
+            ],
+            "ndi_position": [
+                0.8,
+                -1.998,
+                2.027
+            ],
+            "ndi_orientation_quat_wxyz": [
+                0.7688126567173655,
+                0.23103051996319326,
+                0.4126872349298764,
+                -0.4303966122574107
+            ]
+        },
+        "env_2": {
+            "robot_base_position": [
+                -7.540036201477051,
+                -0.17853784561157227,
+                0.9492925405502319
+            ],
+            "ndi_position": [
+                -7.0,
+                -1.998,
+                2.027
+            ],
+            "ndi_orientation_quat_wxyz": [
+                0.7837261977827439,
+                0.21476495777832733,
+                0.4386385547047207,
+                -0.38372578509403116
+            ]
+        }
+    },
+    "results": [
+        {
+            "frame": 10,
+            "envs": [
+                {
+                    "env_idx": 0,
+                    "total_cost": 31.636469304694288,
+                    "group_costs": {
+                        "BM": 8.486386321935338,
+                        "EM": 8.259108438285857,
+                        "FM": 7.582680021127618,
+                        "UM": 7.308294523345474
+                    }
+                },
+                {
+                    "env_idx": 1,
+                    "total_cost": 32.09345774057568,
+                    "group_costs": {
+                        "BM": 8.627534137568482,
+                        "EM": 8.392290536499958,
+                        "FM": 7.734607244229641,
+                        "UM": 7.339025822277598
+                    }
+                },
+                {
+                    "env_idx": 2,
+                    "total_cost": 32.70016690644071,
+                    "group_costs": {
+                        "BM": 8.811148492612658,
+                        "EM": 8.568605632686152,
+                        "FM": 7.920479129658057,
+                        "UM": 7.399933651483843
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 30,
+            "envs": [
+                {
+                    "env_idx": 0,
+                    "total_cost": 31.615255468597017,
+                    "group_costs": {
+                        "BM": 8.47502388482961,
+                        "EM": 8.249261286733264,
+                        "FM": 7.582680021127618,
+                        "UM": 7.308290275906522
+                    }
+                },
+                {
+                    "env_idx": 1,
+                    "total_cost": 32.106827989794525,
+                    "group_costs": {
+                        "BM": 8.6343299548805,
+                        "EM": 8.398866022696676,
+                        "FM": 7.734607244229641,
+                        "UM": 7.33902476798771
+                    }
+                },
+                {
+                    "env_idx": 2,
+                    "total_cost": 32.74362619607305,
+                    "group_costs": {
+                        "BM": 8.83391961764533,
+                        "EM": 8.589294364616386,
+                        "FM": 7.920479129658057,
+                        "UM": 7.399933084153281
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 50,
+            "envs": [
+                {
+                    "env_idx": 0,
+                    "total_cost": 31.634104137092883,
+                    "group_costs": {
+                        "BM": 8.485039589975688,
+                        "EM": 8.258090252764436,
+                        "FM": 7.582680021127618,
+                        "UM": 7.3082942732251395
+                    }
+                },
+                {
+                    "env_idx": 1,
+                    "total_cost": 32.09990019917082,
+                    "group_costs": {
+                        "BM": 8.63115357332595,
+                        "EM": 8.39511366451917,
+                        "FM": 7.734607244229641,
+                        "UM": 7.3390257170960576
+                    }
+                },
+                {
+                    "env_idx": 2,
+                    "total_cost": 32.72382079849285,
+                    "group_costs": {
+                        "BM": 8.823570380203234,
+                        "EM": 8.579836832042586,
+                        "FM": 7.920479129658057,
+                        "UM": 7.399934456588971
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 70,
+            "envs": [
+                {
+                    "env_idx": 0,
+                    "total_cost": 31.65085342217099,
+                    "group_costs": {
+                        "BM": 8.494304676467497,
+                        "EM": 8.265573822554234,
+                        "FM": 7.582680021127618,
+                        "UM": 7.308294902021641
+                    }
+                },
+                {
+                    "env_idx": 1,
+                    "total_cost": 32.11306511751231,
+                    "group_costs": {
+                        "BM": 8.637677137610178,
+                        "EM": 8.401755510025076,
+                        "FM": 7.734607244229641,
+                        "UM": 7.339025225647416
+                    }
+                },
+                {
+                    "env_idx": 2,
+                    "total_cost": 32.673938025297616,
+                    "group_costs": {
+                        "BM": 8.797489851023604,
+                        "EM": 8.556037226908707,
+                        "FM": 7.920479129658057,
+                        "UM": 7.3999318177072455
+                    }
+                }
+            ]
+        },
+        {
+            "frame": 90,
+            "envs": [
+                {
+                    "env_idx": 0,
+                    "total_cost": 31.62353047140866,
+                    "group_costs": {
+                        "BM": 8.47974560370348,
+                        "EM": 8.252810748232736,
+                        "FM": 7.582680021127618,
+                        "UM": 7.308294098344824
+                    }
+                },
+                {
+                    "env_idx": 1,
+                    "total_cost": 32.111363945486275,
+                    "group_costs": {
+                        "BM": 8.63707269424517,
+                        "EM": 8.400659704447467,
+                        "FM": 7.734607244229641,
+                        "UM": 7.339024302564001
+                    }
+                },
+                {
+                    "env_idx": 2,
+                    "total_cost": 32.70644566287122,
+                    "group_costs": {
+                        "BM": 8.814372926360504,
+                        "EM": 8.571661833920919,
+                        "FM": 7.920479129658057,
+                        "UM": 7.3999317729317395
+                    }
+                }
+            ]
+        }
+    ],
+    "matrix_summary": {
+        "env_0": {
+            "mean_cost": 31.63204256079277,
+            "x_pos": 0.6
+        },
+        "env_1": {
+            "mean_cost": 32.104922998507924,
+            "x_pos": 0.8
+        },
+        "env_2": {
+            "mean_cost": 32.70959951783509,
+            "x_pos": 1.0
+        }
+    },
+    "placement_summary": {
+        "env_0": {
+            "rank": 1,
+            "mean_cost": 31.63204256079277,
+            "ndi_x_pos": 0.6,
+            "occlusion_per_group": {
+                "BM": "never_occluded",
+                "EM": "never_occluded",
+                "FM": "never_occluded",
+                "UM": "never_occluded"
+            },
+            "frame_visibility": {
+                "10": {
+                    "BM": true,
+                    "EM": true,
+                    "FM": true,
+                    "UM": true
+                },
+                "30": {
+                    "BM": true,
+                    "EM": true,
+                    "FM": true,
+                    "UM": true
+                },
+                "50": {
+                    "BM": true,
+                    "EM": true,
+                    "FM": true,
+                    "UM": true
+                },
+                "70": {
+                    "BM": true,
+                    "EM": true,
+                    "FM": true,
+                    "UM": true
+                },
+                "90": {
+                    "BM": true,
+                    "EM": true,
+                    "FM": true,
+                    "UM": true
+                }
+            }
+        },
+        "env_1": {
+            "rank": 2,
+            "mean_cost": 32.104922998507924,
+            "ndi_x_pos": 0.8,
+            "occlusion_per_group": {
+                "BM": "never_occluded",
+                "EM": "never_occluded",
+                "FM": "never_occluded",
+                "UM": "never_occluded"
+            },
+            "frame_visibility": {
+                "10": {
+                    "BM": true,
+                    "EM": true,
+                    "FM": true,
+                    "UM": true
+                },
+                "30": {
+                    "BM": true,
+                    "EM": true,
+                    "FM": true,
+                    "UM": true
+                },
+                "50": {
+                    "BM": true,
+                    "EM": true,
+                    "FM": true,
+                    "UM": true
+                },
+                "70": {
+                    "BM": true,
+                    "EM": true,
+                    "FM": true,
+                    "UM": true
+                },
+                "90": {
+                    "BM": true,
+                    "EM": true,
+                    "FM": true,
+                    "UM": true
+                }
+            }
+        },
+        "env_2": {
+            "rank": 3,
+            "mean_cost": 32.70959951783509,
+            "ndi_x_pos": 1.0,
+            "occlusion_per_group": {
+                "BM": "never_occluded",
+                "EM": "never_occluded",
+                "FM": "never_occluded",
+                "UM": "never_occluded"
+            },
+            "frame_visibility": {
+                "10": {
+                    "BM": true,
+                    "EM": true,
+                    "FM": true,
+                    "UM": true
+                },
+                "30": {
+                    "BM": true,
+                    "EM": true,
+                    "FM": true,
+                    "UM": true
+                },
+                "50": {
+                    "BM": true,
+                    "EM": true,
+                    "FM": true,
+                    "UM": true
+                },
+                "70": {
+                    "BM": true,
+                    "EM": true,
+                    "FM": true,
+                    "UM": true
+                },
+                "90": {
+                    "BM": true,
+                    "EM": true,
+                    "FM": true,
+                    "UM": true
+                }
+            }
+        }
+    }
+}

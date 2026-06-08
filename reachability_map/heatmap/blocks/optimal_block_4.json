@@ -1,0 +1,28 @@
+{
+  "block_id": 4,
+  "block_center": [
+    0.4,
+    0.0,
+    0.0
+  ],
+  "wp_bounds": {
+    "x_min": -0.03676043610422386,
+    "x_max": 0.14323956389577525,
+    "y_min": -0.8322438621242686,
+    "y_max": -0.6888739146935746,
+    "z_min": 1.0242258486310418,
+    "z_max": 1.0638120569246137
+  },
+  "optimal_env_id": 4,
+  "optimal_base": {
+    "base_x": 0.5,
+    "base_y": 0.0,
+    "fg_score": 1.0874588779351225e-126,
+    "success_rate": 0.8229,
+    "sr_min": 1,
+    "avg_manip": 0.01626285447509041
+  },
+  "backup_csv": "scripts\\isaaclab_ws\\reachability_map\\heatmap\\blocks\\backup_live_block4_20260521_014719.csv",
+  "opt_csv": "scripts\\isaaclab_ws\\reachability_map\\heatmap\\blocks\\optimization_results_block4_20260521_014719.csv",
+  "timestamp": "20260521_014719"
+}

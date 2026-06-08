@@ -1,0 +1,2978 @@
+{
+  "config": {
+    "x_range": [
+      0.6,
+      2.2
+    ],
+    "y_fixed": -1.9981836889836426,
+    "z_fixed": 2.0277802554202555,
+    "lookat_alpha": 0.7,
+    "num_envs": 9,
+    "episodes": 1
+  },
+  "env_setup": [
+    {
+      "env_idx": 0,
+      "ndi_local_x": 0.6,
+      "ndi_world_pos": [
+        5.6,
+        -6.998183688983643,
+        2.0277802554202555
+      ],
+      "ndi_quat_xyzw": [
+        0.4611689950778931,
+        0.06956508495850956,
+        0.0,
+        0.8845811760000105
+      ],
+      "robot_base_world": [
+        5.459785555945855,
+        -5.215550334497966,
+        0.9446891949412242
+      ],
+      "fm_center_world": [
+        5.160472074190564,
+        -6.074997628937188,
+        1.035441990205738
+      ],
+      "lookat_target_world": [
+        5.369991511419268,
+        -5.473384522829733,
+        0.9719150335205783
+      ]
+    },
+    {
+      "env_idx": 1,
+      "ndi_local_x": 0.8,
+      "ndi_world_pos": [
+        5.8,
+        -1.9981836889836426,
+        2.0277802554202555
+      ],
+      "ndi_quat_xyzw": [
+        0.4542031083575471,
+        0.12808978157178832,
+        0.0,
+        0.8816419591961546
+      ],
+      "robot_base_world": [
+        5.459785555945855,
+        -0.21555033449796493,
+        0.9446891949412242
+      ],
+      "fm_center_world": [
+        5.160472074190564,
+        -1.0749976289371879,
+        1.035441990205738
+      ],
+      "lookat_target_world": [
+        5.369991511419268,
+        -0.47338452282973187,
+        0.9719150335205783
+      ]
+    },
+    {
+      "env_idx": 2,
+      "ndi_local_x": 1.0,
+      "ndi_world_pos": [
+        6.0,
+        3.0018163110163574,
+        2.0277802554202555
+      ],
+      "ndi_quat_xyzw": [
+        0.44369934894754537,
+        0.18332536009957554,
+        0.0,
+        0.8772244297144747
+      ],
+      "robot_base_world": [
+        5.459785555945855,
+        4.784449665502034,
+        0.9446891949412242
+      ],
+      "fm_center_world": [
+        5.160472074190564,
+        3.9250023710628117,
+        1.035441990205738
+      ],
+      "lookat_target_world": [
+        5.369991511419268,
+        4.526615477170267,
+        0.9719150335205783
+      ]
+    },
+    {
+      "env_idx": 3,
+      "ndi_local_x": 1.2000000000000002,
+      "ndi_world_pos": [
+        1.2000000000000002,
+        -6.998183688983643,
+        2.0277802554202555
+      ],
+      "ndi_quat_xyzw": [
+        0.4304446910124742,
+        0.23430806845601443,
+        0.0,
+        0.871674880351377
+      ],
+      "robot_base_world": [
+        0.459785555945855,
+        -5.215550334497966,
+        0.9446891949412242
+      ],
+      "fm_center_world": [
+        0.1604720741905647,
+        -6.074997628937188,
+        1.035441990205738
+      ],
+      "lookat_target_world": [
+        0.3699915114192679,
+        -5.473384522829733,
+        0.9719150335205783
+      ]
+    },
+    {
+      "env_idx": 4,
+      "ndi_local_x": 1.4,
+      "ndi_world_pos": [
+        1.4,
+        -1.9981836889836426,
+        2.0277802554202555
+      ],
+      "ndi_quat_xyzw": [
+        0.41528074280192395,
+        0.28052395339972114,
+        0.0,
+        0.8653601656113328
+      ],
+      "robot_base_world": [
+        0.459785555945855,
+        -0.21555033449796493,
+        0.9446891949412242
+      ],
+      "fm_center_world": [
+        0.1604720741905647,
+        -1.0749976289371879,
+        1.035441990205738
+      ],
+      "lookat_target_world": [
+        0.3699915114192679,
+        -0.47338452282973187,
+        0.9719150335205783
+      ]
+    },
+    {
+      "env_idx": 5,
+      "ndi_local_x": 1.6,
+      "ndi_world_pos": [
+        1.6,
+        3.0018163110163574,
+        2.0277802554202555
+      ],
+      "ndi_quat_xyzw": [
+        0.39898720907505597,
+        0.32185068361187585,
+        0.0,
+        0.8586159470060324
+      ],
+      "robot_base_world": [
+        0.459785555945855,
+        4.784449665502034,
+        0.9446891949412242
+      ],
+      "fm_center_world": [
+        0.1604720741905647,
+        3.9250023710628117,
+        1.035441990205738
+      ],
+      "lookat_target_world": [
+        0.3699915114192679,
+        4.526615477170267,
+        0.9719150335205783
+      ]
+    },
+    {
+      "env_idx": 6,
+      "ndi_local_x": 1.8000000000000003,
+      "ndi_world_pos": [
+        -3.1999999999999997,
+        -6.998183688983643,
+        2.0277802554202555
+      ],
+      "ndi_quat_xyzw": [
+        0.38221436813539816,
+        0.35845362656498914,
+        0.0,
+        0.8517177786058394
+      ],
+      "robot_base_world": [
+        -4.540214444054145,
+        -5.215550334497966,
+        0.9446891949412242
+      ],
+      "fm_center_world": [
+        -4.839527925809436,
+        -6.074997628937188,
+        1.035441990205738
+      ],
+      "lookat_target_world": [
+        -4.630008488580732,
+        -5.473384522829733,
+        0.9719150335205783
+      ]
+    },
+    {
+      "env_idx": 7,
+      "ndi_local_x": 2.0,
+      "ndi_world_pos": [
+        -3.0,
+        -1.9981836889836426,
+        2.0277802554202555
+      ],
+      "ndi_quat_xyzw": [
+        0.36546070931817154,
+        0.3906770620382316,
+        0.0,
+        0.8448727141657698
+      ],
+      "robot_base_world": [
+        -4.540214444054145,
+        -0.21555033449796493,
+        0.9446891949412242
+      ],
+      "fm_center_world": [
+        -4.839527925809436,
+        -1.0749976289371879,
+        1.035441990205738
+      ],
+      "lookat_target_world": [
+        -4.630008488580732,
+        -0.47338452282973187,
+        0.9719150335205783
+      ]
+    },
+    {
+      "env_idx": 8,
+      "ndi_local_x": 2.2,
+      "ndi_world_pos": [
+        -2.8,
+        3.0018163110163574,
+        2.0277802554202555
+      ],
+      "ndi_quat_xyzw": [
+        0.3490808904703448,
+        0.418954185536045,
+        0.0,
+        0.8382242673236443
+      ],
+      "robot_base_world": [
+        -4.540214444054145,
+        4.784449665502034,
+        0.9446891949412242
+      ],
+      "fm_center_world": [
+        -4.839527925809436,
+        3.9250023710628117,
+        1.035441990205738
+      ],
+      "lookat_target_world": [
+        -4.630008488580732,
+        4.526615477170267,
+        0.9719150335205783
+      ]
+    }
+  ],
+  "results": [
+    {
+      "episode": 0,
+      "env_idx": 0,
+      "ndi_local_x": 0.6,
+      "ndi_world_pos": [
+        5.6,
+        -6.9982,
+        2.0278
+      ],
+      "ndi_quat_xyzw": [
+        0.6087,
+        0.2543,
+        -0.5284,
+        0.5344
+      ],
+      "robot_base_world": [
+        5.45959997177124,
+        -5.2153000831604,
+        0.9492999911308289
+      ],
+      "markers_in_frustum": 0,
+      "markers_total": 16,
+      "group_breakdown": {
+        "BM": {
+          "in": 0,
+          "total": 4
+        },
+        "EM": {
+          "in": 0,
+          "total": 4
+        },
+        "FM": {
+          "in": 0,
+          "total": 4
+        },
+        "UM": {
+          "in": 0,
+          "total": 4
+        }
+      },
+      "markers": [
+        {
+          "marker": "bm_a",
+          "group": "BM",
+          "in_frustum": false,
+          "depth": 1.0074,
+          "local_x": -0.1085,
+          "local_y": -0.5294,
+          "max_x": 0.2412,
+          "max_y": 0.2727,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            5.4773,
+            -5.8858,
+            1.7943
+          ]
+        },
+        {
+          "marker": "bm_b",
+          "group": "BM",
+          "in_frustum": false,
+          "depth": 0.9472,
+          "local_x": -0.111,
+          "local_y": -0.5537,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            5.4329,
+            -5.9333,
+            1.7951
+          ]
+        },
+        {
+          "marker": "bm_c",
+          "group": "BM",
+          "in_frustum": false,
+          "depth": 0.9802,
+          "local_x": -0.1329,
+          "local_y": -0.5927,
+          "max_x": 0.233,
+          "max_y": 0.2572,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            5.4043,
+            -5.8857,
+            1.796
+          ]
+        },
+        {
+          "marker": "bm_d",
+          "group": "BM",
+          "in_frustum": false,
+          "depth": 1.0281,
+          "local_x": -0.1338,
+          "local_y": -0.5798,
+          "max_x": 0.2473,
+          "max_y": 0.2845,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            5.4331,
+            -5.8453,
+            1.7955
+          ]
+        },
+        {
+          "marker": "em_a",
+          "group": "EM",
+          "in_frustum": false,
+          "depth": 1.0984,
+          "local_x": -0.1263,
+          "local_y": -0.5384,
+          "max_x": 0.2684,
+          "max_y": 0.3246,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            5.4978,
+            -5.795,
+            1.7954
+          ]
+        },
+        {
+          "marker": "em_b",
+          "group": "EM",
+          "in_frustum": false,
+          "depth": 1.1066,
+          "local_x": -0.1485,
+          "local_y": -0.5886,
+          "max_x": 0.2708,
+          "max_y": 0.3293,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            5.45,
+            -5.7667,
+            1.7955
+          ]
+        },
+        {
+          "marker": "em_c",
+          "group": "EM",
+          "in_frustum": false,
+          "depth": 1.0256,
+          "local_x": -0.1238,
+          "local_y": -0.5617,
+          "max_x": 0.2466,
+          "max_y": 0.2831,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            5.4511,
+            -5.8555,
+            1.7937
+          ]
+        },
+        {
+          "marker": "em_d",
+          "group": "EM",
+          "in_frustum": false,
+          "depth": 1.0608,
+          "local_x": -0.1493,
+          "local_y": -0.6087,
+          "max_x": 0.2571,
+          "max_y": 0.3032,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            5.4151,
+            -5.8025,
+            1.7945
+          ]
+        },
+        {
+          "marker": "fm_a",
+          "group": "FM",
+          "in_frustum": false,
+          "depth": 0.8274,
+          "local_x": 0.4955,
+          "local_y": -1.0168,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            5.1729,
+            -6.0595,
+            1.0788
+          ]
+        },
+        {
+          "marker": "fm_b",
+          "group": "FM",
+          "in_frustum": false,
+          "depth": 0.8318,
+          "local_x": 0.549,
+          "local_y": -0.9983,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            5.2074,
+            -6.0747,
+            1.0364
+          ]
+        },
+        {
+          "marker": "fm_c",
+          "group": "FM",
+          "in_frustum": false,
+          "depth": 0.7924,
+          "local_x": 0.5159,
+          "local_y": -1.091,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            5.1014,
+            -6.0747,
+            1.0364
+          ]
+        },
+        {
+          "marker": "fm_d",
+          "group": "FM",
+          "in_frustum": false,
+          "depth": 0.8051,
+          "local_x": 0.5808,
+          "local_y": -1.0522,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            5.1603,
+            -6.0912,
+            0.9902
+          ]
+        },
+        {
+          "marker": "um_a",
+          "group": "UM",
+          "in_frustum": false,
+          "depth": 1.5071,
+          "local_x": 0.5659,
+          "local_y": -1.0348,
+          "max_x": 0.3906,
+          "max_y": 0.5578,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            5.4315,
+            -5.4471,
+            0.9194
+          ]
+        },
+        {
+          "marker": "um_b",
+          "group": "UM",
+          "in_frustum": false,
+          "depth": 1.5284,
+          "local_x": 0.4906,
+          "local_y": -1.0557,
+          "max_x": 0.3969,
+          "max_y": 0.5699,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            5.3977,
+            -5.4021,
+            0.9776
+          ]
+        },
+        {
+          "marker": "um_c",
+          "group": "UM",
+          "in_frustum": false,
+          "depth": 1.6156,
+          "local_x": 0.4681,
+          "local_y": -0.9376,
+          "max_x": 0.4228,
+          "max_y": 0.5923,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            5.5263,
+            -5.3516,
+            1.032
+          ]
+        },
+        {
+          "marker": "um_d",
+          "group": "UM",
+          "in_frustum": false,
+          "depth": 1.5607,
+          "local_x": 0.559,
+          "local_y": -0.9573,
+          "max_x": 0.4065,
+          "max_y": 0.579,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            5.5171,
+            -5.4193,
+            0.9483
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 0,
+      "env_idx": 1,
+      "ndi_local_x": 0.8,
+      "ndi_world_pos": [
+        5.8,
+        -1.9982,
+        2.0278
+      ],
+      "ndi_quat_xyzw": [
+        0.6255,
+        0.3009,
+        -0.5093,
+        0.5087
+      ],
+      "robot_base_world": [
+        5.45959997177124,
+        -0.21529999375343323,
+        0.9492999911308289
+      ],
+      "markers_in_frustum": 0,
+      "markers_total": 16,
+      "group_breakdown": {
+        "BM": {
+          "in": 0,
+          "total": 4
+        },
+        "EM": {
+          "in": 0,
+          "total": 4
+        },
+        "FM": {
+          "in": 0,
+          "total": 4
+        },
+        "UM": {
+          "in": 0,
+          "total": 4
+        }
+      },
+      "markers": [
+        {
+          "marker": "bm_a",
+          "group": "BM",
+          "in_frustum": false,
+          "depth": 0.9506,
+          "local_x": -0.0342,
+          "local_y": -0.7009,
+          "max_x": 0.2242,
+          "max_y": 0.2403,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            5.4773,
+            -0.8858,
+            1.7943
+          ]
+        },
+        {
+          "marker": "bm_b",
+          "group": "BM",
+          "in_frustum": false,
+          "depth": 0.8911,
+          "local_x": -0.0416,
+          "local_y": -0.726,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            5.4329,
+            -0.9333,
+            1.7951
+          ]
+        },
+        {
+          "marker": "bm_c",
+          "group": "BM",
+          "in_frustum": false,
+          "depth": 0.9265,
+          "local_x": -0.0577,
+          "local_y": -0.7657,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            5.4043,
+            -0.8857,
+            1.796
+          ]
+        },
+        {
+          "marker": "bm_d",
+          "group": "BM",
+          "in_frustum": false,
+          "depth": 0.9741,
+          "local_x": -0.0544,
+          "local_y": -0.7523,
+          "max_x": 0.2312,
+          "max_y": 0.2538,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            5.4331,
+            -0.8453,
+            1.7955
+          ]
+        },
+        {
+          "marker": "em_a",
+          "group": "EM",
+          "in_frustum": false,
+          "depth": 1.0429,
+          "local_x": -0.0419,
+          "local_y": -0.7097,
+          "max_x": 0.2518,
+          "max_y": 0.293,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            5.4978,
+            -0.795,
+            1.7954
+          ]
+        },
+        {
+          "marker": "em_b",
+          "group": "EM",
+          "in_frustum": false,
+          "depth": 1.0538,
+          "local_x": -0.0604,
+          "local_y": -0.7609,
+          "max_x": 0.255,
+          "max_y": 0.2992,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            5.45,
+            -0.7667,
+            1.7955
+          ]
+        },
+        {
+          "marker": "em_c",
+          "group": "EM",
+          "in_frustum": false,
+          "depth": 0.9705,
+          "local_x": -0.0457,
+          "local_y": -0.7337,
+          "max_x": 0.2301,
+          "max_y": 0.2517,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            5.4511,
+            -0.8555,
+            1.7937
+          ]
+        },
+        {
+          "marker": "em_d",
+          "group": "EM",
+          "in_frustum": false,
+          "depth": 1.0085,
+          "local_x": -0.0648,
+          "local_y": -0.7816,
+          "max_x": 0.2415,
+          "max_y": 0.2734,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            5.4151,
+            -0.8025,
+            1.7945
+          ]
+        },
+        {
+          "marker": "fm_a",
+          "group": "FM",
+          "in_frustum": false,
+          "depth": 0.712,
+          "local_x": 0.574,
+          "local_y": -1.1569,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            5.1729,
+            -1.0595,
+            1.0788
+          ]
+        },
+        {
+          "marker": "fm_b",
+          "group": "FM",
+          "in_frustum": false,
+          "depth": 0.7107,
+          "local_x": 0.6266,
+          "local_y": -1.1355,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            5.2074,
+            -1.0747,
+            1.0364
+          ]
+        },
+        {
+          "marker": "fm_c",
+          "group": "FM",
+          "in_frustum": false,
+          "depth": 0.6756,
+          "local_x": 0.5948,
+          "local_y": -1.2303,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            5.1014,
+            -1.0747,
+            1.0364
+          ]
+        },
+        {
+          "marker": "fm_d",
+          "group": "FM",
+          "in_frustum": false,
+          "depth": 0.6812,
+          "local_x": 0.6584,
+          "local_y": -1.1879,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            5.1603,
+            -1.0912,
+            0.9902
+          ]
+        },
+        {
+          "marker": "um_a",
+          "group": "UM",
+          "in_frustum": false,
+          "depth": 1.3808,
+          "local_x": 0.7153,
+          "local_y": -1.1626,
+          "max_x": 0.3528,
+          "max_y": 0.4858,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            5.4315,
+            -0.4471,
+            0.9194
+          ]
+        },
+        {
+          "marker": "um_b",
+          "group": "UM",
+          "in_frustum": false,
+          "depth": 1.4099,
+          "local_x": 0.6438,
+          "local_y": -1.1873,
+          "max_x": 0.3615,
+          "max_y": 0.5024,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            5.3977,
+            -0.4021,
+            0.9776
+          ]
+        },
+        {
+          "marker": "um_c",
+          "group": "UM",
+          "in_frustum": false,
+          "depth": 1.4982,
+          "local_x": 0.624,
+          "local_y": -1.0695,
+          "max_x": 0.3879,
+          "max_y": 0.5527,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            5.5263,
+            -0.3516,
+            1.032
+          ]
+        },
+        {
+          "marker": "um_d",
+          "group": "UM",
+          "in_frustum": false,
+          "depth": 1.4343,
+          "local_x": 0.7097,
+          "local_y": -1.085,
+          "max_x": 0.3688,
+          "max_y": 0.5163,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            5.5171,
+            -0.4193,
+            0.9483
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 0,
+      "env_idx": 2,
+      "ndi_local_x": 1.0,
+      "ndi_world_pos": [
+        6.0,
+        3.0018,
+        2.0278
+      ],
+      "ndi_quat_xyzw": [
+        0.638,
+        0.3458,
+        -0.489,
+        0.4841
+      ],
+      "robot_base_world": [
+        5.45959997177124,
+        4.7846999168396,
+        0.9492999911308289
+      ],
+      "markers_in_frustum": 0,
+      "markers_total": 16,
+      "group_breakdown": {
+        "BM": {
+          "in": 0,
+          "total": 4
+        },
+        "EM": {
+          "in": 0,
+          "total": 4
+        },
+        "FM": {
+          "in": 0,
+          "total": 4
+        },
+        "UM": {
+          "in": 0,
+          "total": 4
+        }
+      },
+      "markers": [
+        {
+          "marker": "bm_a",
+          "group": "BM",
+          "in_frustum": false,
+          "depth": 0.8997,
+          "local_x": 0.0401,
+          "local_y": -0.8683,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            5.4773,
+            4.1142,
+            1.7943
+          ]
+        },
+        {
+          "marker": "bm_b",
+          "group": "BM",
+          "in_frustum": false,
+          "depth": 0.8416,
+          "local_x": 0.0283,
+          "local_y": -0.8948,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            5.4329,
+            4.0667,
+            1.7951
+          ]
+        },
+        {
+          "marker": "bm_c",
+          "group": "BM",
+          "in_frustum": false,
+          "depth": 0.8788,
+          "local_x": 0.0179,
+          "local_y": -0.9346,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            5.4043,
+            4.1143,
+            1.796
+          ]
+        },
+        {
+          "marker": "bm_d",
+          "group": "BM",
+          "in_frustum": false,
+          "depth": 0.9258,
+          "local_x": 0.0251,
+          "local_y": -0.9203,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            5.4331,
+            4.1547,
+            1.7955
+          ]
+        },
+        {
+          "marker": "em_a",
+          "group": "EM",
+          "in_frustum": false,
+          "depth": 0.9925,
+          "local_x": 0.042,
+          "local_y": -0.8759,
+          "max_x": 0.2367,
+          "max_y": 0.2643,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            5.4978,
+            4.205,
+            1.7954
+          ]
+        },
+        {
+          "marker": "em_b",
+          "group": "EM",
+          "in_frustum": false,
+          "depth": 1.0057,
+          "local_x": 0.0274,
+          "local_y": -0.9278,
+          "max_x": 0.2407,
+          "max_y": 0.2718,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            5.45,
+            4.2333,
+            1.7955
+          ]
+        },
+        {
+          "marker": "em_c",
+          "group": "EM",
+          "in_frustum": false,
+          "depth": 0.9211,
+          "local_x": 0.0323,
+          "local_y": -0.9013,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            5.4511,
+            4.1445,
+            1.7937
+          ]
+        },
+        {
+          "marker": "em_d",
+          "group": "EM",
+          "in_frustum": false,
+          "depth": 0.9613,
+          "local_x": 0.0197,
+          "local_y": -0.9495,
+          "max_x": 0.2274,
+          "max_y": 0.2465,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            5.4151,
+            4.1975,
+            1.7945
+          ]
+        },
+        {
+          "marker": "fm_a",
+          "group": "FM",
+          "in_frustum": false,
+          "depth": 0.6077,
+          "local_x": 0.6456,
+          "local_y": -1.296,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            5.1729,
+            3.9405,
+            1.0788
+          ]
+        },
+        {
+          "marker": "fm_b",
+          "group": "FM",
+          "in_frustum": false,
+          "depth": 0.6009,
+          "local_x": 0.6965,
+          "local_y": -1.2719,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            5.2074,
+            3.9253,
+            1.0364
+          ]
+        },
+        {
+          "marker": "fm_c",
+          "group": "FM",
+          "in_frustum": false,
+          "depth": 0.5703,
+          "local_x": 0.6665,
+          "local_y": -1.3689,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            5.1014,
+            3.9253,
+            1.0364
+          ]
+        },
+        {
+          "marker": "fm_d",
+          "group": "FM",
+          "in_frustum": false,
+          "depth": 0.5691,
+          "local_x": 0.728,
+          "local_y": -1.3231,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            5.1603,
+            3.9088,
+            0.9902
+          ]
+        },
+        {
+          "marker": "um_a",
+          "group": "UM",
+          "in_frustum": false,
+          "depth": 1.2593,
+          "local_x": 0.8518,
+          "local_y": -1.283,
+          "max_x": 0.3165,
+          "max_y": 0.4165,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            5.4315,
+            4.5529,
+            0.9194
+          ]
+        },
+        {
+          "marker": "um_b",
+          "group": "UM",
+          "in_frustum": false,
+          "depth": 1.2957,
+          "local_x": 0.7849,
+          "local_y": -1.3108,
+          "max_x": 0.3273,
+          "max_y": 0.4372,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            5.3977,
+            4.5979,
+            0.9776
+          ]
+        },
+        {
+          "marker": "um_c",
+          "group": "UM",
+          "in_frustum": false,
+          "depth": 1.384,
+          "local_x": 0.7676,
+          "local_y": -1.1927,
+          "max_x": 0.3538,
+          "max_y": 0.4876,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            5.5263,
+            4.6484,
+            1.032
+          ]
+        },
+        {
+          "marker": "um_d",
+          "group": "UM",
+          "in_frustum": false,
+          "depth": 1.3122,
+          "local_x": 0.8473,
+          "local_y": -1.2048,
+          "max_x": 0.3323,
+          "max_y": 0.4466,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            5.5171,
+            4.5807,
+            0.9483
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 0,
+      "env_idx": 3,
+      "ndi_local_x": 1.2000000000000002,
+      "ndi_world_pos": [
+        1.2,
+        -6.9982,
+        2.0278
+      ],
+      "ndi_quat_xyzw": [
+        0.6463,
+        0.3879,
+        -0.4681,
+        0.4612
+      ],
+      "robot_base_world": [
+        0.4596000015735626,
+        -5.2153000831604,
+        0.9492999911308289
+      ],
+      "markers_in_frustum": 0,
+      "markers_total": 16,
+      "group_breakdown": {
+        "BM": {
+          "in": 0,
+          "total": 4
+        },
+        "EM": {
+          "in": 0,
+          "total": 4
+        },
+        "FM": {
+          "in": 0,
+          "total": 4
+        },
+        "UM": {
+          "in": 0,
+          "total": 4
+        }
+      },
+      "markers": [
+        {
+          "marker": "bm_a",
+          "group": "BM",
+          "in_frustum": false,
+          "depth": 0.8566,
+          "local_x": 0.1136,
+          "local_y": -1.0332,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            0.4773,
+            -5.8858,
+            1.7943
+          ]
+        },
+        {
+          "marker": "bm_b",
+          "group": "BM",
+          "in_frustum": false,
+          "depth": 0.8002,
+          "local_x": 0.098,
+          "local_y": -1.0614,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            0.4329,
+            -5.9333,
+            1.7951
+          ]
+        },
+        {
+          "marker": "bm_c",
+          "group": "BM",
+          "in_frustum": false,
+          "depth": 0.8389,
+          "local_x": 0.093,
+          "local_y": -1.1009,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            0.4043,
+            -5.8857,
+            1.796
+          ]
+        },
+        {
+          "marker": "bm_d",
+          "group": "BM",
+          "in_frustum": false,
+          "depth": 0.8847,
+          "local_x": 0.1038,
+          "local_y": -1.0853,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            0.4331,
+            -5.8453,
+            1.7955
+          ]
+        },
+        {
+          "marker": "em_a",
+          "group": "EM",
+          "in_frustum": false,
+          "depth": 0.9489,
+          "local_x": 0.1243,
+          "local_y": -1.0387,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            0.4978,
+            -5.795,
+            1.7954
+          ]
+        },
+        {
+          "marker": "em_b",
+          "group": "EM",
+          "in_frustum": false,
+          "depth": 0.9642,
+          "local_x": 0.1137,
+          "local_y": -1.091,
+          "max_x": 0.2283,
+          "max_y": 0.2481,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            0.45,
+            -5.7667,
+            1.7955
+          ]
+        },
+        {
+          "marker": "em_c",
+          "group": "EM",
+          "in_frustum": false,
+          "depth": 0.8791,
+          "local_x": 0.1096,
+          "local_y": -1.0661,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            0.4511,
+            -5.8555,
+            1.7937
+          ]
+        },
+        {
+          "marker": "em_d",
+          "group": "EM",
+          "in_frustum": false,
+          "depth": 0.9211,
+          "local_x": 0.1031,
+          "local_y": -1.114,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            0.4151,
+            -5.8025,
+            1.7945
+          ]
+        },
+        {
+          "marker": "fm_a",
+          "group": "FM",
+          "in_frustum": false,
+          "depth": 0.5171,
+          "local_x": 0.711,
+          "local_y": -1.4365,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            0.1729,
+            -6.0595,
+            1.0788
+          ]
+        },
+        {
+          "marker": "fm_b",
+          "group": "FM",
+          "in_frustum": false,
+          "depth": 0.5053,
+          "local_x": 0.7598,
+          "local_y": -1.4101,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            0.2074,
+            -6.0747,
+            1.0364
+          ]
+        },
+        {
+          "marker": "fm_c",
+          "group": "FM",
+          "in_frustum": false,
+          "depth": 0.4791,
+          "local_x": 0.7322,
+          "local_y": -1.509,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            0.1014,
+            -6.0747,
+            1.0364
+          ]
+        },
+        {
+          "marker": "fm_d",
+          "group": "FM",
+          "in_frustum": false,
+          "depth": 0.4715,
+          "local_x": 0.7909,
+          "local_y": -1.4603,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            0.1603,
+            -6.0912,
+            0.9902
+          ]
+        },
+        {
+          "marker": "um_a",
+          "group": "UM",
+          "in_frustum": false,
+          "depth": 1.1467,
+          "local_x": 0.9747,
+          "local_y": -1.3999,
+          "max_x": 0.2828,
+          "max_y": 0.3522,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            0.4315,
+            -5.4471,
+            0.9194
+          ]
+        },
+        {
+          "marker": "um_b",
+          "group": "UM",
+          "in_frustum": false,
+          "depth": 1.1895,
+          "local_x": 0.9129,
+          "local_y": -1.4303,
+          "max_x": 0.2956,
+          "max_y": 0.3766,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            0.3977,
+            -5.4021,
+            0.9776
+          ]
+        },
+        {
+          "marker": "um_c",
+          "group": "UM",
+          "in_frustum": false,
+          "depth": 1.2772,
+          "local_x": 0.8977,
+          "local_y": -1.3114,
+          "max_x": 0.3218,
+          "max_y": 0.4266,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            0.5263,
+            -5.3516,
+            1.032
+          ]
+        },
+        {
+          "marker": "um_d",
+          "group": "UM",
+          "in_frustum": false,
+          "depth": 1.1985,
+          "local_x": 0.9711,
+          "local_y": -1.321,
+          "max_x": 0.2983,
+          "max_y": 0.3818,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            0.5171,
+            -5.4193,
+            0.9483
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 0,
+      "env_idx": 4,
+      "ndi_local_x": 1.4,
+      "ndi_world_pos": [
+        1.4,
+        -1.9982,
+        2.0278
+      ],
+      "ndi_quat_xyzw": [
+        0.6512,
+        0.4267,
+        -0.4472,
+        0.4403
+      ],
+      "robot_base_world": [
+        0.4596000015735626,
+        -0.21529999375343323,
+        0.9492999911308289
+      ],
+      "markers_in_frustum": 0,
+      "markers_total": 16,
+      "group_breakdown": {
+        "BM": {
+          "in": 0,
+          "total": 4
+        },
+        "EM": {
+          "in": 0,
+          "total": 4
+        },
+        "FM": {
+          "in": 0,
+          "total": 4
+        },
+        "UM": {
+          "in": 0,
+          "total": 4
+        }
+      },
+      "markers": [
+        {
+          "marker": "bm_a",
+          "group": "BM",
+          "in_frustum": false,
+          "depth": 0.8222,
+          "local_x": 0.1863,
+          "local_y": -1.1969,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            0.4773,
+            -0.8858,
+            1.7943
+          ]
+        },
+        {
+          "marker": "bm_b",
+          "group": "BM",
+          "in_frustum": false,
+          "depth": 0.7679,
+          "local_x": 0.1674,
+          "local_y": -1.2271,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            0.4329,
+            -0.9333,
+            1.7951
+          ]
+        },
+        {
+          "marker": "bm_c",
+          "group": "BM",
+          "in_frustum": false,
+          "depth": 0.8076,
+          "local_x": 0.1675,
+          "local_y": -1.2659,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            0.4043,
+            -0.8857,
+            1.796
+          ]
+        },
+        {
+          "marker": "bm_d",
+          "group": "BM",
+          "in_frustum": false,
+          "depth": 0.852,
+          "local_x": 0.1813,
+          "local_y": -1.2487,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            0.4331,
+            -0.8453,
+            1.7955
+          ]
+        },
+        {
+          "marker": "em_a",
+          "group": "EM",
+          "in_frustum": false,
+          "depth": 0.9134,
+          "local_x": 0.2049,
+          "local_y": -1.1998,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            0.4978,
+            -0.795,
+            1.7954
+          ]
+        },
+        {
+          "marker": "em_b",
+          "group": "EM",
+          "in_frustum": false,
+          "depth": 0.9305,
+          "local_x": 0.198,
+          "local_y": -1.2522,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            0.45,
+            -0.7667,
+            1.7955
+          ]
+        },
+        {
+          "marker": "em_c",
+          "group": "EM",
+          "in_frustum": false,
+          "depth": 0.8456,
+          "local_x": 0.1857,
+          "local_y": -1.2294,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            0.4511,
+            -0.8555,
+            1.7937
+          ]
+        },
+        {
+          "marker": "em_d",
+          "group": "EM",
+          "in_frustum": false,
+          "depth": 0.8889,
+          "local_x": 0.185,
+          "local_y": -1.2766,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            0.4151,
+            -0.8025,
+            1.7945
+          ]
+        },
+        {
+          "marker": "fm_a",
+          "group": "FM",
+          "in_frustum": false,
+          "depth": 0.4415,
+          "local_x": 0.7721,
+          "local_y": -1.58,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            0.1729,
+            -1.0595,
+            1.0788
+          ]
+        },
+        {
+          "marker": "fm_b",
+          "group": "FM",
+          "in_frustum": false,
+          "depth": 0.4251,
+          "local_x": 0.8184,
+          "local_y": -1.5517,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            0.2074,
+            -1.0747,
+            1.0364
+          ]
+        },
+        {
+          "marker": "fm_c",
+          "group": "FM",
+          "in_frustum": false,
+          "depth": 0.4032,
+          "local_x": 0.7934,
+          "local_y": -1.6523,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            0.1014,
+            -1.0747,
+            1.0364
+          ]
+        },
+        {
+          "marker": "fm_d",
+          "group": "FM",
+          "in_frustum": false,
+          "depth": 0.3898,
+          "local_x": 0.8489,
+          "local_y": -1.6011,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            0.1603,
+            -1.0912,
+            0.9902
+          ]
+        },
+        {
+          "marker": "um_a",
+          "group": "UM",
+          "in_frustum": false,
+          "depth": 1.046,
+          "local_x": 1.085,
+          "local_y": -1.5169,
+          "max_x": 0.2527,
+          "max_y": 0.2947,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            0.4315,
+            -0.4471,
+            0.9194
+          ]
+        },
+        {
+          "marker": "um_b",
+          "group": "UM",
+          "in_frustum": false,
+          "depth": 1.0943,
+          "local_x": 1.0285,
+          "local_y": -1.549,
+          "max_x": 0.2671,
+          "max_y": 0.3223,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            0.3977,
+            -0.4021,
+            0.9776
+          ]
+        },
+        {
+          "marker": "um_c",
+          "group": "UM",
+          "in_frustum": false,
+          "depth": 1.1807,
+          "local_x": 1.0149,
+          "local_y": -1.429,
+          "max_x": 0.293,
+          "max_y": 0.3716,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            0.5263,
+            -0.3516,
+            1.032
+          ]
+        },
+        {
+          "marker": "um_d",
+          "group": "UM",
+          "in_frustum": false,
+          "depth": 1.0964,
+          "local_x": 1.0819,
+          "local_y": -1.437,
+          "max_x": 0.2678,
+          "max_y": 0.3235,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            0.5171,
+            -0.4193,
+            0.9483
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 0,
+      "env_idx": 5,
+      "ndi_local_x": 1.6,
+      "ndi_world_pos": [
+        1.6,
+        3.0018,
+        2.0278
+      ],
+      "ndi_quat_xyzw": [
+        0.6531,
+        0.4621,
+        -0.427,
+        0.4214
+      ],
+      "robot_base_world": [
+        0.4596000015735626,
+        4.7846999168396,
+        0.9492999911308289
+      ],
+      "markers_in_frustum": 0,
+      "markers_total": 16,
+      "group_breakdown": {
+        "BM": {
+          "in": 0,
+          "total": 4
+        },
+        "EM": {
+          "in": 0,
+          "total": 4
+        },
+        "FM": {
+          "in": 0,
+          "total": 4
+        },
+        "UM": {
+          "in": 0,
+          "total": 4
+        }
+      },
+      "markers": [
+        {
+          "marker": "bm_a",
+          "group": "BM",
+          "in_frustum": false,
+          "depth": 0.7969,
+          "local_x": 0.2584,
+          "local_y": -1.3603,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            0.4773,
+            4.1142,
+            1.7943
+          ]
+        },
+        {
+          "marker": "bm_b",
+          "group": "BM",
+          "in_frustum": false,
+          "depth": 0.7448,
+          "local_x": 0.2368,
+          "local_y": -1.3926,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            0.4329,
+            4.0667,
+            1.7951
+          ]
+        },
+        {
+          "marker": "bm_c",
+          "group": "BM",
+          "in_frustum": false,
+          "depth": 0.7852,
+          "local_x": 0.2417,
+          "local_y": -1.4304,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            0.4043,
+            4.1143,
+            1.796
+          ]
+        },
+        {
+          "marker": "bm_d",
+          "group": "BM",
+          "in_frustum": false,
+          "depth": 0.8281,
+          "local_x": 0.2579,
+          "local_y": -1.4116,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            0.4331,
+            4.1547,
+            1.7955
+          ]
+        },
+        {
+          "marker": "em_a",
+          "group": "EM",
+          "in_frustum": false,
+          "depth": 0.8865,
+          "local_x": 0.2838,
+          "local_y": -1.3602,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            0.4978,
+            4.205,
+            1.7954
+          ]
+        },
+        {
+          "marker": "em_b",
+          "group": "EM",
+          "in_frustum": false,
+          "depth": 0.9052,
+          "local_x": 0.2806,
+          "local_y": -1.4124,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            0.45,
+            4.2333,
+            1.7955
+          ]
+        },
+        {
+          "marker": "em_c",
+          "group": "EM",
+          "in_frustum": false,
+          "depth": 0.821,
+          "local_x": 0.261,
+          "local_y": -1.3923,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            0.4511,
+            4.1445,
+            1.7937
+          ]
+        },
+        {
+          "marker": "em_d",
+          "group": "EM",
+          "in_frustum": false,
+          "depth": 0.8652,
+          "local_x": 0.2656,
+          "local_y": -1.4384,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            0.4151,
+            4.1975,
+            1.7945
+          ]
+        },
+        {
+          "marker": "fm_a",
+          "group": "FM",
+          "in_frustum": false,
+          "depth": 0.3811,
+          "local_x": 0.8304,
+          "local_y": -1.7273,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            0.1729,
+            3.9405,
+            1.0788
+          ]
+        },
+        {
+          "marker": "fm_b",
+          "group": "FM",
+          "in_frustum": false,
+          "depth": 0.3607,
+          "local_x": 0.8741,
+          "local_y": -1.6974,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            0.2074,
+            3.9253,
+            1.0364
+          ]
+        },
+        {
+          "marker": "fm_c",
+          "group": "FM",
+          "in_frustum": false,
+          "depth": 0.3428,
+          "local_x": 0.8521,
+          "local_y": -1.7995,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            0.1014,
+            3.9253,
+            1.0364
+          ]
+        },
+        {
+          "marker": "fm_d",
+          "group": "FM",
+          "in_frustum": false,
+          "depth": 0.3242,
+          "local_x": 0.9041,
+          "local_y": -1.7463,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            0.1603,
+            3.9088,
+            0.9902
+          ]
+        },
+        {
+          "marker": "um_a",
+          "group": "UM",
+          "in_frustum": false,
+          "depth": 0.9587,
+          "local_x": 1.1846,
+          "local_y": -1.6363,
+          "max_x": 0.2266,
+          "max_y": 0.2449,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            0.4315,
+            4.5529,
+            0.9194
+          ]
+        },
+        {
+          "marker": "um_b",
+          "group": "UM",
+          "in_frustum": false,
+          "depth": 1.0118,
+          "local_x": 1.1333,
+          "local_y": -1.6696,
+          "max_x": 0.2425,
+          "max_y": 0.2753,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            0.3977,
+            4.5979,
+            0.9776
+          ]
+        },
+        {
+          "marker": "um_c",
+          "group": "UM",
+          "in_frustum": false,
+          "depth": 1.0965,
+          "local_x": 1.1209,
+          "local_y": -1.5482,
+          "max_x": 0.2678,
+          "max_y": 0.3236,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            0.5263,
+            4.6484,
+            1.032
+          ]
+        },
+        {
+          "marker": "um_d",
+          "group": "UM",
+          "in_frustum": false,
+          "depth": 1.0075,
+          "local_x": 1.1817,
+          "local_y": -1.5554,
+          "max_x": 0.2412,
+          "max_y": 0.2728,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            0.5171,
+            4.5807,
+            0.9483
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 0,
+      "env_idx": 6,
+      "ndi_local_x": 1.8000000000000003,
+      "ndi_world_pos": [
+        -3.2,
+        -6.9982,
+        2.0278
+      ],
+      "ndi_quat_xyzw": [
+        0.6528,
+        0.4939,
+        -0.4077,
+        0.4046
+      ],
+      "robot_base_world": [
+        -4.54040002822876,
+        -5.2153000831604,
+        0.9492999911308289
+      ],
+      "markers_in_frustum": 0,
+      "markers_total": 16,
+      "group_breakdown": {
+        "BM": {
+          "in": 0,
+          "total": 4
+        },
+        "EM": {
+          "in": 0,
+          "total": 4
+        },
+        "FM": {
+          "in": 0,
+          "total": 4
+        },
+        "UM": {
+          "in": 0,
+          "total": 4
+        }
+      },
+      "markers": [
+        {
+          "marker": "bm_a",
+          "group": "BM",
+          "in_frustum": false,
+          "depth": 0.7807,
+          "local_x": 0.3303,
+          "local_y": -1.524,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.5227,
+            -5.8858,
+            1.7943
+          ]
+        },
+        {
+          "marker": "bm_b",
+          "group": "BM",
+          "in_frustum": false,
+          "depth": 0.7309,
+          "local_x": 0.3067,
+          "local_y": -1.5584,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.5671,
+            -5.9333,
+            1.7951
+          ]
+        },
+        {
+          "marker": "bm_c",
+          "group": "BM",
+          "in_frustum": false,
+          "depth": 0.7717,
+          "local_x": 0.3157,
+          "local_y": -1.595,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.5957,
+            -5.8857,
+            1.796
+          ]
+        },
+        {
+          "marker": "bm_d",
+          "group": "BM",
+          "in_frustum": false,
+          "depth": 0.813,
+          "local_x": 0.3341,
+          "local_y": -1.5745,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.5669,
+            -5.8453,
+            1.7955
+          ]
+        },
+        {
+          "marker": "em_a",
+          "group": "EM",
+          "in_frustum": false,
+          "depth": 0.8683,
+          "local_x": 0.3617,
+          "local_y": -1.5208,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.5022,
+            -5.795,
+            1.7954
+          ]
+        },
+        {
+          "marker": "em_b",
+          "group": "EM",
+          "in_frustum": false,
+          "depth": 0.8884,
+          "local_x": 0.3618,
+          "local_y": -1.5726,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.55,
+            -5.7667,
+            1.7955
+          ]
+        },
+        {
+          "marker": "em_c",
+          "group": "EM",
+          "in_frustum": false,
+          "depth": 0.8052,
+          "local_x": 0.3358,
+          "local_y": -1.5553,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.5489,
+            -5.8555,
+            1.7937
+          ]
+        },
+        {
+          "marker": "em_d",
+          "group": "EM",
+          "in_frustum": false,
+          "depth": 0.85,
+          "local_x": 0.3453,
+          "local_y": -1.6001,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.5849,
+            -5.8025,
+            1.7945
+          ]
+        },
+        {
+          "marker": "fm_a",
+          "group": "FM",
+          "in_frustum": false,
+          "depth": 0.3353,
+          "local_x": 0.8878,
+          "local_y": -1.8784,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.8271,
+            -6.0595,
+            1.0788
+          ]
+        },
+        {
+          "marker": "fm_b",
+          "group": "FM",
+          "in_frustum": false,
+          "depth": 0.3113,
+          "local_x": 0.9288,
+          "local_y": -1.8474,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.7926,
+            -6.0747,
+            1.0364
+          ]
+        },
+        {
+          "marker": "fm_c",
+          "group": "FM",
+          "in_frustum": false,
+          "depth": 0.2972,
+          "local_x": 0.9098,
+          "local_y": -1.9507,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.8986,
+            -6.0747,
+            1.0364
+          ]
+        },
+        {
+          "marker": "fm_d",
+          "group": "FM",
+          "in_frustum": false,
+          "depth": 0.2739,
+          "local_x": 0.9582,
+          "local_y": -1.896,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.8397,
+            -6.0912,
+            0.9902
+          ]
+        },
+        {
+          "marker": "um_a",
+          "group": "UM",
+          "in_frustum": false,
+          "depth": 0.8854,
+          "local_x": 1.2757,
+          "local_y": -1.7594,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.5685,
+            -5.4471,
+            0.9194
+          ]
+        },
+        {
+          "marker": "um_b",
+          "group": "UM",
+          "in_frustum": false,
+          "depth": 0.9426,
+          "local_x": 1.2295,
+          "local_y": -1.7934,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.6023,
+            -5.4021,
+            0.9776
+          ]
+        },
+        {
+          "marker": "um_c",
+          "group": "UM",
+          "in_frustum": false,
+          "depth": 1.0252,
+          "local_x": 1.2179,
+          "local_y": -1.6706,
+          "max_x": 0.2465,
+          "max_y": 0.2829,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            -4.4737,
+            -5.3516,
+            1.032
+          ]
+        },
+        {
+          "marker": "um_d",
+          "group": "UM",
+          "in_frustum": false,
+          "depth": 0.9325,
+          "local_x": 1.2728,
+          "local_y": -1.6776,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.4829,
+            -5.4193,
+            0.9483
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 0,
+      "env_idx": 7,
+      "ndi_local_x": 2.0,
+      "ndi_world_pos": [
+        -3.0,
+        -1.9982,
+        2.0278
+      ],
+      "ndi_quat_xyzw": [
+        0.6508,
+        0.5224,
+        -0.3896,
+        0.3897
+      ],
+      "robot_base_world": [
+        -4.54040002822876,
+        -0.21529999375343323,
+        0.9492999911308289
+      ],
+      "markers_in_frustum": 0,
+      "markers_total": 16,
+      "group_breakdown": {
+        "BM": {
+          "in": 0,
+          "total": 4
+        },
+        "EM": {
+          "in": 0,
+          "total": 4
+        },
+        "FM": {
+          "in": 0,
+          "total": 4
+        },
+        "UM": {
+          "in": 0,
+          "total": 4
+        }
+      },
+      "markers": [
+        {
+          "marker": "bm_a",
+          "group": "BM",
+          "in_frustum": false,
+          "depth": 0.7731,
+          "local_x": 0.4026,
+          "local_y": -1.6884,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.5227,
+            -0.8858,
+            1.7943
+          ]
+        },
+        {
+          "marker": "bm_b",
+          "group": "BM",
+          "in_frustum": false,
+          "depth": 0.7256,
+          "local_x": 0.3773,
+          "local_y": -1.7248,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.5671,
+            -0.9333,
+            1.7951
+          ]
+        },
+        {
+          "marker": "bm_c",
+          "group": "BM",
+          "in_frustum": false,
+          "depth": 0.7665,
+          "local_x": 0.3901,
+          "local_y": -1.76,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.5957,
+            -0.8857,
+            1.796
+          ]
+        },
+        {
+          "marker": "bm_d",
+          "group": "BM",
+          "in_frustum": false,
+          "depth": 0.8062,
+          "local_x": 0.4101,
+          "local_y": -1.7379,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.5669,
+            -0.8453,
+            1.7955
+          ]
+        },
+        {
+          "marker": "em_a",
+          "group": "EM",
+          "in_frustum": false,
+          "depth": 0.8585,
+          "local_x": 0.4389,
+          "local_y": -1.6819,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.5022,
+            -0.795,
+            1.7954
+          ]
+        },
+        {
+          "marker": "em_b",
+          "group": "EM",
+          "in_frustum": false,
+          "depth": 0.8797,
+          "local_x": 0.4422,
+          "local_y": -1.7331,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.55,
+            -0.7667,
+            1.7955
+          ]
+        },
+        {
+          "marker": "em_c",
+          "group": "EM",
+          "in_frustum": false,
+          "depth": 0.7979,
+          "local_x": 0.4107,
+          "local_y": -1.7188,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.5489,
+            -0.8555,
+            1.7937
+          ]
+        },
+        {
+          "marker": "em_d",
+          "group": "EM",
+          "in_frustum": false,
+          "depth": 0.843,
+          "local_x": 0.4245,
+          "local_y": -1.7621,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.5849,
+            -0.8025,
+            1.7945
+          ]
+        },
+        {
+          "marker": "fm_a",
+          "group": "FM",
+          "in_frustum": false,
+          "depth": 0.3028,
+          "local_x": 0.9455,
+          "local_y": -2.0333,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.8271,
+            -1.0595,
+            1.0788
+          ]
+        },
+        {
+          "marker": "fm_b",
+          "group": "FM",
+          "in_frustum": false,
+          "depth": 0.2757,
+          "local_x": 0.9838,
+          "local_y": -2.0014,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.7926,
+            -1.0747,
+            1.0364
+          ]
+        },
+        {
+          "marker": "fm_c",
+          "group": "FM",
+          "in_frustum": false,
+          "depth": 0.2651,
+          "local_x": 0.9678,
+          "local_y": -2.1056,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.8986,
+            -1.0747,
+            1.0364
+          ]
+        },
+        {
+          "marker": "fm_d",
+          "group": "FM",
+          "in_frustum": false,
+          "depth": 0.2378,
+          "local_x": 1.0127,
+          "local_y": -2.0498,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.8397,
+            -1.0912,
+            0.9902
+          ]
+        },
+        {
+          "marker": "um_a",
+          "group": "UM",
+          "in_frustum": false,
+          "depth": 0.8259,
+          "local_x": 1.3606,
+          "local_y": -1.8871,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.5685,
+            -0.4471,
+            0.9194
+          ]
+        },
+        {
+          "marker": "um_b",
+          "group": "UM",
+          "in_frustum": false,
+          "depth": 0.8865,
+          "local_x": 1.3192,
+          "local_y": -1.9213,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.6023,
+            -0.4021,
+            0.9776
+          ]
+        },
+        {
+          "marker": "um_c",
+          "group": "UM",
+          "in_frustum": false,
+          "depth": 0.9669,
+          "local_x": 1.3079,
+          "local_y": -1.7969,
+          "max_x": 0.2291,
+          "max_y": 0.2496,
+          "reason": "FAILED_SIDE",
+          "marker_world": [
+            -4.4737,
+            -0.3516,
+            1.032
+          ]
+        },
+        {
+          "marker": "um_d",
+          "group": "UM",
+          "in_frustum": false,
+          "depth": 0.8712,
+          "local_x": 1.3575,
+          "local_y": -1.8042,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.4829,
+            -0.4193,
+            0.9483
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 0,
+      "env_idx": 8,
+      "ndi_local_x": 2.2,
+      "ndi_world_pos": [
+        -2.8,
+        3.0018,
+        2.0278
+      ],
+      "ndi_quat_xyzw": [
+        0.6475,
+        0.5478,
+        -0.3727,
+        0.3765
+      ],
+      "robot_base_world": [
+        -4.54040002822876,
+        4.7846999168396,
+        0.9492999911308289
+      ],
+      "markers_in_frustum": 0,
+      "markers_total": 16,
+      "group_breakdown": {
+        "BM": {
+          "in": 0,
+          "total": 4
+        },
+        "EM": {
+          "in": 0,
+          "total": 4
+        },
+        "FM": {
+          "in": 0,
+          "total": 4
+        },
+        "UM": {
+          "in": 0,
+          "total": 4
+        }
+      },
+      "markers": [
+        {
+          "marker": "bm_a",
+          "group": "BM",
+          "in_frustum": false,
+          "depth": 0.7733,
+          "local_x": 0.4755,
+          "local_y": -1.8535,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.5227,
+            4.1142,
+            1.7943
+          ]
+        },
+        {
+          "marker": "bm_b",
+          "group": "BM",
+          "in_frustum": false,
+          "depth": 0.728,
+          "local_x": 0.449,
+          "local_y": -1.8918,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.5671,
+            4.0667,
+            1.7951
+          ]
+        },
+        {
+          "marker": "bm_c",
+          "group": "BM",
+          "in_frustum": false,
+          "depth": 0.769,
+          "local_x": 0.4652,
+          "local_y": -1.9256,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.5957,
+            4.1143,
+            1.796
+          ]
+        },
+        {
+          "marker": "bm_d",
+          "group": "BM",
+          "in_frustum": false,
+          "depth": 0.807,
+          "local_x": 0.4864,
+          "local_y": -1.9019,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.5669,
+            4.1547,
+            1.7955
+          ]
+        },
+        {
+          "marker": "em_a",
+          "group": "EM",
+          "in_frustum": false,
+          "depth": 0.8565,
+          "local_x": 0.516,
+          "local_y": -1.8438,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.5022,
+            4.205,
+            1.7954
+          ]
+        },
+        {
+          "marker": "em_b",
+          "group": "EM",
+          "in_frustum": false,
+          "depth": 0.8786,
+          "local_x": 0.5222,
+          "local_y": -1.8943,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.55,
+            4.2333,
+            1.7955
+          ]
+        },
+        {
+          "marker": "em_c",
+          "group": "EM",
+          "in_frustum": false,
+          "depth": 0.7983,
+          "local_x": 0.4859,
+          "local_y": -1.883,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.5489,
+            4.1445,
+            1.7937
+          ]
+        },
+        {
+          "marker": "em_d",
+          "group": "EM",
+          "in_frustum": false,
+          "depth": 0.8436,
+          "local_x": 0.5035,
+          "local_y": -1.9248,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.5849,
+            4.1975,
+            1.7945
+          ]
+        },
+        {
+          "marker": "fm_a",
+          "group": "FM",
+          "in_frustum": false,
+          "depth": 0.2824,
+          "local_x": 1.0044,
+          "local_y": -2.1914,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.8271,
+            3.9405,
+            1.0788
+          ]
+        },
+        {
+          "marker": "fm_b",
+          "group": "FM",
+          "in_frustum": false,
+          "depth": 0.2526,
+          "local_x": 1.0401,
+          "local_y": -2.1589,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.7926,
+            3.9253,
+            1.0364
+          ]
+        },
+        {
+          "marker": "fm_c",
+          "group": "FM",
+          "in_frustum": false,
+          "depth": 0.2452,
+          "local_x": 1.0271,
+          "local_y": -2.2638,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.8986,
+            3.9253,
+            1.0364
+          ]
+        },
+        {
+          "marker": "fm_d",
+          "group": "FM",
+          "in_frustum": false,
+          "depth": 0.2143,
+          "local_x": 1.0686,
+          "local_y": -2.2072,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.8397,
+            3.9088,
+            0.9902
+          ]
+        },
+        {
+          "marker": "um_a",
+          "group": "UM",
+          "in_frustum": false,
+          "depth": 0.7792,
+          "local_x": 1.4412,
+          "local_y": -2.0193,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.5685,
+            4.5529,
+            0.9194
+          ]
+        },
+        {
+          "marker": "um_b",
+          "group": "UM",
+          "in_frustum": false,
+          "depth": 0.8427,
+          "local_x": 1.4043,
+          "local_y": -2.0534,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.6023,
+            4.5979,
+            0.9776
+          ]
+        },
+        {
+          "marker": "um_c",
+          "group": "UM",
+          "in_frustum": false,
+          "depth": 0.9209,
+          "local_x": 1.393,
+          "local_y": -1.9276,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.4737,
+            4.6484,
+            1.032
+          ]
+        },
+        {
+          "marker": "um_d",
+          "group": "UM",
+          "in_frustum": false,
+          "depth": 0.8229,
+          "local_x": 1.4377,
+          "local_y": -1.9355,
+          "max_x": 0.0,
+          "max_y": 0.0,
+          "reason": "FAILED_DEPTH",
+          "marker_world": [
+            -4.4829,
+            4.5807,
+            0.9483
+          ]
+        }
+      ]
+    }
+  ]
+}
