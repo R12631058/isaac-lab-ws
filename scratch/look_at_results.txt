@@ -1,0 +1,7 @@
+Testing look_at math...
+quat_world: [-0.347273    0.38814122  0.16077336  0.83839119]
+q_parent type: <class 'pxr.Gf.Quaternion'>
+gf_quat_world type: <class 'pxr.Gf.Quaternion'>
+q_parent_inv: (1 + (-0, -0, -0))
+q_local: (-0.3472730003312484 + (0.3881412213898774, 0.16077335801574527, 0.8383911872456962))
+gf_quat: (-0.3472730003312484, 0.3881412213898774, 0.16077335801574527, 0.8383911872456962)

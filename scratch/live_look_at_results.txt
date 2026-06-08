@@ -1,0 +1,10 @@
+USD path exists: True
+USD stage loaded.
+NDI prim path: /Root/NDI, valid: True
+NDI world pos: [ 1.06877899 -1.99818369  2.02778026]
+quat_world: [ 0.4369678   0.45164947 -0.27062137  0.72927085]
+Parent matrix computed.
+local_pos: [ 1.06877899 -1.99818369  2.02778026]
+q_local: (0.4369677962521767 + (0.4516494745307457, -0.27062136887015437, 0.7292708494828664))
+Applying transform...
+Transform application success: True

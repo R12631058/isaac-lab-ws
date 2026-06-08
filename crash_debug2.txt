@@ -1,0 +1,743 @@
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), 'Open Recent' (type <class 'str'>)
+END get_action_path: 'File_Open_Recent'
+START get_action_path: 'File' (type <class 'str'>), 'Open Recent' (type <class 'str'>)
+END get_action_path: 'File_Open_Recent'
+START get_action_path: 'File' (type <class 'str'>), 'New From Stage Template' (type <class 'str'>)
+END get_action_path: 'File_New_From_Stage_Template'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), 'Select' (type <class 'str'>)
+END get_action_path: 'Edit_Select'
+START get_action_path: 'Edit_Select' (type <class 'str'>), 'Select Recent' (type <class 'str'>)
+END get_action_path: 'Edit_Select_Select_Recent'
+START get_action_path: 'Edit_Select' (type <class 'str'>), 'Select Set' (type <class 'str'>)
+END get_action_path: 'Edit_Select_Select_Set'
+START get_action_path: 'Edit_Select' (type <class 'str'>), 'Select by Kind' (type <class 'str'>)
+END get_action_path: 'Edit_Select_Select_by_Kind'
+START get_action_path: 'Edit' (type <class 'str'>), 'Select' (type <class 'str'>)
+END get_action_path: 'Edit_Select'
+START get_action_path: 'Edit_Select' (type <class 'str'>), 'Select Recent' (type <class 'str'>)
+END get_action_path: 'Edit_Select_Select_Recent'
+START get_action_path: 'Edit_Select' (type <class 'str'>), 'Select Set' (type <class 'str'>)
+END get_action_path: 'Edit_Select_Select_Set'
+START get_action_path: 'Edit_Select' (type <class 'str'>), 'Select by Kind' (type <class 'str'>)
+END get_action_path: 'Edit_Select_Select_by_Kind'
+START get_action_path: 'Create' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Create'
+START get_action_path: 'Create' (type <class 'str'>), 'Mesh' (type <class 'str'>)
+END get_action_path: 'Create_Mesh'
+START get_action_path: 'Create' (type <class 'str'>), 'Shape' (type <class 'str'>)
+END get_action_path: 'Create_Shape'
+START get_action_path: 'Create' (type <class 'str'>), 'Light' (type <class 'str'>)
+END get_action_path: 'Create_Light'
+START get_action_path: 'Create' (type <class 'str'>), 'Audio' (type <class 'str'>)
+END get_action_path: 'Create_Audio'
+START get_action_path: 'Create' (type <class 'str'>), 'Shape' (type <class 'str'>)
+END get_action_path: 'Create_Shape'
+START get_action_path: 'Create' (type <class 'str'>), 'Light' (type <class 'str'>)
+END get_action_path: 'Create_Light'
+START get_action_path: 'Create' (type <class 'str'>), 'Audio' (type <class 'str'>)
+END get_action_path: 'Create_Audio'
+START get_action_path: 'Create' (type <class 'str'>), 'Robots' (type <class 'str'>)
+END get_action_path: 'Create_Robots'
+START get_action_path: 'Create' (type <class 'str'>), 'Environments' (type <class 'str'>)
+END get_action_path: 'Create_Environments'
+START get_action_path: 'Create' (type <class 'str'>), 'Sensors' (type <class 'str'>)
+END get_action_path: 'Create_Sensors'
+START get_action_path: 'Create' (type <class 'str'>), 'Mesh' (type <class 'str'>)
+END get_action_path: 'Create_Mesh'
+START get_action_path: 'Create' (type <class 'str'>), 'Robots' (type <class 'str'>)
+END get_action_path: 'Create_Robots'
+START get_action_path: 'Create' (type <class 'str'>), 'Environments' (type <class 'str'>)
+END get_action_path: 'Create_Environments'
+START get_action_path: 'Create' (type <class 'str'>), 'Sensors' (type <class 'str'>)
+END get_action_path: 'Create_Sensors'
+START get_action_path: 'Create' (type <class 'str'>), 'Physics' (type <class 'str'>)
+END get_action_path: 'Create_Physics'
+START get_action_path: 'Create_Physics' (type <class 'str'>), 'Joint' (type <class 'str'>)
+END get_action_path: 'Create_Physics_Joint'
+START get_action_path: 'Window' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Window'
+START get_action_path: 'Window' (type <class 'str'>), 'Examples' (type <class 'str'>)
+END get_action_path: 'Window_Examples'
+START get_action_path: 'Window' (type <class 'str'>), 'Browsers' (type <class 'str'>)
+END get_action_path: 'Window_Browsers'
+START get_action_path: 'Window' (type <class 'str'>), 'Physics' (type <class 'str'>)
+END get_action_path: 'Window_Physics'
+START get_action_path: 'Window' (type <class 'str'>), 'Physics' (type <class 'str'>)
+END get_action_path: 'Window_Physics'
+START get_action_path: 'Window' (type <class 'str'>), 'Physics' (type <class 'str'>)
+END get_action_path: 'Window_Physics'
+START get_action_path: 'Window' (type <class 'str'>), 'Physics' (type <class 'str'>)
+END get_action_path: 'Window_Physics'
+START get_action_path: 'Window' (type <class 'str'>), 'Physics' (type <class 'str'>)
+END get_action_path: 'Window_Physics'
+START get_action_path: 'Window' (type <class 'str'>), 'Physics' (type <class 'str'>)
+END get_action_path: 'Window_Physics'
+START get_action_path: 'Window' (type <class 'str'>), 'Examples' (type <class 'str'>)
+END get_action_path: 'Window_Examples'
+START get_action_path: 'Window' (type <class 'str'>), 'Browsers' (type <class 'str'>)
+END get_action_path: 'Window_Browsers'
+START get_action_path: 'Window' (type <class 'str'>), 'Physics' (type <class 'str'>)
+END get_action_path: 'Window_Physics'
+START get_action_path: 'Window' (type <class 'str'>), 'Physics' (type <class 'str'>)
+END get_action_path: 'Window_Physics'
+START get_action_path: 'Window' (type <class 'str'>), 'Physics' (type <class 'str'>)
+END get_action_path: 'Window_Physics'
+START get_action_path: 'Window' (type <class 'str'>), 'Physics' (type <class 'str'>)
+END get_action_path: 'Window_Physics'
+START get_action_path: 'Window' (type <class 'str'>), 'Physics' (type <class 'str'>)
+END get_action_path: 'Window_Physics'
+START get_action_path: 'Window' (type <class 'str'>), 'Physics' (type <class 'str'>)
+END get_action_path: 'Window_Physics'
+START get_action_path: 'Window' (type <class 'str'>), 'Warp' (type <class 'str'>)
+END get_action_path: 'Window_Warp'
+START get_action_path: 'FixMe' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'FixMe'
+START get_action_path: 'Replicator' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Replicator'
+START get_action_path: 'Tools' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Tools'
+START get_action_path: 'Tools' (type <class 'str'>), 'Robotics' (type <class 'str'>)
+END get_action_path: 'Tools_Robotics'
+START get_action_path: 'Tools' (type <class 'str'>), 'Robotics' (type <class 'str'>)
+END get_action_path: 'Tools_Robotics'
+START get_action_path: 'Utilities' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Utilities'
+START get_action_path: 'Layouts' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Layouts'
+START get_action_path: 'Help' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Help'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), 'New From Stage Template' (type <class 'str'>)
+END get_action_path: 'File_New_From_Stage_Template'
+START get_action_path: 'File' (type <class 'str'>), 'New From Stage Template' (type <class 'str'>)
+END get_action_path: 'File_New_From_Stage_Template'
+START get_action_path: 'File/New From Stage Template' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'File_New_From_Stage_Template'
+START get_action_path: 'File' (type <class 'str'>), 'New From Stage Template' (type <class 'str'>)
+END get_action_path: 'File_New_From_Stage_Template'
+START get_action_path: 'File' (type <class 'str'>), 'New From Stage Template' (type <class 'str'>)
+END get_action_path: 'File_New_From_Stage_Template'
+START get_action_path: 'File/New From Stage Template' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'File_New_From_Stage_Template'
+START get_action_path: 'File' (type <class 'str'>), 'New From Stage Template' (type <class 'str'>)
+END get_action_path: 'File_New_From_Stage_Template'
+START get_action_path: 'File' (type <class 'str'>), 'New From Stage Template' (type <class 'str'>)
+END get_action_path: 'File_New_From_Stage_Template'
+START get_action_path: 'File/New From Stage Template' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'File_New_From_Stage_Template'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), 'Open Recent' (type <class 'str'>)
+END get_action_path: 'File_Open_Recent'
+START get_action_path: 'File' (type <class 'str'>), 'Open Recent' (type <class 'str'>)
+END get_action_path: 'File_Open_Recent'
+START get_action_path: 'File/Open Recent' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'File_Open_Recent'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'File'
+START get_action_path: 'File' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'File'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), 'Select' (type <class 'str'>)
+END get_action_path: 'Edit_Select'
+START get_action_path: 'Edit' (type <class 'str'>), 'Select' (type <class 'str'>)
+END get_action_path: 'Edit_Select'
+START get_action_path: 'Edit/Select' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Edit_Select'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), 'Select' (type <class 'str'>)
+END get_action_path: 'Edit_Select'
+START get_action_path: 'Edit_Select' (type <class 'str'>), 'Select Recent' (type <class 'str'>)
+END get_action_path: 'Edit_Select_Select_Recent'
+START get_action_path: 'Edit_Select' (type <class 'str'>), 'Select Recent' (type <class 'str'>)
+END get_action_path: 'Edit_Select_Select_Recent'
+START get_action_path: 'Edit/Select/Select Recent' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Edit_Select_Select_Recent'
+START get_action_path: 'Edit' (type <class 'str'>), 'Select' (type <class 'str'>)
+END get_action_path: 'Edit_Select'
+START get_action_path: 'Edit' (type <class 'str'>), 'Select' (type <class 'str'>)
+END get_action_path: 'Edit_Select'
+START get_action_path: 'Edit/Select' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Edit_Select'
+START get_action_path: 'Edit' (type <class 'str'>), 'Select' (type <class 'str'>)
+END get_action_path: 'Edit_Select'
+START get_action_path: 'Edit' (type <class 'str'>), 'Select' (type <class 'str'>)
+END get_action_path: 'Edit_Select'
+START get_action_path: 'Edit/Select' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Edit_Select'
+START get_action_path: 'Edit' (type <class 'str'>), 'Select' (type <class 'str'>)
+END get_action_path: 'Edit_Select'
+START get_action_path: 'Edit' (type <class 'str'>), 'Select' (type <class 'str'>)
+END get_action_path: 'Edit_Select'
+START get_action_path: 'Edit/Select' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Edit_Select'
+START get_action_path: 'Edit' (type <class 'str'>), 'Select' (type <class 'str'>)
+END get_action_path: 'Edit_Select'
+START get_action_path: 'Edit' (type <class 'str'>), 'Select' (type <class 'str'>)
+END get_action_path: 'Edit_Select'
+START get_action_path: 'Edit/Select' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Edit_Select'
+START get_action_path: 'Edit' (type <class 'str'>), 'Select' (type <class 'str'>)
+END get_action_path: 'Edit_Select'
+START get_action_path: 'Edit' (type <class 'str'>), 'Select' (type <class 'str'>)
+END get_action_path: 'Edit_Select'
+START get_action_path: 'Edit/Select' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Edit_Select'
+START get_action_path: 'Edit' (type <class 'str'>), 'Select' (type <class 'str'>)
+END get_action_path: 'Edit_Select'
+START get_action_path: 'Edit' (type <class 'str'>), 'Select' (type <class 'str'>)
+END get_action_path: 'Edit_Select'
+START get_action_path: 'Edit/Select' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Edit_Select'
+START get_action_path: 'Edit' (type <class 'str'>), 'Select' (type <class 'str'>)
+END get_action_path: 'Edit_Select'
+START get_action_path: 'Edit' (type <class 'str'>), 'Select' (type <class 'str'>)
+END get_action_path: 'Edit_Select'
+START get_action_path: 'Edit/Select' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Edit_Select'
+START get_action_path: 'Edit' (type <class 'str'>), 'Select' (type <class 'str'>)
+END get_action_path: 'Edit_Select'
+START get_action_path: 'Edit' (type <class 'str'>), 'Select' (type <class 'str'>)
+END get_action_path: 'Edit_Select'
+START get_action_path: 'Edit/Select' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Edit_Select'
+START get_action_path: 'Edit' (type <class 'str'>), 'Select' (type <class 'str'>)
+END get_action_path: 'Edit_Select'
+START get_action_path: 'Edit' (type <class 'str'>), 'Select' (type <class 'str'>)
+END get_action_path: 'Edit_Select'
+START get_action_path: 'Edit/Select' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Edit_Select'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), 'Select' (type <class 'str'>)
+END get_action_path: 'Edit_Select'
+START get_action_path: 'Edit_Select' (type <class 'str'>), 'Select Set' (type <class 'str'>)
+END get_action_path: 'Edit_Select_Select_Set'
+START get_action_path: 'Edit_Select' (type <class 'str'>), 'Select Set' (type <class 'str'>)
+END get_action_path: 'Edit_Select_Select_Set'
+START get_action_path: 'Edit/Select/Select Set' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Edit_Select_Select_Set'
+START get_action_path: 'Edit' (type <class 'str'>), 'Select' (type <class 'str'>)
+END get_action_path: 'Edit_Select'
+START get_action_path: 'Edit' (type <class 'str'>), 'Select' (type <class 'str'>)
+END get_action_path: 'Edit_Select'
+START get_action_path: 'Edit/Select' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Edit_Select'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), 'Select' (type <class 'str'>)
+END get_action_path: 'Edit_Select'
+START get_action_path: 'Edit_Select' (type <class 'str'>), 'Select by Kind' (type <class 'str'>)
+END get_action_path: 'Edit_Select_Select_by_Kind'
+START get_action_path: 'Edit_Select' (type <class 'str'>), 'Select by Kind' (type <class 'str'>)
+END get_action_path: 'Edit_Select_Select_by_Kind'
+START get_action_path: 'Edit/Select/Select by Kind' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Edit_Select_Select_by_Kind'
+START get_action_path: 'Edit_Select' (type <class 'str'>), 'Select by Kind' (type <class 'str'>)
+END get_action_path: 'Edit_Select_Select_by_Kind'
+START get_action_path: 'Edit_Select' (type <class 'str'>), 'Select by Kind' (type <class 'str'>)
+END get_action_path: 'Edit_Select_Select_by_Kind'
+START get_action_path: 'Edit/Select/Select by Kind' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Edit_Select_Select_by_Kind'
+START get_action_path: 'Edit_Select' (type <class 'str'>), 'Select by Kind' (type <class 'str'>)
+END get_action_path: 'Edit_Select_Select_by_Kind'
+START get_action_path: 'Edit_Select' (type <class 'str'>), 'Select by Kind' (type <class 'str'>)
+END get_action_path: 'Edit_Select_Select_by_Kind'
+START get_action_path: 'Edit/Select/Select by Kind' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Edit_Select_Select_by_Kind'
+START get_action_path: 'Edit_Select' (type <class 'str'>), 'Select by Kind' (type <class 'str'>)
+END get_action_path: 'Edit_Select_Select_by_Kind'
+START get_action_path: 'Edit_Select' (type <class 'str'>), 'Select by Kind' (type <class 'str'>)
+END get_action_path: 'Edit_Select_Select_by_Kind'
+START get_action_path: 'Edit/Select/Select by Kind' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Edit_Select_Select_by_Kind'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Edit' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Edit'
+START get_action_path: 'Create' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Create'
+START get_action_path: 'Create' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Create'
+START get_action_path: 'Create' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Create'
+START get_action_path: 'Create' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Create'
+START get_action_path: 'Create' (type <class 'str'>), 'Mesh' (type <class 'str'>)
+END get_action_path: 'Create_Mesh'
+START get_action_path: 'Create' (type <class 'str'>), 'Mesh' (type <class 'str'>)
+END get_action_path: 'Create_Mesh'
+START get_action_path: 'None' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'None'
+START get_action_path: 'Create' (type <class 'str'>), 'Mesh' (type <class 'str'>)
+END get_action_path: 'Create_Mesh'
+START get_action_path: 'Create' (type <class 'str'>), 'Mesh' (type <class 'str'>)
+END get_action_path: 'Create_Mesh'
+START get_action_path: 'None' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'None'
+START get_action_path: 'Create' (type <class 'str'>), 'Mesh' (type <class 'str'>)
+END get_action_path: 'Create_Mesh'
+START get_action_path: 'Create' (type <class 'str'>), 'Mesh' (type <class 'str'>)
+END get_action_path: 'Create_Mesh'
+START get_action_path: 'None' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'None'
+START get_action_path: 'Create' (type <class 'str'>), 'Mesh' (type <class 'str'>)
+END get_action_path: 'Create_Mesh'
+START get_action_path: 'Create' (type <class 'str'>), 'Mesh' (type <class 'str'>)
+END get_action_path: 'Create_Mesh'
+START get_action_path: 'None' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'None'
+START get_action_path: 'Create' (type <class 'str'>), 'Mesh' (type <class 'str'>)
+END get_action_path: 'Create_Mesh'
+START get_action_path: 'Create' (type <class 'str'>), 'Mesh' (type <class 'str'>)
+END get_action_path: 'Create_Mesh'
+START get_action_path: 'None' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'None'
+START get_action_path: 'Create' (type <class 'str'>), 'Mesh' (type <class 'str'>)
+END get_action_path: 'Create_Mesh'
+START get_action_path: 'Create' (type <class 'str'>), 'Mesh' (type <class 'str'>)
+END get_action_path: 'Create_Mesh'
+START get_action_path: 'None' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'None'
+START get_action_path: 'Create' (type <class 'str'>), 'Mesh' (type <class 'str'>)
+END get_action_path: 'Create_Mesh'
+START get_action_path: 'Create' (type <class 'str'>), 'Mesh' (type <class 'str'>)
+END get_action_path: 'Create_Mesh'
+START get_action_path: 'None' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'None'
+START get_action_path: 'Create' (type <class 'str'>), 'Mesh' (type <class 'str'>)
+END get_action_path: 'Create_Mesh'
+START get_action_path: 'Create' (type <class 'str'>), 'Mesh' (type <class 'str'>)
+END get_action_path: 'Create_Mesh'
+START get_action_path: 'Create' (type <class 'str'>), 'Mesh' (type <class 'str'>)
+END get_action_path: 'Create_Mesh'
+START get_action_path: 'None' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'None'
+START get_action_path: 'Create' (type <class 'str'>), 'Mesh' (type <class 'str'>)
+END get_action_path: 'Create_Mesh'
+START get_action_path: 'Create' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Create'
+START get_action_path: 'Create' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Create'
+START get_action_path: 'Create' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Create'
+START get_action_path: 'Create' (type <class 'str'>), 'Shape' (type <class 'str'>)
+END get_action_path: 'Create_Shape'
+START get_action_path: 'Create' (type <class 'str'>), 'Shape' (type <class 'str'>)
+END get_action_path: 'Create_Shape'
+START get_action_path: 'None' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'None'
+START get_action_path: 'Create' (type <class 'str'>), 'Shape' (type <class 'str'>)
+END get_action_path: 'Create_Shape'
+START get_action_path: 'Create' (type <class 'str'>), 'Shape' (type <class 'str'>)
+END get_action_path: 'Create_Shape'
+START get_action_path: 'None' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'None'
+START get_action_path: 'Create' (type <class 'str'>), 'Shape' (type <class 'str'>)
+END get_action_path: 'Create_Shape'
+START get_action_path: 'Create' (type <class 'str'>), 'Shape' (type <class 'str'>)
+END get_action_path: 'Create_Shape'
+START get_action_path: 'None' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'None'
+START get_action_path: 'Create' (type <class 'str'>), 'Shape' (type <class 'str'>)
+END get_action_path: 'Create_Shape'
+START get_action_path: 'Create' (type <class 'str'>), 'Shape' (type <class 'str'>)
+END get_action_path: 'Create_Shape'
+START get_action_path: 'None' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'None'
+START get_action_path: 'Create' (type <class 'str'>), 'Shape' (type <class 'str'>)
+END get_action_path: 'Create_Shape'
+START get_action_path: 'Create' (type <class 'str'>), 'Shape' (type <class 'str'>)
+END get_action_path: 'Create_Shape'
+START get_action_path: 'None' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'None'
+START get_action_path: 'Create' (type <class 'str'>), 'Shape' (type <class 'str'>)
+END get_action_path: 'Create_Shape'
+START get_action_path: 'Create' (type <class 'str'>), 'Shape' (type <class 'str'>)
+END get_action_path: 'Create_Shape'
+START get_action_path: 'Create' (type <class 'str'>), 'Shape' (type <class 'str'>)
+END get_action_path: 'Create_Shape'
+START get_action_path: 'None' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'None'
+START get_action_path: 'Create' (type <class 'str'>), 'Shape' (type <class 'str'>)
+END get_action_path: 'Create_Shape'
+START get_action_path: 'Create' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Create'
+START get_action_path: 'Create' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Create'
+START get_action_path: 'Create' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Create'
+START get_action_path: 'Create' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Create'
+START get_action_path: 'Create' (type <class 'str'>), 'Lights' (type <class 'str'>)
+END get_action_path: 'Create_Lights'
+START get_action_path: 'Create' (type <class 'str'>), 'Lights' (type <class 'str'>)
+END get_action_path: 'Create_Lights'
+START get_action_path: 'Create' (type <class 'str'>), 'Lights' (type <class 'str'>)
+END get_action_path: 'Create_Lights'
+START get_action_path: 'Create/Light' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Create_Light'
+START get_action_path: 'Create' (type <class 'str'>), 'Lights' (type <class 'str'>)
+END get_action_path: 'Create_Lights'
+START get_action_path: 'Create' (type <class 'str'>), 'Lights' (type <class 'str'>)
+END get_action_path: 'Create_Lights'
+START get_action_path: 'Create/Light' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Create_Light'
+START get_action_path: 'Create' (type <class 'str'>), 'Lights' (type <class 'str'>)
+END get_action_path: 'Create_Lights'
+START get_action_path: 'Create' (type <class 'str'>), 'Lights' (type <class 'str'>)
+END get_action_path: 'Create_Lights'
+START get_action_path: 'Create/Light' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Create_Light'
+START get_action_path: 'Create' (type <class 'str'>), 'Lights' (type <class 'str'>)
+END get_action_path: 'Create_Lights'
+START get_action_path: 'Create' (type <class 'str'>), 'Lights' (type <class 'str'>)
+END get_action_path: 'Create_Lights'
+START get_action_path: 'Create/Light' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Create_Light'
+START get_action_path: 'Create' (type <class 'str'>), 'Lights' (type <class 'str'>)
+END get_action_path: 'Create_Lights'
+START get_action_path: 'Create' (type <class 'str'>), 'Lights' (type <class 'str'>)
+END get_action_path: 'Create_Lights'
+START get_action_path: 'Create/Light' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Create_Light'
+START get_action_path: 'Create' (type <class 'str'>), 'Lights' (type <class 'str'>)
+END get_action_path: 'Create_Lights'
+START get_action_path: 'Create' (type <class 'str'>), 'Lights' (type <class 'str'>)
+END get_action_path: 'Create_Lights'
+START get_action_path: 'Create/Light' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Create_Light'
+START get_action_path: 'Create' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Create'
+START get_action_path: 'Create' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Create'
+START get_action_path: 'Create' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Create'
+START get_action_path: 'Create' (type <class 'str'>), 'Audio' (type <class 'str'>)
+END get_action_path: 'Create_Audio'
+START get_action_path: 'Create' (type <class 'str'>), 'Audio' (type <class 'str'>)
+END get_action_path: 'Create_Audio'
+START get_action_path: 'None' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'None'
+START get_action_path: 'Create' (type <class 'str'>), 'Audio' (type <class 'str'>)
+END get_action_path: 'Create_Audio'
+START get_action_path: 'Create' (type <class 'str'>), 'Audio' (type <class 'str'>)
+END get_action_path: 'Create_Audio'
+START get_action_path: 'None' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'None'
+START get_action_path: 'Create' (type <class 'str'>), 'Audio' (type <class 'str'>)
+END get_action_path: 'Create_Audio'
+START get_action_path: 'Create' (type <class 'str'>), 'Audio' (type <class 'str'>)
+END get_action_path: 'Create_Audio'
+START get_action_path: 'None' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'None'
+START get_action_path: 'Create' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Create'
+START get_action_path: 'Create' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Create'
+START get_action_path: 'Create' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Create'
+START get_action_path: 'Create' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Create'
+START get_action_path: 'Create' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Create'
+START get_action_path: 'Create' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Create'
+START get_action_path: 'Create' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Create'
+START get_action_path: 'Create' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Create'
+START get_action_path: 'Create' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Create'
+START get_action_path: 'Create' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Create'
+START get_action_path: 'Create' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Create'
+START get_action_path: 'Create' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Create'
+START get_action_path: 'Create' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Create'
+START get_action_path: 'Create' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Create'
+START get_action_path: 'Create' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Create'
+START get_action_path: 'Create' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Create'
+START get_action_path: 'Create' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Create'
+START get_action_path: 'Create' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Create'
+START get_action_path: 'Create' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Create'
+START get_action_path: 'Create' (type <class 'str'>), None (type <class 'NoneType'>)
+END get_action_path: 'Create'
+START get_action_path: 'Create' (type <class 'str'>), 'Physics' (type <class 'str'>)
+END get_action_path: 'Create_Physics'
+START get_action_path: 'Create' (type <class 'str'>), 'Physics' (type <class 'str'>)
+END get_action_path: 'Create_Physics'
+START get_action_path: 'Create/Physics' (type <class 'str'>), '' (type <class 'str'>)
+END get_action_path: 'Create_Physics'
+START get_action_path: 'Create' (type <class 'str'>), 'Physics' (type <class 'str'>)

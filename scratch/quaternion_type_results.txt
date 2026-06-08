@@ -1,0 +1,5 @@
+Testing quaternion types and multiplication mixtures...
+Type of q_extracted: <class 'pxr.Gf.Quaternion'>
+q_extracted * q_gf success: (1 + (0, 0, 0))
+q_gf * q_extracted success: (1 + (0, 0, 0))
+Rotation multiplication success: (0.8923991008325229 + (0.23911761839433449, 0.36964381061438606, -0.09904576054128762))
