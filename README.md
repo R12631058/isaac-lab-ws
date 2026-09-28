@@ -1,7 +1,4 @@
-# IsaacLab 專案 NDI 檢測檔案架構整理 (For Antigravity)
-
-這是專案中與 NDI 實驗和評估有關的主要檔案列表、目標以及執行與除錯方式的統整，以便在移轉至 Antigravity 開發環境時可以無縫接軌。
-
+# IsaacLab 專案 NDI 檢測檔案架構整理 
 ---
 
 ## 1. 檔案與功能說明
@@ -37,8 +34,6 @@
 3. **Keyword引數問題**: 若復原到特定版本，`update_detection` 可能無法接收 `clear_first`。目前的解法是將繪製指令抽出 `update_detection` 中而在迴圈內額外執行 `_d.draw_live(clear_first=clear)`。
 
 ## 3. 開發/接手建議指引
-
-交由 **antigravity** 處理時，可參考以下順序執行：
 
 1. **確認實驗分支 `ndi_detector_isaaclab_experimental.py` 的程式碼結構**：
    - 確認 callback 內對 `PhysX SceneQuery` 取回結果陣列 (`hit.distance` / `hit.collision` 路徑字串)。
